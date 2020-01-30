@@ -1,6 +1,6 @@
 [title]: # (Troubleshooting)
 [tags]: # (introduction)
-[priority]: # (1)
+[priority]: # (500)
 # Troubleshooting
 
 <!-- add and overview of covered troubleshooting topics -->
