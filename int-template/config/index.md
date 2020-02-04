@@ -2,6 +2,8 @@
 [tags]: # (introduction)
 [priority]: # (100)
 [display]: # (none)
-# Configuration of the xyz Integration
+# Configuration
 
-<!-- add an overview of the configuration steps -->
+<!-- add an overview of the configuration  (mini-toc) 
+
+-->
