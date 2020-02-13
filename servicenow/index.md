@@ -1,4 +1,4 @@
-[title]: # (ServiceNow Integration)
+[title]: # (ServiceNow)
 [tags]: # (servicenow)
 [priority]: # (1)
 # About ServiceNow
