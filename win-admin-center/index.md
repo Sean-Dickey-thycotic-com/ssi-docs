@@ -1,8 +1,7 @@
-[title]: # (Template Root File)
+[title]: # (Windows Admin Center)
 [tags]: # (introduction)
 [priority]: # (1)
-
-# Template Root File
+# Windows Admin Center Integration
 
 <!-- 
 The int-template folder contains the template structure and template files for integration documents.
