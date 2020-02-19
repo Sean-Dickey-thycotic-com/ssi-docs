@@ -5,13 +5,13 @@
 
 ## System Requirements
 
-* Thycotic Secret Server version 8.9 or later
+* Thycotic Secret Server version 8.9 or later.
 
 * Tenable.sc 5.3.2 or later.
 
-* A tenable.sc environment with a Nessus (scanner) installation or a tenable.io subscription with a Nessus (scanner)
+* A tenable.sc environment with a Nessus (scanner) installation or a tenable.io subscription with a Nessus (scanner).
 
-* A Secret Server API account with minimum permission “View” access to any secrets that are intended to be integrated
+* A Secret Server API account with minimum permission “View” access to any secrets that are intended to be integrated.
 
 * This integration only matches credentials based on the Secret Name field within a Secret from Secret Server and the “Thycotic Secret
 Name” field within a Thycotic Secret Server credential in Tenable.
