@@ -1,6 +1,6 @@
 [title]: # (Tenable.sc Configuration)
 [tags]: # (Tenable.sc)
-[priority]: # (200)
+[priority]: # (2)
 # Tenable.sc Configuration
 
 1. Log in to Tenable.sc.

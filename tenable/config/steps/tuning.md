@@ -1,6 +1,6 @@
 [title]: # (Secret Server Tuning)
 [tags]: # (tuning)
-[priority]: # (3)
+[priority]: # (4)
 # Secret Server Tuning
 
 Consider not allowing duplicative Secret Names within your Secret Server environment to mitigate issues with the integration. If you are allowing duplicative Secret Names, we recommend making sure that there are no duplicative secrets for the specific secrets you intend to integrate. The integration will not be able to determine which Secret to use since the integration is based entirely on the Secret name field.
