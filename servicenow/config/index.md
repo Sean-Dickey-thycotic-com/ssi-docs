@@ -1,7 +1,6 @@
-[title]: # (Installation)
-[tags]: # (introduction)
+[title]: # (Creating an Instance in ServiceNow)
+[tags]: # (steps)
 [priority]: # (1)
-[display]: # (none)
 # Step One: Creating an Instance in ServiceNow
 
 Create an instance in ServiceNow by accessing the Developer site.
