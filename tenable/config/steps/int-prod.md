@@ -1,7 +1,15 @@
 [title]: # (int product)
 [tags]: # (introduction)
 [priority]: # (1)
-[display]: # (none)
-# Configuration of "Integration Product..."
+# Configuration of Tenable with Secret Server 
 
-<!-- Change the file name, title, and main topic to reflect the name of the integration product. Add the initial configuration steps, usually the initial integration setup steps. -->
+When configuring Tenable to integrate with Secret Server, the following general steps need to happen:
+
+1. [Tenable.sc Configuration](tenable-sc.md).
+1. [Tenable.io Configuration](tenable-io.md).
+1. [Verifying Integration](verify.md).
+1. [Secret Server Tuning](tuning.md).
+
+Further information:
+
+1. [Performance](../../troubleshooting/performance.md).

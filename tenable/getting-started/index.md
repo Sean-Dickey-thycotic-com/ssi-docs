@@ -7,7 +7,7 @@
 
 * Thycotic Secret Server version 8.9 or later
 
-* Tenable.sc 5.3.2 or later
+* Tenable.sc 5.3.2 or later.
 
 * A tenable.sc environment with a Nessus (scanner) installation or a tenable.io subscription with a Nessus (scanner)
 

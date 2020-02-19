@@ -11,6 +11,3 @@ Visit the ServiceNow website for more information.
 ## Why should ServiceNow be integrated with Thycotic Secret Server
 
 After integrating the incident and change management systems of ServiceNow with Secret Server, you can validate ticket numbers or incidences.
-
-
-
