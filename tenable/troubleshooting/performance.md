@@ -17,7 +17,7 @@ The default value of “30” for Max simultaneous hosts per scan combined with 
    ![Scan](images/tenablesc16.png)
 To ensure that your scanners are not performing several credentialed related scans at once, you can also adjust the Nessus scanner settings themselves manually. Consider configuring global.max_scans settings to a value other than 0 to limit how many simultaneous scans can occur at once. This will further limit the potential number of simultaneous API calls to Secret Server.
 
-![Scan](images/tenablesc17.png)
+   ![Scan](images/tenablesc17.png)
 ## Dedicated Web Server API Nodes
 
 For many endpoints (large enterprises), and if you have other API use cases as part of your Secret Server environment, consider having dedicated Web Servers for API use cases in addition to the IIS tuning settings described previously. Please note that this may only be directly controlled by On Premise Secret Server customers. This may comprise of one or more web servers that have their own unique URL and have Secret Server roles such as the background worker, engine worker, and session recording worker roles disabled. This will ensure that any performance impact that occurs does not affect other operations within the application.
