@@ -3,7 +3,7 @@
 [priority]: # (3)
 # Tenable.io Configuration
 
-   >**Note:** Please Note: These instructions below are provided for configuration purposes only. We have not observed this integration to work correctly. For more details, check the [Constraints and Limitations](../../tenable\getting-started\constraints.md) section.
+   >**Note:** These instructions below are provided for configuration purposes only. We have not observed this integration to work correctly. For more details, check the [Constraints and Limitations](../../tenable\getting-started\constraints.md) section.
 
    >**Note:** Please make sure you already have a Nessus scanner connected to your Tenable.io instance. These instructions utilize the new UI
 
