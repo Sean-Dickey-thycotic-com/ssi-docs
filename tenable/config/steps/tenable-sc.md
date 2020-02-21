@@ -19,18 +19,18 @@
 
 1. Fill out all required fields indicated in the screenshots above. A description of the fields can be found below. Once all fields required have been entered, click __Submit__.
 
-| Option |  | Description |
-|---|---|---|
-|  Username |   | (Required) The username for a user on the target system.  |
-| Domain  |   |  (Optional) The domain of the username, if set on the Thycotic server. |
-| Thycotic Secret Name   |   |  (Required) The Secret Name value on the Thycotic server. |
-|  Thycotic Secret Server URL |   |  (Required) The value you want Tenable.sc to use when setting the transfer method, target, and target directory for the scanner. Find the value on the Thycotic Server in __Admin  > Diagnostics__. In the Secret Server Environment Section, see the field “Secret Server Url”. For example, if you type https://pw.mydomain.com/SecretServer, Tenable.sc determines it is an SSL connection, that pw.mydomain.com is the target address, and that /SecretServer is the root directory.  |
-| Thycotic Login Name  |   |  (Required) The username used to authenticate to the Thycotic server. |
-|  Thycotic Password |   |  (Required) The password associated with the Thycotic Login Name you provided. |
-|  Thycotic Organization |   | (Optional) in cloud instances of Thycotic, the value that identifies which organization the Tenable.sc query should target.  |
-|  Thycotic Domain  |   | (Optional) The domain, if set for the Thycotic server.  |
-|  Verify SSL Certificate   |   | If enabled, Tenable.sc verifies the SSL Certificate on the Thycotic server.  |
-|  Use Private Key |   | (For SSH Credentials Only) – If enabled, Tenable.sc uses key-based authentication for SSH connections instead of password authentication.   |
+   | Option |  | Description |
+   |---|---|---|
+   |  Username |   | (Required) The username for a user on the target system.  |
+   | Domain  |   |  (Optional) The domain of the username, if set on the Thycotic server. |
+   | Thycotic Secret Name   |   |  (Required) The Secret Name value on the Thycotic server. |
+   |  Thycotic Secret Server URL |   |  (Required) The value you want Tenable.sc to use when setting the transfer method, target, and target directory for the scanner. Find the value on the Thycotic Server in __Admin  > Diagnostics__. In the Secret Server Environment Section, see the field “Secret Server Url”. For example, if you type https://pw.mydomain.com/SecretServer, Tenable.sc determines it is an SSL connection, that pw.mydomain.com is the target address, and that /SecretServer is the root directory.  |
+   | Thycotic Login Name  |   |  (Required) The username used to authenticate to the Thycotic server. |
+   |  Thycotic Password |   |  (Required) The password associated with the Thycotic Login Name you provided. |
+   |  Thycotic Organization |   | (Optional) in cloud instances of Thycotic, the value that identifies which organization the Tenable.sc query should target.  |
+   |  Thycotic Domain  |   | (Optional) The domain, if set for the Thycotic server.  |
+   |  Verify SSL Certificate   |   | If enabled, Tenable.sc verifies the SSL Certificate on the Thycotic server.  |
+   |  Use Private Key |   | (For SSH Credentials Only) – If enabled, Tenable.sc uses key-based authentication for SSH connections instead of password authentication.   |
 
    >**Note:** When completing this step, ensure that the “Thycotic Secret Name” field matches the Secret Name in Secret Server exactly. See below for a completed Windows example. Please note that this API account is a local (non domain) account.
 
@@ -39,7 +39,7 @@
 
 1. During this step, ensure that the API account that will be connecting to Secret Server to retrieve the credentials has “View” permission to the secrets intended on being integrated.
 
-   ![View](images/ssconfig2).png
+   ![View](images/ssconfig2.png)
 
 1. After the credentials are saved, you will need to create an applicable policy with your Administrator account in Tenable.sc. Log on to Tenable.sc and create a policy based on the type of scan you would like to run (not pictured). Once the policy is created, you will need to create an Active Scan. An Active Scan can only be configured as a non-Administrative user.
 
