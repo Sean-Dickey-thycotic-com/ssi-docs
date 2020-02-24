@@ -1,6 +1,6 @@
 [title]: # (Tuning)
 [tags]: # (introduction)
-[priority]: # (3)
+[priority]: # (2)
 [display]: # (none)
 # Tuning Configurable Options
 

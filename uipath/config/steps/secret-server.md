@@ -1,6 +1,6 @@
 [title]: # (Secret Server)
 [tags]: # (introduction)
-[priority]: # (2)
+[priority]: # (1)
 [display]: # (none)
 # What to do in Secret Server
 

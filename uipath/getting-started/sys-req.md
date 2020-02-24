@@ -4,10 +4,16 @@
 [display]: # (none)
 # Integration Requirements
 
-## System Requirements
-
 ## Pre-requisites
 
-## Licensing Considerations
+* Thycotic Secret Server version 8.9 or later.
 
-<!-- add information for all three headings, if not applicable, comment heading out, if not available at this time, add a note that information will be provided as soon as possible. -->
+* Active Uipath account.
+
+* Windows Server version?
+
+* The integration uses the Secret Server SDK, which is documented in more detail here: https://github.com/thycotic/sdk-documentation.
+
+* Ensure that the orchestrator machine trusts the TLS certificate used by Secret Server.
+
+   >**Note:** To use these credential store plugins for UI Path orchestrator, drop the corresponding dll into the plugins directory in the UI Path Orchestrator install directory and modify the web.config as specified here: https://github.com/UiPath/Orchestrator-CredentialStorePlugins.

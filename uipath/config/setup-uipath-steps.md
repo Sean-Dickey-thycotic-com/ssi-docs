@@ -1,7 +1,7 @@
-[title]: # (Installing and Configuring UiPath)
-[tags]: # (introduction)
-[priority]: # (1)
-# Installing and Configuring UiPath
+[title]: # (Install and Configure UiPath)
+[tags]: # (uipath)
+[priority]: # (2)
+# Install and Configure UiPath
 
 1. Navigate to the UiPath site at https://www.uipath.com/.
 1. Click on __Start Your Trial__.
