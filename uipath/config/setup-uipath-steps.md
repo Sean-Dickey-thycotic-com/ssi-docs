@@ -1,6 +1,6 @@
 [title]: # (Install and Configure UiPath)
 [tags]: # (uipath)
-[priority]: # (2)
+[priority]: # (201)
 # Install and Configure UiPath
 
 1. Navigate to the UiPath site at https://www.uipath.com/.
@@ -26,9 +26,9 @@
 1. Navigate to the Search option in Windows and look for __UiPath Robot__.
 1. Click on UiPath Robot and select the Gear button for Settings.
 1. Click on __Orchestrator Settings__.
-   * __Machine Name __: This should prepopulate the host name. 
-   *  __Orchestrator URL __: Copy and past the URL from your UiPath profile (Example: Https://platform.uipath.com/<accountname>/Default.
-   *  __Machine Key __: Copy and paste the Machine name from the previous steps.
+   * __Machine Name__: This should prepopulate the host name.
+   * __Orchestrator URL__: Copy and past the URL from your UiPath profile (Example: Https://platform.uipath.com/<accountname>/Default).
+   * __Machine Key__: Copy and paste the Machine name from the previous steps.
 1. Click on __Connect__.
 1. The __Status Message__ at the bottom of the settings screen should now show : __Status: Connected, Licensed__.
 1. Click __Close__.

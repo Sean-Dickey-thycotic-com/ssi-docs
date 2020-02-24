@@ -1,4 +1,4 @@
 [title]: # (Create a Token)
-[tags]: # (introduction)
-[priority]: # (3)
+[tags]: # (token)
+[priority]: # (202)
 # How to Create a Token
