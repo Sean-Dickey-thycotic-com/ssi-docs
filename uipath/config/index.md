@@ -5,7 +5,7 @@
 
 The following steps will go over:
 
-* Creating a new application account.
-* Configuring a new rule for the  SDK Client.
-* Adding a new Credential Store under the Credential Stores menu for your profile.
-* Creating an assest type and robot.
+* Installing and Configuring UiPath.
+* Create a Token.
+* Retrieve a Secret from Secret Server.
+* Configuring Secret Server for UiPath.

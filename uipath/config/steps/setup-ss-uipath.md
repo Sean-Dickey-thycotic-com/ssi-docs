@@ -1,7 +1,7 @@
-[title]: # (Steps for UiPAth Orchestrator)
+[title]: # (Configuring Secret Server for UiPath)
 [tags]: # (introduction)
-[priority]: # (1)
-# Setup Steps for UiPAth Orchestrator
+[priority]: # (4)
+# Configuring Secret Server for UiPath
 
 ## In Secret Server:
 
