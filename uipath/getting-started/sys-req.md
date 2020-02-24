@@ -1,7 +1,6 @@
 [title]: # (Requirements)
-[tags]: # (introduction)
-[priority]: # (2)
-[display]: # (none)
+[tags]: # (requirements)
+[priority]: # (101)
 # Integration Requirements
 
 ## Pre-requisites

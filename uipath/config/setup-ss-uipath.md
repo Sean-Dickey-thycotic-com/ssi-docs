@@ -1,6 +1,6 @@
 [title]: # (Configuring Secret Server for UiPath)
-[tags]: # (introduction)
-[priority]: # (5)
+[tags]: # (uipath)
+[priority]: # (204)
 #  How to Configure Secret Server for UiPath
 
 ## In Secret Server:
