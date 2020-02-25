@@ -1,8 +1,8 @@
-[title]: # (Template Root File)
+[title]: # (IBM IGI)
 [tags]: # (introduction)
 [priority]: # (1)
 
-# Template Root File
+# IBM IGI
 
 <!-- 
 The int-template folder contains the template structure and template files for integration documents.
