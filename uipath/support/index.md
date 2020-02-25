@@ -1,6 +1,6 @@
 ﻿[title]: # (Support)
 [tags]: # (thycotic)
-[priority]: # (1)
+[priority]: # (300)
 # Support
 
 Thycotic customers have access to support by phone and email. You also can open a case in Thycotic’s support ticketing system, which promotes follow-through to issue resolution.
