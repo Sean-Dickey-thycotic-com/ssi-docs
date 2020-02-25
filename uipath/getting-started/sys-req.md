@@ -9,7 +9,11 @@
 
 * Active Uipath account.
 
-* Windows Server version?
+* Windows Server 2008 R2 SP1 or later.
+
+* SQL Server 2008 R2 Standard or Enterprise Edition or later.
+
+* For further information about system requirements for UiPath orchestrator please visit https://docs.uipath.com/orchestrator/docs/hardware-requirements-orchestrator.
 
 * The integration uses the Secret Server SDK, which is documented in more detail here: https://github.com/thycotic/sdk-documentation.
 
