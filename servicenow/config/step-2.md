@@ -1,6 +1,6 @@
 [title]: # (Creating an Incident in ServiceNow Instance)
 [tags]: # (steps)
-[priority]: # (2)
+[priority]: # (202)
 # Step Two: Creating an Incident in ServiceNow Instance
 
 Create an incident in ServiceNow instance by accessing the Incidents menu.
