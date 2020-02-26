@@ -1,12 +1,10 @@
 [title]: # (Getting Started)
 [tags]: # (introduction)
 [priority]: # (100)
-[display]: # (none)
-# Integrating ServiceNow with Thycotic Secret Server
+# Prerequisites
 
-<!-- add installation instructions if any -->
-The overall integration includes the following three steps:
+Following are the prerequisites to integrate ServiceNow with Secret Server:
 
-* Creating an Instance in ServiceNow
-* Creating an Incident in ServiceNow instance
-* Validating Ticket Number in Secret Server
+* ServiceNow instance
+* Secret Server access
+* The user must have Admin rights within Secret Server
