@@ -1,6 +1,6 @@
 [title]: # (Validating Ticket Number in Secret Server)
 [tags]: # (steps)
-[priority]: # (3)
+[priority]: # (203)
 # Step Three: Validating Ticket Number in Secret Server
 
 Validate the incident by accessing Secret Server.

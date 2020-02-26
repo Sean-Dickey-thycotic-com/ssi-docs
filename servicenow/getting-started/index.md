@@ -1,8 +1,10 @@
 [title]: # (Getting Started)
 [tags]: # (introduction)
-[priority]: # (1)
+[priority]: # (100)
+[display]: # (none)
 # Integrating ServiceNow with Thycotic Secret Server
 
+<!-- add installation instructions if any -->
 The overall integration includes the following three steps:
 
 * Creating an Instance in ServiceNow
