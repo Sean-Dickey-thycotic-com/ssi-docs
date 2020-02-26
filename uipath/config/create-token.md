@@ -1,9 +1,12 @@
 [title]: # (Create a Token)
 [tags]: # (token)
 [priority]: # (202)
+[display]: # (none)
 # How to Create a Token
 
-## Create a new Project 
+## Create a new Project
+
+<!-- add information on how to verify that the integration works -->
 
 1. Open UiPath Studio console.
 
@@ -33,7 +36,7 @@
    ![Orchestrator Settings](images/23.png)
 1. Select __All Packages__.
 1. Search for __webapi__.
-1. Click on UiPath.Web.Activities.
+1. Click on __UiPath.Web.Activities__.
 
    ![Orchestrator Settings](images/24.png)
 1. Click __Install__ and __Save__.
