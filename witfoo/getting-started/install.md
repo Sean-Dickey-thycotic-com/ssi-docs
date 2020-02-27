@@ -3,8 +3,6 @@
 [priority]: # (4)
 [display]: # (all)
 
-# Installation
-
 # Install and Configure Ubuntu 18.04 LTS
 
 You must install Ubuntu, configure network, install-prep, and run register to

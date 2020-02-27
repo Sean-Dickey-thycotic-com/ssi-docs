@@ -16,7 +16,7 @@ and configure Ubuntu 18.04 LTS.
 WitFoo Precinct is deployed via appliance nodes. There are small, medium, and
 large options for an all-in-one appliance that contains all three WitFoo
 Precinct components. Each node can handle up to 50,000 EPS when clustered (at
-optimal resource allocation and core processing level.) 
+optimal resource allocation and core processing level.)
 
 **Note:** Appliance CPU and RAM must comply with the table below.
 
@@ -42,6 +42,21 @@ recommended RAM for storage is as follows:
 -   1TB disk space: 16GB RAM
 
 -   8TB disk space: 64GB RAM
+
+### About Open Ports
+
+The communication between WitFoo virtual appliance and Secret Server happens
+through ports. The all-in-one appliance has the following open ports:
+
+-   SSH (22/tcp)
+
+-   HTTPS (443/tcp)
+
+-   Syslog (514/udp/tcp, 6055/tcp, 6555/tcp)
+
+-   NetFlow (2055/udp)
+
+-   Beats (5044/tcp)
 
 ## Pre-requisites
 
