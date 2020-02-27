@@ -3,7 +3,7 @@
 [priority]: # (1)
 [display]: # (all)
 
-# Configuration of Witfoo
+# Configuration of WitFoo
 
 <!-- Change the file name, title, and main topic to reflect the name of the integration product. Add the initial configuration steps, usually the initial integration setup steps. -->
 
@@ -41,7 +41,7 @@ recommended RAM for storage is as follows:
 
 ## About Open Ports
 
-The communication between Witfoo virtual appliance and Secret Server happens
+The communication between WitFoo virtual appliance and Secret Server happens
 through ports. The all-in-one appliance has the following open ports:
 
 -   SSH (22/tcp)

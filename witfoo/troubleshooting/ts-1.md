@@ -7,7 +7,7 @@
 
 <!-- add troubleshooting topic and info -->
 
-If the Witfoo UI does not appear after configuration, perform the following
+If the WitFoo UI does not appear after configuration, perform the following
 steps.
 
 1.  To check whether superintendent service is ON, run the following command:
@@ -42,7 +42,7 @@ steps.
 
 -   sudo service superintendent restart
 
-1.  Check if you can see the Witfoo GUI by entering the URL: in the browser. If
+1.  Check if you can see the WitFoo GUI by entering the URL: in the browser. If
     not, run the following commands:
 
 -   sudo service superintendent stop
