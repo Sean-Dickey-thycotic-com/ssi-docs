@@ -1,7 +1,10 @@
 [title]: # (Tenable.io Configuration)
 [tags]: # (Tenable.sc)
 [priority]: # (3)
+[display]: # (none)
 # Tenable.io Configuration
+
+<!-- input provided by PS architecture team -->
 
    >**Note:** These instructions below are provided for configuration purposes only. We have not observed this integration to work correctly. For more details, check the [Constraints and Limitations](../../tenable\getting-started\constraints.md) section.
 

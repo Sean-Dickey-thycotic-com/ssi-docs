@@ -9,7 +9,6 @@ The following steps will walk you through the Tenable.sc and Tenable.io configur
 When configuring Tenable to integrate with Secret Server, the following general steps need to happen:
 
 1. [Tenable.sc Configuration](tenable-sc.md).
-1. [Tenable.io Configuration](tenable-io.md).
 1. [Verifying Integration](../troubleshooting/index.md).
 1. [Secret Server Tuning](tuning.md).
 
