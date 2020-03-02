@@ -5,7 +5,7 @@
 
 ## Sign up for RADIUS
 
-Check out the On-Demand signup page at https://authanvil.com/try-it-free. 
+Check out the On-Demand signup page at https://authanvil.com/try-it-free.
 
 Before you begin, please download the [walk-through guide](https://authanvil.com/support/set-up-guide) and follow along.
 
