@@ -1,4 +1,4 @@
-[title]: # (Radius Secret Server Integration)
+[title]: # (Radius)
 [tags]: # (introduction)
 [priority]: # (1)
 # Introduction
