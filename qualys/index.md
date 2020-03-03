@@ -3,10 +3,19 @@
 [priority]: # (1)
 # Introduction
 
-**Integrating Secret Server for Authenticated Scans**
+## Using Secret Server as a Credential Vault for Authenticated Scans
 
-Administrators can add credentials to the Qualys tool for use in trusted scans
-without the use of a password management solution. Qualys can also use Secret
-Server as a repository for the accounts used for authenticated scanning. Using
-Secret Server means that all the credentials used for authenticated scans will
-be stored securely on-premises and will not leave the network.
+Secret Server is an on-premise, web-based password vault used to help organizations properly manage privileged account
+passwords. Secret Server allows users to control access and automate password changes for a variety of enterprise
+resources. Organizations can easily deploy Secret Server to be more secure, reduce labor costs, adopt password best practices, and satisfy audit requirements.
+
+QualysGuard can use the Secret Server as a Credential Vault for the accounts used for authenticated scanning. Instead of
+adding individual credentials for trusted scans, the Administrator can use named records stored in Secret Server. There are several benefits to this approach:
+
+   * Using Secret Server means that all the credentials used for authenticated scans will be stored securely on-premise and
+will not leave the network.
+
+   * Password rotation can happen frequently and automatically as Secret Server performs the password changes and
+QualysGuard retrieves the passwords as needed during scans.
+
+   * Credentials can still be securely controlled in Secret Server with full auditing over their usage.
