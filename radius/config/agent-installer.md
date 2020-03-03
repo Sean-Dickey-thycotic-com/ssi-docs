@@ -20,7 +20,7 @@
 
    ![Installation Wizard](images/9.png)
 
-   >**Note:** Home Realm is the user account used to sign into the AuthAnvil On-Demand portalhttps://yourcompany.my.authanvil.com.
+   >**Note:** Home Realm is the user account used to sign in to the AuthAnvil On-Demand portalhttps://yourcompany.my.authanvil.com.
 
 1. Complete the install steps and click __Finish__ when complete.
 
@@ -31,9 +31,9 @@
 This example shows you how to add a single new user with AuthAnvil’s interactive wizard.
 
 1. Sign in to your AuthAnvil portal.
-1. In the left navigation menu, select __Directory Manager__. The All Users window appears.
+1. In the left navigation menu, select the __Directory Manager__. The All Users window appears.
 1. In the All Users window, click __green plus sign | Add a User__. The Add New User panel appears.
-1. Enter __display name, email address, and username__ with your information.
+1. Enter the __display name, email address, and username__ with your information.
    * Display name – name
    * Email – xxxx@companyname.com
    * Username – username
@@ -43,7 +43,7 @@ This example shows you how to add a single new user with AuthAnvil’s interacti
 
    >**Note:** The Default Policy does not send an onboarding email. The Full Onboarding Policy sends an activation email to the specified email address.
 
-1. Click __Add User__. AuthAnvil returns to the All Users view and the new user is now in the list.
+1. Click __Add User__. AuthAnvil returns to the All Users view and the new user is now on the list.
 
    ![Add User](images/12.png)
 1. Click the __ellipsis__ next to the new user. The Account Information window appears.
