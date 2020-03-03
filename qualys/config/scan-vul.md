@@ -1,7 +1,7 @@
 [title]: # (Scan for Vulnerabilities)
 [tags]: # (scan, vulnerabilities)
 [priority]: # (103)
-# SCAN FOR VULNERABILITIES
+# Scan for Vulnerabilities
 
 Scan your systems for known vulnerabilities and understand your security risk.
 By automating your scans you'll get up to date security intelligence in real
@@ -9,12 +9,12 @@ time.
 
 **Let’s launch a vulnerability scan**
 
-Go to Scans \> Scans \> New \> Scan (or Schedule Scan).
+Go to Scans | Scans | New | Scan (or Schedule Scan).
 
 Following window will get open. Check for Scanner appliance, if showing Scanner
 appliance not available then need to setup Scanner appliance first.
 
-![](images/07a1524e85a73bcf217c278a3f1372d0.png)
+   ![](images/07a1524e85a73bcf217c278a3f1372d0.png)
 
 **Setting up Scanner appliance**
 
@@ -28,9 +28,9 @@ networks.
 
 You could configure physical scanner appliance, virtual scanner appliances to
 assess internal network devices, systems and web applications. To configure
-Scanner appliance navigate to Scans \> Appliance and Select option.
+Scanner appliance navigate to Scans | Appliance and Select option.
 
-![](images/c1e91eaaf0b84acbcddea6b8dba1242e.png)
+   ![](images/c1e91eaaf0b84acbcddea6b8dba1242e.png)
 
 **Qualys Virtual Scanner Appliance**
 
@@ -48,14 +48,14 @@ the Qualys Virtual Scanner Appliance at any time and redeploy another instance
 
 **Configure and activate your scanner**
 
-![](images/6fded6356d5026bb8c768bdf31a55610.png)
+   ![](images/6fded6356d5026bb8c768bdf31a55610.png)
 
 Add Your Virtual Scanner
 ========================
 
 **Step 1 - Start the Wizard**
 
-Go to Scans \> Appliances and select New \> Virtual Scanner Appliance. Click
+Go to Scans | Appliances and select New | Virtual Scanner Appliance. Click
 Start Wizard
 
 **Step 2 - Choose your virtualization platform.**
@@ -99,7 +99,7 @@ Once you've successfully configured your scanner it'll be ready for scanning.
 
 -   Unzip the download file  qVSA.i386-2.4.26-11.vhd.zip to obtain the virtual
     hard disk file *qVSA.i386-2.4.26-11.vhd.zip* Log in to the Hyper-V server.
-    Go to Manager \> Hyper-V Manager and add a new Virtual Machine.
+    Go to Manager | Hyper-V Manager and add a new Virtual Machine.
 
 -   Provide a name for the scanner.
 
