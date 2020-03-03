@@ -11,8 +11,9 @@ __Let’s launch a vulnerability scan__
 
 1. Go to __Scans | Scans | New | Scan (or Schedule Scan)__.
 
-1. Following window will get open. Check for Scanner appliance, if showing Scanner
-appliance not available then need to setup Scanner appliance first.
+1. The following window below will open.
+1. Check for the Scanner appliance, if the Scanner
+appliance shown in the image below is not available then need to setup Scanner appliance first.
 
    ![](images/07a1524e85a73bcf217c278a3f1372d0.png)
 
@@ -26,7 +27,7 @@ __Use Scanner Appliances__
 You could configure physical scanner appliance, virtual scanner appliances to
 assess internal network devices, systems and web applications. 
 
-1. To configure  Scanner appliance navigate to __Scans | Appliance | Select option__.
+1. To configure the Scanner appliance navigate to __Scans | Appliance__ and select the option.
 
    ![](images/c1e91eaaf0b84acbcddea6b8dba1242e.png)
 
@@ -50,14 +51,13 @@ __Configure and activate your scanner__
 
 1. Choose your virtualization platform.
 
-1. Give your scanner a name and tell the virtualization platform you’d like to use.
+1. Give your scanner a name and select the virtualization platform you’d like to use.
 
    ![](images/d607127079938fc6204358f39935e3ca.png)
 
 1. Download the Image.
 
-This step applies to virtualization platforms with a scanner appliance image download (i.e. for VMware, Citrix XenServer, etc). Locate the Virtual Scanner
-image on your local system.
+   >**Note:** This step applies to virtualization platforms with a scanner appliance image download (i.e. for VMware, Citrix XenServer, etc). Locate the Virtual Scannerimage on your local system.
 
    ![](images/9170dccdd241ae2a775b0b1d9091c2c5.png)
 
@@ -73,19 +73,15 @@ These steps apply when you have downloaded a scanner appliance image (i.e. for V
 
 ## Configure a virtual scanner using Microsoft Hyper-V
 
-Follow steps to configure a virtual scanner appliance using Microsoft Hyper-V. Once you've successfully configured your scanner it'll be ready for scanning.
+The following steps can be used to configure a virtual scanner appliance using Microsoft Hyper-V. Once you've successfully configured your scanner it will be ready for scanning.
 
-Before you begin:
-
+__Before you begin:__
    * Downloaded the virtual scanner image
 (*qVSA-2.0.13-1-vhd.zip* or later).
-
    * Obtain a personalization code.
 
-1.  Start the virtual scanner machine.
-
+1. Start the virtual scanner machine.
 1. Unzip the download file  qVSA.i386-2.4.26-11.vhd.zip to obtain the virtual hard disk file *qVSA.i386-2.4.26-11.vhd.zip* Log in to the Hyper-V server.
-
 1. Go to __Manager | Hyper-V Manager__.
 1. Add a new Virtual Machine.
 1. Provide a name for the scanner.
@@ -99,9 +95,7 @@ Before you begin:
 
    ![](images/0a12bfe2fc2229b08fc93ef804b0e299.png)
 
-   >**Note**: The virtual scanner will use DHCP without proxy configuration, unless you make custom settings first. For custom configuration:
-
-   * Go to __Set up network__ by pressing the Down arrow one time and then the Right arrow one time.
+   >**Note:** The virtual scanner will use DHCP without proxy configuration,unless you make custom settings first. For custom configurations, go to __Set up network__ by pressing the Down arrow one time and then the Right arrow one time.
 
 1. Enter your personalization code.
 
