@@ -7,7 +7,7 @@
 
 * Ensure you have administrative access to your AuthAnvil on Demand tenant.
 * Ensure access to a computer that will host the RADIUS Client.
-* Ensure access to thedesired VPN capable device and are familiar with the configuration.
+* Ensure access to the desired VPN capable device and are familiar with the configuration.
 
 1. Log into your instance of AuthAnvil on Demand.
 
@@ -34,7 +34,7 @@
 
    ![RADIUS Configuration](images/6.png)
 1. In the Add RADIUS Client screen, perform the following:
-   * Add a __friendly name__ for the Client, add __Client IP address__, and add a __Client Shared Secret__. (The Client Shared Secret key is the password or key setup on each client added in AuthAnvil portal. The same key mustbe entered in the RADIUS configuration tab in Secret Server under RADIUS Shared Secret).
+   * Add a __friendly name__ for the Client, add the __Client IP address__, and add a __Client Shared Secret__. (The Client Shared Secret key is the password or key setup on each client added in AuthAnvil portal. The same key must be entered in the RADIUS configuration tab in Secret Server under RADIUS Shared Secret).
    * Confirm Shared Secret (formerly Confirm Password) for the Client.
 
    >**Note:** This is the shared Secret that will be placed on the forwarding device/router to authenticate the communication.
@@ -45,4 +45,4 @@
 
 1. Select __Save Changes__.
 
-   >**Note:**  To add more than one client, select the __Add Another__ check box prior to selecting the Add RADIUS client button.
+   >**Note:**  To add more than one client, select the __Add Another__ checkbox before selecting the Add RADIUS client button.

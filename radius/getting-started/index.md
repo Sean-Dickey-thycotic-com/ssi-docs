@@ -11,7 +11,7 @@ Before you begin, please download the [walk-through guide](https://authanvil.com
 
 ## RADIUS On-Demand
 
-RADIUS is designed to enhance your existing login systems and can protectthe many systems, including:
+RADIUS is designed to enhance your existing login systems and can protect the many systems, including:
 
    * Windows servers and workstations.
    * Linux and Unix servers and desktops.
