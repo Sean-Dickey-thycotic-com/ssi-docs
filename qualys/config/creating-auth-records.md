@@ -1,7 +1,7 @@
 [title]: # (Creating Authentication Records)
 [tags]: # (authentication)
 [priority]: # (102)
-# CREATING AUTHENTICATION RECORDS**
+# Creating Authentication Records
 
 Once the authentication vault has been configured, individual authentication
 credentials can be configured to retrieve their passwords from Secret Server. To
@@ -21,14 +21,14 @@ record in Qualys.
 accounts password. (see below figure).In this case, Secret Name for the Windows
 Account is Qualystest.
 
-![](images/04406781d2766cb12e6cd80295ddf720.png)
+   ![](images/04406781d2766cb12e6cd80295ddf720.png)
 
 The Secret Name must match exactly the corresponding Secret Name in Secret
 Server (see Figure 4).
 
-![](images/5dba153bfbc183db8d3f1c76509bdc1f.png)
+   ![](images/5dba153bfbc183db8d3f1c76509bdc1f.png)
 
-![](images/ebba909256bbf9f102202f48d64b4b04.png)
+   ![](images/ebba909256bbf9f102202f48d64b4b04.png)
 
 Figure 4: Windows Authentication Vault Record
 
@@ -45,3 +45,4 @@ folder the Secret is in.
 Once the Secret is configured with the proper permission, Qualys can use it in
 scans. Run a scan that uses that authentication record to verify that everything
 is working end-to-end.
+

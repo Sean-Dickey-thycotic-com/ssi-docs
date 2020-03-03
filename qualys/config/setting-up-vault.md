@@ -1,7 +1,7 @@
 [title]: # (Setting up the Vault)
 [tags]: # (vault)
 [priority]: # (101)
-# SETTING UP THE VAULT**
+# Setting up the Vault
 
 To use Secret Server, an administrator must configure it as a Vault within
 Qualys by specifying a URL and credentials to access the on-premises Secret
@@ -14,11 +14,11 @@ The first step is to add a new Authentication Vault in Qualys. To do so,
 navigate to the **Authentication** tab and select **Authentication Vaults** from
 the **New** menu (Figure 1) and (Figure 2).
 
-![](images/ab1ba9c25f855f8c2748c4f81835f9a8.png)
+   ![Figure 1](images/ab1ba9c25f855f8c2748c4f81835f9a8.png)
 
-Figure1: Adding authentication vault
+Figure 1: Adding authentication vault
 
-![](images/f0dc00bda3bf6d0deb0b61b7eab2f02d.png)
+   ![Figure 2](images/f0dc00bda3bf6d0deb0b61b7eab2f02d.png)
 
 Figure 2: Creating Thycotic Secret Server Authentication vault
 
