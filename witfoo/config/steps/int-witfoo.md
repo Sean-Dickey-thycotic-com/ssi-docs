@@ -1,8 +1,9 @@
 [title]: # (Configure WitFoo)
 [tags]: # (witfoo,introduction)
-[priority]: # (1)
+[priority]: # (2)
 [display]: # (none)
-# Configure WitFoo
+# Configure/Use WitFoo
 
-<!-- Change the file name, title, and main topic to reflect the name of the integration product. Add the initial configuration steps, usually the initial integration setup steps. -->
-
+1. Log in to the WitFoo Precinct virtual appliance with the registered credentials.
+1. In the search bar enter the __IP address__ of Secret Server.
+1. View the data in the WitFoo UI.
