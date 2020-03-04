@@ -2,62 +2,68 @@
 [tags]: # (witfoo,troubleshoot)
 [priority]: # (501)
 [display]: # (all)
+# Troubleshooting the Configuration
 
-# Troubleshooting Configuration
+If the WitFoo UI does not appear after configuration, follow these troubleshooting tips.
 
-<!-- add troubleshooting topic and info -->
+## Check if Superintendent Service is ON
 
-If the WitFoo UI does not appear after configuration, perform the following
-steps.
+To check whether superintendent service is ON, run the following command:
 
-1.  To check whether superintendent service is ON, run the following command:
-    service --status-all
+`service --status-all`
 
-2.  To install JDK and remove Apache2, run the following commands:
+## Install JDK and Remove Apache2
 
--   sudo apt install default-jdk
+To install JDK and remove Apache2, run the following commands:
 
--   sudo apt-get remove apache2
+```
+sudo apt install default-jdk
+sudo apt-get remove apache2
+```
 
-1.  To restart superintendent, run the following command:
+## Restart the Superintendent
 
--   sudo service superintendent restart
+To restart superintendent, run the following command:
 
-1.  Check if Docker is configured. If not, run the following commands:
+`sudo service superintendent restart`
 
--   sudo curl -fsSL
-    [https://download.docker.com/linux/ubuntu/gpg](https://slack-redir.net/link?url=https%3A%2F%2Fdownload.docker.com%2Flinux%2Fubuntu%2Fgpg)
-    \| sudo apt-key add -
+## Check if Docker is Configured
 
--   sudo add-apt-repository "deb [arch=amd64]
-    [https://download.docker.com/linux/ubuntu](https://slack-redir.net/link?url=https%3A%2F%2Fdownload.docker.com%2Flinux%2Fubuntu)
+Check if Docker is configured. If not, run the following commands:
 
--   \$(lsb_release -cs) stable"
+```
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
--   sudo apt-get update
+sudo add-apt-repository "deb [arch=amd64]
+https://download.docker.com/linux/ubuntu
 
--   sudo apt-get install -y docker-ce
+$(lsb_release -cs) stable"
 
-1.  To restart superintendent, run the following command:
+sudo apt-get update
 
--   sudo service superintendent restart
+sudo apt-get install -y docker-ce
+```
 
-1.  Check if you can see the WitFoo GUI by entering the URL: in the browser. If
-    not, run the following commands:
+## Check the Registration IP
 
--   sudo service superintendent stop
+Check if you can see the WitFoo GUI by entering the URL: `https://<ipaddrs>/register` in the browser. If not, run the following commands:
 
--   sudo apt-get remove default-jdk
+```
+sudo service superintendent stop
 
--   sudo apt-get install openjdk-8-jre-headless openjdk-8-jdk
+sudo apt-get remove default-jdk
 
--   sudo service superintendent start
+sudo apt-get install openjdk-8-jre-headless openjdk-8-jdk
 
->   It takes 30-60 minutes for the code (via Docker containers) to download and
->   start. You will now be able to access to create the first account.
+sudo service superintendent start
+```
 
->   **Note**: \<ipaddrs\> is the IP of the configured Ubuntu machine.
+It takes 30-60 minutes for the code (via Docker containers) to download and start. You will now be able to access `https://<ipaddrs>/register` to create the first account.
 
-1.  Run the following command to monitor the progress
+>**Note**: \<ipaddrs\> is the IP of the configured machine.
 
--   tail -f /var/log/witfoo-superintendent/status.log
+## Progress Monitoring
+
+Run the following command to monitor the progress
+
+`tail -f /var/log/witfoo-superintendent/status.log`
