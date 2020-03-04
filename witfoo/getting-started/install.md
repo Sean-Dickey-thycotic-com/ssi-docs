@@ -2,6 +2,7 @@
 [tags]: # (introduction)
 [priority]: # (4)
 [display]: # (none)
+<!-- removed from doc >
 # Install and Configure Ubuntu 18.04 LTS
 
 You must install Ubuntu, configure network, install-prep, and run register to
@@ -53,4 +54,4 @@ and press **Enter.**
 
 1. Log in to the WitFoo Precinct virtual appliance with the registered credentials.
 
-1. In the search bar enter the **IP address** of Secret Server.
+1. In the search bar enter the **IP address** of Secret Server. -->
