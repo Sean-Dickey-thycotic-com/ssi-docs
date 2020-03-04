@@ -1,7 +1,6 @@
 [title]: # (Configure WitFoo)
 [tags]: # (witfoo,introduction)
 [priority]: # (2)
-[display]: # (none)
 # Configure/Use WitFoo
 
 1. Log in to the WitFoo Precinct virtual appliance with the registered credentials.
