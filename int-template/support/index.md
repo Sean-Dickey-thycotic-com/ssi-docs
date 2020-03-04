@@ -59,6 +59,6 @@ As an alternative to support by email or phone, you can open a support ticket an
 * After logging in, you will be on the main page. Click the __Cases__ tab, then __Create a Case__.
 * Follow the instructions to complete your case.
 
-## Enhancement Requests
+<!-- ## Enhancement Requests
 
-<!-- add URL for request form (if there is one) -->
+add URL for request form (if there is one) -->

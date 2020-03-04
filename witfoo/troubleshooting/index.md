@@ -1,10 +1,8 @@
 [title]: # (Troubleshooting)
-[tags]: # (introduction)
+[tags]: # (troubleshooting)
 [priority]: # (500)
-[display]: # (none)
-
 # Troubleshooting
 
-<!-- add and overview of covered troubleshooting topics 
+The following troubleshooting topics are availalbe:
 
-This section might not be needed depending on scope/complexity of integration.-->
+* [Troubleshooting the Configuration](ts-1.md)
