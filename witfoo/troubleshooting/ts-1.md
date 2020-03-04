@@ -1,7 +1,6 @@
 [title]: # (Troubleshooting Configuration)
 [tags]: # (witfoo,troubleshoot)
 [priority]: # (501)
-[display]: # (all)
 # Troubleshooting the Configuration
 
 If the WitFoo UI does not appear after configuration, follow these troubleshooting tips.
