@@ -1,5 +1,9 @@
 [title]: # (Integrations)
 [tags]: # (introduction)
 [priority]: # (1)
-# Introduction to Integrations
+# Secret Server Integrations
 
+Secret Server integration documents are moving to Thycotic's new documentation platform.
+Here you find verified third-party product integrations. This area will be growing while existing contents is moved over and more integrations are verified.
+
+Access each integrated product folder to learn more about the integration details.

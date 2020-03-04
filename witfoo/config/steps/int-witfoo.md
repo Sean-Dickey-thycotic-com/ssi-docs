@@ -1,14 +1,8 @@
 [title]: # (Configure WitFoo)
 [tags]: # (witfoo,introduction)
 [priority]: # (1)
-[display]: # (all)
-
-# Configuration of WitFoo
+[display]: # (none)
+# Configure WitFoo
 
 <!-- Change the file name, title, and main topic to reflect the name of the integration product. Add the initial configuration steps, usually the initial integration setup steps. -->
 
-When configuring WitFoo to integrate with Secret Server, the general steps are:
-
-1. Configure Secret Server Syslog/CEF Advanced Settings.
-
-1. Configure WitFoo appliance with Secret Server information.
