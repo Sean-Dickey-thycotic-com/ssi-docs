@@ -1,7 +1,7 @@
 [title]: # (Getting Started)
 [tags]: # (introduction)
 [priority]: # (1)
-# Getting Started with the xyz Integration
+# Getting Started with Royal TS
 
 ## Application Features
 

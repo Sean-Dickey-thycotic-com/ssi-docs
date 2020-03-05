@@ -3,9 +3,9 @@
 [priority]: # (101)
 # Prerequisites for Integration
 
-1. Navigate to https://www.royalapps.com/server/main/download and download RTS for Windows 5.0.
+1. Navigate to https://www.royalapps.com/server/main/download and __download__ RTS for Windows 5.0.
 
-1. Install RTS for Windows.
+1. Install __RTS__ for Windows.
 
    > **Note:** You can download, install, and use RTS products free without any time limit, license key, or registration. This allows you to get started quickly. If have a small environment, you can continue using our products free of charge in "Shareware Mode."
    >
@@ -14,13 +14,11 @@
    > **Note:** It can take RTS for Windows several minutes to install and optimize itself.
 
 1. Ensure Windows PowerShell ISE (Integrated Scripting Environment) is on your Windows installation:
-
-   1. Click your Windows **Start** button.
-   1. Type `PowerShell` in the search text box:
+1. Click your Windows __Start__ button.
+1. Type `PowerShell` in the search text box:
    
    ![1564685461989](images/1.png)
-   
-   ​	3. Ensure the Windows PowerShell ISE entry appears as a choice.
+1. Ensure the Windows PowerShell ISE entry appears as a choice.
    
    > **Important:** The script that you will run is designed for PowerShell 6, so please ensure you have that version.
    >

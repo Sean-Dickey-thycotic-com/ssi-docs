@@ -3,29 +3,24 @@
 [priority]: # (102)
 # Configure RTS for Integration
 
-1. Start RTS:
+1. Start __RTS__.
    
    ![1564687324117](images/2.png)
-   
 1. Click the **New** button. The Add Royal TS Document wizard appears:
 
    ![1564687440109](images/3.png)
-
 1. Type a name for the document in the **Display Name** text box.
-
 1. Click the **Next** button:
 
    ![1564687606448](images/4.png)
-   
 1. Click to enable the **Enable Encryption** check box:
 
    ![1564687856375](images/5.png)
-
 1. Type the desired password in the **Password** and **Confirm** text boxes. You can also click the **Generate Password** button to the right to automatically create one.
 
 1. Click the **OK** button. The wizard closes and your new connection appears as a node in the tree in the left pane.
 
-1. Navigate to the dynamic folder PowerShell file for Secret Server at [https://github.com/royalapplications/toolbox/tree/master/Dynamic%20Folder/Thycotic%20Secret%20Server](https://github.com/royalapplications/toolbox/tree/master/Dynamic Folder/Thycotic Secret Server):
+1. Navigate to the dynamic folder PowerShell file for Secret Server at [https://github.com/royalapplications/toolbox/tree/master/Dynamic%20Folder/Thycotic%20Secret%20Server](https://github.com/royalapplications/toolbox/tree/master/DynamicFolder/ThycoticSecretServer):
 
    ![1564688229991](images/6.png)
    
