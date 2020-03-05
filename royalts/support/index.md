@@ -1,7 +1,6 @@
 ﻿[title]: # (Support)
 [tags]: # (thycotic)
 [priority]: # (100000)
-[display]: # (none)
 # Support
 
 Thycotic customers have access to support by phone and email. You also can open a case in Thycotic’s support ticketing system, which promotes follow-through to issue resolution.
@@ -59,6 +58,9 @@ As an alternative to support by email or phone, you can open a support ticket an
 * After logging in, you will be on the main page. Click the __Cases__ tab, then __Create a Case__.
 * Follow the instructions to complete your case.
 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< dev
 <!-- ## Enhancement Requests
 
 add URL for request form (if there is one) -->
+========================================================================
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> el.dev.163054.royalts
