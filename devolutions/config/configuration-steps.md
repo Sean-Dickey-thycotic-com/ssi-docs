@@ -13,25 +13,16 @@
    ![](images/553fdb6a689fe7f298ff6b22e0442bc8.png)
 1. For the Service URL, enter the **Secret Services API URL**.
 
->   **Example**:
+   >**Note:** Format example: <https://yoursecretserverurl/SecretServer/webservices/SSWebService.asmx>.
 
->   Format example:
->   <https://yoursecretserverurl/SecretServer/webservices/SSWebService.asmx>.
-
->   In addition, the following screen shows a simple example with a local user.
->   For a domain user, specify the domain. For Two-Factor Authentication (2FA),
->   the only option available with Remote Desktop Manager is Remote Access
->   Dial-In User (RADIUS).
+1. In addition, the following screen shows a simple example with a local user. For a domain user, specify the domain. For Two-Factor Authentication (2FA), the only option available with Remote Desktop Manager is Remote Access Dial-In User (RADIUS).
 
    ![](images/0cdfbaa943346123da8f765ca2f85f6d.png)
-
 1. Enter a **name** for the credential entry and click **OK**.
 
    ![](images/2d9736f50a74a4cbed2ad7777eb1a555.png)
-
 1. In the Secret Server Database Opening dialog box, enter **username** and
     **password**, and click **Open**.
 
    ![](images/811678c029a0d02e10ce2c9e800c4455.png)
-
-The entry for Secret Server is now in your Data Source list.
+1. The entry for Secret Server is now in your Data Source list.

@@ -3,24 +3,24 @@
 [priority]: # (103)
 # Steps to Link to a Specific Server
 
-To link a specific Secret to a specific server, create a new entry. The
-following example shows a basic Remote Desktop Connection session for a server
+To link a specific Secret to a specific server, create a new entry.
+
+The following example shows a basic Remote Desktop Connection session for a server
 called SRV-USP1-SQL3A.
 
-1. Right click on the **entry** and click **Properties**.
+1. Right-click on the__entry__.
+1. Click__Properties__.
 
    ![](images/d7ccc81881e7624a206573f8d0933288.png)
+1. On the Credentials section of the entry, change it to__Credential
+    Repository__ and choose the Secret Server credential repository.
+1. Click __OK__.
 
-1. On the Credentials section of the entry, change it to **Credential
-    Repository** and choose the Secret Server credential repository. Click
-    **OK**.
-
-1. Right click on the server and click **Open Session**. You will be prompted
+1. Right click on the server and click __Open Session__. You will be prompted
     to choose a Secret from Secret Server.
 
    ![](images/32a4b044fed72da3aa1d94dc34f2a171.png)
-
-1. Click **OK** and you will be able to log in to your server with the chosen
+1. Click __OK__ and you will be able to log in to your server with the chosen
     credentials.
 
 For accessibility/ease of use, it is recommended that secret names match the
