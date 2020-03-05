@@ -6,8 +6,7 @@
 To use Secret Server, an administrator must configure it as a Vault within Qualys by specifying a URL and credentials to access the on-premises Secret Server instance. Instead of adding username/password credentials for use in trusted scans, the administrator can point to named records that are stored in
 Secret Server. Qualys will retrieve the credentials from Secret Server at scan time for trusted scans.
 
-1. Add a new Authentication Vault in Qualys.
-1. Navigate to the __Authentication__ tab.
+1. To add a new Authentication Vault in Qualys, navigate to the __Authentication__ tab.
 1. Click __Authentication Vaults__ from the menu section.
 
    ![Figure 1](images/ab1ba9c25f855f8c2748c4f81835f9a8.png)
