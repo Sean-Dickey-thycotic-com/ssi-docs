@@ -8,7 +8,8 @@ few settings to check to make sure the integration is configured correctly:
 
 __Are web services enabled?__
 
-Web services in Secret Server must be enabled for this integration to function. Check the web services status from the __Configuration__ section of the __Administration__ menu.
+Web services in Secret Server must be enabled for this integration to function.
+Check the web services status from the __Configuration__ section of the __Administration__ menu.
 
 __Is Secret Server accessible?__
 
@@ -25,7 +26,7 @@ __Check audit trails__
 To help determine whether the Qualys account is correctly accessing Secret Server and the stored credential, check the audit on the Qualys user to see if it is logging in successfully from the appliance and view the audit on the Secret to see if there are view records which will show that the Secret was
 actually accessed.
 
-__BEST PRACTICES__
+## BEST PRACTICES
 
 __Folders__
 

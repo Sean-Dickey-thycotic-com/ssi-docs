@@ -13,7 +13,7 @@ __Let’s launch a vulnerability scan__
 
 1. The following window below will open.
 1. Check for the Scanner appliance, if the Scanner
-appliance shown in the image below is not available then need to setup Scanner appliance first.
+appliance shown in the image below is not available then you will need to first setup Scanner appliance.
 
    ![](images/07a1524e85a73bcf217c278a3f1372d0.png)
 
@@ -51,7 +51,7 @@ __Configure and activate your scanner__
 
 1. Choose your virtualization platform.
 
-1. Give your scanner a name and select the virtualization platform you’d like to use.
+1. Give your scanner a name and select the virtualization platform you would like to use.
 
    ![](images/d607127079938fc6204358f39935e3ca.png)
 
@@ -69,28 +69,28 @@ __Configure and activate your scanner__
 
 1. Personalize Your Scanner Local system or server.
 
-These steps apply when you have downloaded a scanner appliance image (i.e. for VMware, Citrix XenServer, etc). You’ll use Virtual Scanner Console running on your virtualization software to complete these steps.
+These steps apply when you have downloaded a scanner appliance image (i.e. for VMware, Citrix XenServer, etc). You will use the Virtual Scanner Console running on your virtualization software to complete these steps.
 
 ## Configure a virtual scanner using Microsoft Hyper-V
 
 The following steps can be used to configure a virtual scanner appliance using Microsoft Hyper-V. Once you've successfully configured your scanner it will be ready for scanning.
 
 __Before you begin:__
-   * Downloaded the virtual scanner image
+   * Download the virtual scanner image
 (*qVSA-2.0.13-1-vhd.zip* or later).
    * Obtain a personalization code.
 
 1. Start the virtual scanner machine.
-1. Unzip the download file  qVSA.i386-2.4.26-11.vhd.zip to obtain the virtual hard disk file *qVSA.i386-2.4.26-11.vhd.zip* Log in to the Hyper-V server.
+1. Unzip the download file (qVSA.i386-2.4.26-11.vhd.zip) to obtain the virtual hard disk file __qVSA.i386-2.4.26-11.vhd.zip__.
+1. Log in to the Hyper-V server.
 1. Go to __Manager | Hyper-V Manager__.
 1. Add a new Virtual Machine.
 1. Provide a name for the scanner.
-1. Configure the memory. Recommended is 2048 MB or more.
-1. Configure the networking as appropriate so the network adapter on the scanner can use a virtual network for communication.
+1. Configure the memory (Recommended is 2048 MB or more).
+1. Configure the network adapter on the scanner so it can be used as a virtual network for communication.
 1. For the virtual hard disk configuration, select __Use an existing virtual hard disk__ and provide the location of the .vhd file (obtained from the download .zip file).
 1. Click __Next__.
 1. Click __Finish__.
-
 1. Press the Right arrow to select __Personalize this scanner__.
 
    ![](images/0a12bfe2fc2229b08fc93ef804b0e299.png)
@@ -107,7 +107,9 @@ __Before you begin:__
 
 1. Wait until activation completes.
 
-The virtual scanner attempts to make a connection to the Qualys Cloud Platform using its current configuration (network and proxy settings). Upon success, the scanner’s friendly name and IP address appear and the scanner is ready to be used for scanning. Press Enter to go to the main menu.
+1. The virtual scanner attempts to make a connection to the Qualys Cloud Platform using its current configuration (network and proxy settings). Upon success, the scanner’s friendly name and IP address appear and the scanner is ready to be used for scanning. 
+
+1. Press __Enter__ to go to the main menu.
 
    ![](images/b2825f52bd359dd43d634f15dac5e196.png)
 
@@ -124,13 +126,13 @@ To verify that __Password Changing on Check In__ is enabled, use the following i
 
 1. Navigate to __Remote Password Changing__ from the __ADMIN__ menu.
 
-1. If __Enable Password Changing on Check In__ is set to __No__ or doesn’t appear, click __Edit__ and ensure that the __Enable Remote Password Changing__ and __Enable Password Changing on Check In__ checkboxes are both selected.
+1. If __Enable Password Changing on Check In__ is set to __No__ or doesn’t appear:
+   * Click __Edit__.
+   * Ensure that the __Enable Remote Password Changing__ and __Enable Password Changing on Check In__ checkboxes are both selected.
 
 1. Click __Save__.
 
    ![](images/e69f0f395cbf8dde3c2e3c0cb20929a2.png)
-
-*Figure Remote Password Changing settings*
 
 __Configure a Secret for Check Out__
 
@@ -138,16 +140,14 @@ Enable Check Out with Change Password on Check In to ensure that the password
 for your privileged account is changed after each use. To do so, use the
 following steps:
 
-1. Find your __privileged account Secret__ and click __View__.
-
-2. Click the __Security__ tab and then click __Edit__.
-
-3. Select the Require __Check Out check box__, and then select the __Change
+1. Find your __privileged account Secret__.
+1. Click __View__.
+1. Click the __Security__ tab.
+1. Click __Edit__.
+1. Select the Require __Check Out check box__, and then select the __Change
 Password On Check In__ check box as well.
-
-4. Click __Custom__, and enter __a period of time__ that you estimate will allow
-enough time for authenticated scanning to complete.
-
-5. Click __Save__.
+1. Click __Custom__.
+1. Enter __a period of time__ that you estimate will allow enough time for authenticated scanning to complete.
+1. Click __Save__.
 
    ![](images/d42ecb7e289ceda547b6543c7db5a386.png)
