@@ -40,9 +40,6 @@
    >**Note:** This is the shared Secret that will be placed on the forwarding device/router to authenticate the communication.
 
     ![Add RADIUS Client](images/7.png)
-
-    >**Note:** This is the shared secret that will be placed on the forwarding device/router to authenticate the communication.
-
-1. Select __Save Changes__.
+1. Click __Save Changes__.
 
    >**Note:**  To add more than one client, select the __Add Another__ checkbox before selecting the Add RADIUS client button.
