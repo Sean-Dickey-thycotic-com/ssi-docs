@@ -12,15 +12,15 @@ Secret Server allows the use of RADIUS two-factor authentication on top of the n
 1. Sign in to an account with Administer Configuration and Administer RADIUS permissions.
 1. Navigate to __Administration menu | Configuration | Login__.
 1. Enable Secret Server with your RADIUS server information by going into edit mode.
-   * RADIUS Server IP(IP address to your RADIUS Server).
-   * RADIUS Client Port(default 1812)
+   * RADIUS Server IP: IP address to your RADIUS Server.
+   * RADIUS Client Port: default 1812.
 
    >**Note:**  If your RADIUS server runs on the same machine as your Secret Server, client and server ports must be different.
       * RADIUS Server Port(default 1812 for RSA and 1812 for AuthAnvil).
       * RADIUS Shared Secret must match the chosen RADIUS shared secret on your RADIUS Server. (Shared Secret is a RADIUS term and not related to any Secret Server secret.)
       * RADIUS Login explanation(custom message or instruction). Defaults to Please enter your RADIUS passcode.
 
-1. Click __Save__ after entries are confirmed.
+1. Click __Save__ after the entries are confirmed.
 
 ## Test RADIUS settings
 
@@ -28,10 +28,10 @@ Secret Server allows the use of RADIUS two-factor authentication on top of the n
 
    ![Test RADIUS](images/16.png)
 
-   >**Note:** After enabling RADIUS on your Secret Server, you must enable RADIUS two-factor authentication for each user. You can enable it on a per-user basis.
+   >**Note:** After enabling RADIUS in your Secret Server instance, you must also enable __RADIUS two-factor authentication__ for each user. You can enable it on a per-user basis.
 
 1. Sign in to an account with Administer Configuration and Administer RADIUS permissions.
-1. Navigate to __Administration > Users > Username__ of user to enable.
+1. Navigate to __Administration | Users | Username__ of user to enable.
 1. Click the __Edit__ button and check the __RADIUS Two Factor Authentication__ checkbox.
 1. Enter the __RADIUS username__ in the text field.  
 

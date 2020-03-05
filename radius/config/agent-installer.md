@@ -16,13 +16,14 @@
    * Click the __Agent name__ and select the __Download Installer__ button that appears.
 
 1. Once downloaded, run through the installation wizard on the machine hosting the RADIUS service.
-1. Enter in the __ID__ and __Key__ that were copied during the RADIUS client creation and click __Next__.
+1. Enter in the __ID__ and __Key__ that were copied during the RADIUS client creation.
+1. Click __Next__.
 
    ![Installation Wizard](images/9.png)
 
    >**Note:** Home Realm is the user account used to sign in to the AuthAnvil On-Demand portalhttps://yourcompany.my.authanvil.com.
 
-1. Complete the install steps and click __Finish__ when complete.
+1. Complete the install steps with the Wizard and click __Finish__ when complete.
 
    ![Finish](images/10.png)
 
@@ -49,10 +50,11 @@ This example shows you how to add a single new user with AuthAnvil’s interacti
 1. Click the __ellipsis__ next to the new user. The Account Information window appears.
 
    ![Account Information](images/13.png)
-1. Click __Edit__. The Edit Details pane appears.
+1. Click __Edit__.
 
    ![Edit](images/14.png)
-1. Click the __Account Status__ dropdown menu and change the status to __Active__ and click __Save Changes__.
+1. Click the __Account Status__ dropdown menu and change the status to __Active__.
+1. Click __Save Changes__.
 1. Next to Password Last Changed, click __Reset__ to reset the user password.
 
    ![Reset](images/15.png)
