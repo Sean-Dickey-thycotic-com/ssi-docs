@@ -5,7 +5,7 @@
 
 Please see the steps below to properly configure Rapid7 with Secret Server:
 
-   * [Configure the Environment]()
-   * [Configure the Ruby Interpreter]()
-   * [Configure and run the Script]()
-   * [Automate]()
+   * [Configure the Environment](configure-the-envir.md).
+   * [Configure the Ruby Interpreter](configure-ruby-interpreter.md).
+   * [Configure and run the Script](configure-the-script.md).
+   * [Automate](automate.md).
