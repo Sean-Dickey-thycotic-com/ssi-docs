@@ -7,4 +7,4 @@
 
 * The integration currently utilizes only SOAP API calls.
 
-* The integration will not work with our Secret Server Cloud offering due to rate limit issues observed which can potentially affect the performance of multiple tenants.
+* The integration will not work with Thycotic Secret Server Cloud due to rate limit issues observed which can potentially affect the performance of multiple tenants.
