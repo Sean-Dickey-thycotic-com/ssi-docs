@@ -5,5 +5,5 @@
 
 Please see the steps below to properly configure SafeNet Luna with Secret Server:
 
-   * [Configure SafeNet Luna HSM](configure-safenet.md)
-   * [Integrate Secret Server with a SafeNet HSM](integrate-ss-safenet.md)
+   * [Configure SafeNet Luna HSM](configure-safenet.md).
+   * [Integrate Secret Server with a SafeNet HSM](integrate-ss-safenet.md).

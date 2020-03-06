@@ -14,40 +14,19 @@ Before you get started, ensure the following:
     assign the client to the partition to create an NTLS connection. Initialize
     Crypto Officer and Crypto User roles for the registered partition.
 
--   Ensure that the partition is successfully registered and configured. The
-    command to see the registered partition is:
+-   Ensure that the partition is successfully registered and configured. The command to see the registered partition is:
 
-lunacm.exe (64-bit) v7.3.0-165. Copyright (c) 2018 SafeNet. All rights reserved.
+   ![partition](images/1.png)
 
->   Available HSMs:
-
->   Slot Id -\> 0
-
->   Label -\> Thycotic
-
->   Serial Number -\> 1280780175917
-
->   Model -\> LunaSA 7.3.0 Firmware Version -\> 7.3.0
-
->   Configuration -\> Luna User Partition With SO (PW) Key Export With Cloning
->   Mode Slot Description -\> Net Token Slot
-
->   Current Slot Id: 0
-
-**Note**: Follow the steps mentioned in *SafeNet Network Luna HSM documentation*
-for creating NTLS connection, initializing the partition, and various user
-roles.
+   >**Note**: Follow the steps mentioned in *SafeNet Network Luna HSM documentation* for creating NTLS connection, initializing the partition, and various user roles.
 
 Using SafeNet HSM in FIPS Mode
 ------------------------------
 
-Under FIPS 186-3/4, the RSA methods permitted for generating keys are 186-3 with
-primes and 186-3 with aux primes. This means that RSA PKCS and X9.31 key
-generation is no longer approved for operation in a FIPS- compliant HSM. If you
-are using the SafeNet HSM in FIPS mode, you must make the following change to
-the configuration file:
+Under FIPS 186-3/4, the RSA methods permitted for generating keys are 186-3 with primes and 186-3 with aux primes. This means that RSA PKCS and X9.31 key generation is no longer approved for operation in a FIPS- compliant HSM. If you
+are using the SafeNet HSM in FIPS mode, you must make the following change to the configuration file:
 
->   [Misc] RSAKeyGenMechRemap = 1;
+   ![partition](images/2.png)
 
 This setting redirects the older calling mechanism to a new approved mechanism
 when SafeNet HSM is in FIPS mode.

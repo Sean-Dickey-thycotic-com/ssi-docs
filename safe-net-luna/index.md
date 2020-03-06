@@ -1,4 +1,4 @@
-[title]: # (SafeNet Luna HSM)
+[title]: # (SafeNet Luna)
 [tags]: # (introduction)
 [priority]: # (1)
 # Introduction
@@ -17,14 +17,14 @@ the encryption key is protected by the HSM.
 
 The benefits of integrating Thycotic Secret Server with a SafeNet HSM include:
 
--   Secure generation, storage, and protection of the encryption keys on FIPS
-    140-2 level 3 validated hardware. \*
+   * Secure generation, storage, and protection of the encryption keys on FIPS
+    140-2 level 3 validated hardware.
 
--   Full life cycle management of the keys.
+   * Full life cycle management of the keys.
 
--   Access to the HSM audit trail. \*\*
+   * Access to the HSM audit trail.
 
--   Take advantage of cloud services with confidence.
+   * Take advantage of cloud services with confidence.
 
 FIPS validation in progress for HSMoD services.
 
