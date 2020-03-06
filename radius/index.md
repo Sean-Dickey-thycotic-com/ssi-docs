@@ -3,6 +3,8 @@
 [priority]: # (1)
 # Introduction
 
+The integration between Thycotic Secret Server and Radius is created and maintained by Radius. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from the vendor and testing performed by Thycotic.
+
 ## Thycotic
 
 Thycotic IT security and password management solutions empower companies to remove the complexities of proper access control and management of privileged accounts. An Inc. 5000 company, Thycotic is trusted by more than 3,000 organizations worldwide—including Fortune 500 members, enterprises, government agencies, technology firms, universities, non-profits, and managed service providers. To learn more, please visit thycotic.com.

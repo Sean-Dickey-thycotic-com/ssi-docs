@@ -3,6 +3,8 @@
 [priority]: # (1)
 # Introduction
 
+The integration between Thycotic Secret Server and Qualys is created and maintained by Qualys. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from the vendor and testing performed by Thycotic.
+
 ## Using Secret Server as a Credential Vault for Authenticated Scans
 
 Secret Server is an on-premise, web-based password vault used to help organizations properly manage privileged account
