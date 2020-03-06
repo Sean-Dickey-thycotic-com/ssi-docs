@@ -3,6 +3,10 @@
 [priority]: # (1)
 # Tenable Integration with Secret Server
 
+The integration between Thycotic Secret Server and tenable.sc or tenable.io is created and maintained by Tenable. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from Tenable and testing performed by Thycotic. This document applies to the integration Tenable.sc. The integration with Tenable’s cloud solution, Tenable.io is not supported.
+
+Other content provided in this document is to assist customers with further understanding the technical requirements needed to configure the integration and address scalability and performance concerns that may be encountered when utilizing the integration.
+
 ## Tenable
 With Tenable.sc (formerly SecurityCenter) you get a real-time, continuous assessment of your security posture so you can find and fix vulnerabilities faster. Built on Nessus technology, Tenable.sc discovers unknown assets and vulnerabilities, and monitors unexpected network changes before they turn into breaches.
 

@@ -3,6 +3,14 @@
 [priority]: # (1)
 # Integration Requirements
 
+## This document was created with versions:
+
+   * Tenable.sc – 5.12 Build 201910023656 running on CentOS 7
+
+   * Nessus – 8.8.0 running on CentOS 7
+
+   * Secret Server 10.7.000059 On-Premise installation (Tenable.sc)
+
 ## System Requirements
 |   |   |   |
 | ----- | ----- | ----- |
