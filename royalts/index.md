@@ -3,7 +3,7 @@
 [priority]: # (1)
 # Introduction
 
-This document discusses integrating Royal TS with Thycotic Secret Server:
+The integration between Thycotic Secret Server and Royal TS is created and maintained by Royal TS. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from the vendor and testing performed by Thycotic.
 
 ### Thycotic 
 

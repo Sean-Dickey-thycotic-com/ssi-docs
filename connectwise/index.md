@@ -3,6 +3,8 @@
 [priority]: # (1)
 # ConnectWise Integration
 
+The integration between Thycotic Secret Server and ConnectWise is created and maintained by ConnectWise. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from the vendor and testing performed by Thycotic.
+
 ## Managing Customer Privileged Accounts
 
 Integrating the Secret Server folder structure with ConnectWise company
