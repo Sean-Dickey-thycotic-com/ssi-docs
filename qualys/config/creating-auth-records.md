@@ -3,31 +3,48 @@
 [priority]: # (102)
 # Creating Authentication Records
 
-Once the authentication vault has been configured, individual authentication credentials can be configured to retrieve their passwords from Secret Server.
+>   Once the authentication vault has been configured, individual authentication
+>   credentials can be configured to retrieve their passwords from Secret
+>   Server.
 
-1. To create an Authentication Record (Windows, Unix, Oracle, Oracle Listener, MS SQL Server, and IBM DB2 authentication vault integration is supported by Qualys today), select the __record type__ from the menu in the __Authentication__ tab.
+#### Authentication \> New \> record type.
 
-1. The Authentication Vault configuration requires three additional details to retrieve the password:
+>   Authentication vault configuration requires three additional details to
+>   retrieve the password:
 
-   * __Vault Type:__ This should be set to Thycotic Secret Server
+-   **Vault Type**: Set to Thycotic Secret Server.
 
-   * __Vault Title:__ This is the name of the previously created Authentication Vault
-record in Qualys.
+-   **Vault Title**: The previously created Authentication Vault record in
+    Qualys.
 
-   * __Secret Name:__ This is the Secret record in Secret Server that contains the password of the account. In this case, Secret Name for the Windows Account is Qualystest.
+-   **Secret Name**: The Secret record in Secret Server containing the accounts
+    password. In this case, the Secret name for the Windows account is
+    Qualystest.
 
-   ![Authentication Vault](images/04406781d2766cb12e6cd80295ddf720.png)
+![](images/4b02782601a1f983f28f95fff25d5b9b.png)
 
-   >**Note:** The Secret Name must match exactly the corresponding Secret Name in Secret Server.
+1.  Navigate to **Scan** \> **Authentication**.
 
-   ![Secret Name](images/5dba153bfbc183db8d3f1c76509bdc1f.png)
+2.  Click on **New** dropdown and select **Windows Record**.
 
-   ![Secret Name](images/ebba909256bbf9f102202f48d64b4b04.png)
+![](images/62fa5c45468de445ae51c064542ee7cf.png)
 
-   >**Note:** Ensure that the Secret Name exactly matches the name specified in Qualys. In addition to creating a Secret with the correct password for the credential used for authenticated scanning, the Qualys user account must be granted at least View access to the Secret. Click __Share__ to view the permissions on the Secret.
+>   **Note**: The Secret name must match the corresponding Secret name in Secret
+>   Server.
 
-In this case the Secret inherits permissions from the folder settings, which is generally a best practice.
+![](images/d593ed0bee4d546c2960a59c4a274275.png)
 
-You can view the folder level permissions by editing the folder the Secret is in.
+>   In addition to creating a Secret with the correct password for the
+>   credentials used for authenticated scanning, the Qualys user account must be
+>   granted at least View access to the Secret.
 
-Once the Secret is configured with the proper permission, Qualys can use it in scans. Run a scan that uses that authentication record to verify that everything is working end-to-end.
+1.  Click **Share** to view the permissions on the Secret.
+
+![](images/4b02782601a1f983f28f95fff25d5b9b.png)
+
+>   A Secret inherits permissions from the folder settings. View the folder
+>   level permissions by editing the folder in which the Secret is stored.
+
+>   Once the Secret is configured with the proper permission, Qualys can use it
+>   in scans. Run a scan that uses that authentication record to verify that
+>   everything is working end-to-end.
