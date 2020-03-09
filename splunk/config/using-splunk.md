@@ -5,8 +5,8 @@
 
 ## Overview
 
-You can easily correlate SS syslog data using Splunk’s field-extraction
-capabilities. SS’s detailed Syslog currently contains 44 different events,
+You can easily correlate Secret Server syslog data using Splunk’s field-extraction
+capabilities. Secret Server’s detailed Syslog currently contains 44 different events,
 tracking more than 20 unique data fields.
 
 ## Example: Tracking Frequent Use
@@ -16,11 +16,11 @@ that have a space in the reported data, a user’s full name in this case. By
 default, Splunk identifies SS users by their User ID, as stored in the database,
 which is represented as their user number.
 
-   ![](images/12.jpg)
+   ![full_suser](images/12.jpg)
 
 You could create a count-based table using the `full_suser` field extraction.
 Put the following term into the search field in Splunk where `<instance>` is the
-SS syslog-specific data:
+Secret Server syslog-specific data:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 source="<instance>" "SECRET - VIEW" stats count by suid,full_suser | table suid full_suser count | search count > 2
@@ -28,8 +28,8 @@ source="<instance>" "SECRET - VIEW" stats count by suid,full_suser | table suid 
 
 ### Secret Server Reported Events
 
-The following table is a complete list of events in SS’s syslog. Both `Event
-Name` and `Event ID` are contained in the log, as well as the data fields that
+The following table is a complete list of events in Secret Server’s syslog. Both `Event
+Name` and  `Event ID` are contained in the log, as well as the data fields that
 apply to the event.
 
 #### Secret Server Data Fields
