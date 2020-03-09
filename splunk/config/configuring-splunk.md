@@ -5,11 +5,11 @@
 
 1. Go to Splunk at https://login.splunk.com.
 
-1. Click the user icon at the top right and select **Sign Up**.
+1. Click the user icon at the top right and select __Sign Up__.
 
-1. Complete the **Create Your Splunk Account** page.
+1. Complete the __Create Your Splunk Account__ page.
 
-1. Click the **Create Your Account** button.
+1. Click the __Create Your Account__ button.
 
 1. Download the [Splunk Enterprise
     setup](https://www.splunk.com/en_us/download/splunk-enterprise.html).
@@ -21,34 +21,33 @@
 
    >**Note:** The first time you log in, use the default username "admin" and the password you set during installation. You can then change the password and log in again with your new password.
 
-1. On the Splunk console home page, click the **Add Data** button. The Add Data
+1. On the Splunk console home page, click the __Add Data__ button. The Add Data
     page appears:
 
-   ![](images/4.jpg)
-1. Click the **Monitor** button at the bottom of the page. The unlabeled Select
+   ![Add Data](images/4.jpg)
+1. Click the __Monitor__ button at the bottom of the page. The unlabeled Select
     Source page appears:
 
-   ![](images/5.jpg)
-1. Click the **TCP/UDP** menu item on the left. Data entry controls appear:
+   ![Monitor](images/5.jpg)
+1. Click the __TCP/UDP__ menu item on the left. Data entry controls appear:
 
-   ![](images/6.jpg)
-1.  Click the **TCP** button.
+   ![TCP/UDP](images/6.jpg)
+1. Click the __TCP__ button.
 
-1. Type `200` in the **Port** text box. This port must match the port
+1. Type `200` in the __Port__ text box. This port must match the port
     configured in SS for the syslog.
 
-1. Type the IP address of your SS machine in the **Only accept connection
-    from** text box.
+1. Type the IP address of your SS machine in the __Only accept connection
+    from__ text box.
 
-1. Click the **Next \>** button. The Input Settings page appears:
+1. Click the __Next__ button. The Input Settings page appears:
 
-   ![](images/7.jpg)
-1. Click the **Select Source Type** dropdown list and select **Operating System
-    \> syslog**.
+   ![Next](images/7.jpg)
+1. Click the __Select Source Type__ dropdown list and select __Operating System | syslog__.
 
-1. Click the **Review \>** button. A review listing appears:
+1. Click the __Review__ button. A review listing appears:
 
-   ![](images/8.jpg)
-1. Confirm the settings you chose.
+   ![Review](images/8.jpg)
+1. Confirm the settings.
 
-1. Click the **Submit** button.
+1. Click the __Submit__ button.
