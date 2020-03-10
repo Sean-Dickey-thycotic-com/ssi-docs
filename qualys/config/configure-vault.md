@@ -3,9 +3,9 @@
 [priority]: # (101)
 # Configure the Vault
 
-   >**Note:** To use Secret Server, an administrator must configure it as a Vault within Qualys by specifying a URL and credentials to access the on-premises Secret Server instance.
+To use Secret Server, an administrator must configure it as a Vault within Qualys by specifying a URL and credentials to access the on-premises Secret Server instance.
    
-   >**Note:** Instead of adding username/password credentials for use in trusted scans, the administrator can point to named records stored in Secret Server. Qualys will retrieve the credentials from Secret Server at scan time for trusted scans.
+Instead of adding username/password credentials for use in trusted scans, the administrator can point to named records stored in Secret Server. Qualys will retrieve the credentials from Secret Server at scan time for trusted scans.
 
 ## Add New Authentication Vault in Qualys
 
@@ -19,10 +19,7 @@
 
 1. Enter the following __access information__ for your Secret Server site:
 
-    -   __URL__: This is the URL for Secret Server web services. Ensure web
-        services are enabled in your Secret Server instance by clicking
-        __Configuration__ from the Administration menu and enabling web
-        services.
+   * __URL__: This is the URL for Secret Server web services. Ensure web services are enabled in your Secret Server instance by clicking __Configuration__ from the Administration menu and enabling web services.
 
    * Add /sswebservices/sswebservice.asmx to your Secret Server URL to obtain the URL for the web services:
    >   [https://yoursecretserver/sswebservices/sswebservice.asmx.](https://yoursecretserver/sswebservices/sswebservice.asmx)

@@ -7,16 +7,16 @@ Once the authentication vault has been configured, individual authentication cre
 
 1. __Authentication | New | record type__.
 
-Authentication vault configuration requires three additional details to retrieve the password:
-* __Vault Type__: Set to Thycotic Secret Server.
-* __Vault Title__: The previously created Authentication Vault record in
-    Qualys.
-* __Secret Name__: The Secret record in Secret Server containing the accounts password. In this case, the Secret name for the Windows account is Qualystest.
+   Authentication vault configuration requires three additional details to retrieve the password:
+
+   * __Vault Type__: Set to Thycotic Secret Server.
+   * __Vault Title__: The previously created Authentication Vault record in Qualys.
+   * __Secret Name__: The Secret record in Secret Server containing the accounts password. In this case, the Secret name for the Windows account is Qualystest.
 
    ![record type](images/4b02782601a1f983f28f95fff25d5b9b.png)
-2. Navigate to __Scan__ \> __Authentication__.
+1. Navigate to __Scan__ \> __Authentication__.
 
-3. Click on __New__ dropdown and select __Windows Record__.
+1. Click on __New__ dropdown and select __Windows Record__.
 
    ![Windows Record](images/62fa5c45468de445ae51c064542ee7cf.png)
 
@@ -24,10 +24,9 @@ Authentication vault configuration requires three additional details to retrieve
 
    ![Windows Authentication](images/d593ed0bee4d546c2960a59c4a274275.png)
 
-In addition to creating a Secret with the correct password for the
-credentials used for authenticated scanning, the Qualys user account must be granted at least View access to the Secret.
+   >**Note:** The __UserName__ in the above screenshot should be the same as the Secret's username. In addition to creating a Secret with the correct password for the credentials used for authenticated scanning, the Application account (set in the previous steps for Configuring the Vault, under step 4) must have at least a View access to the Secret.
 
-4. Click __Share__ to view the permissions on the Secret.
+1. Click __Share__ to view the permissions on the Secret.
 
    ![Share](images/4b02782601a1f983f28f95fff25d5b9b.png)
 
