@@ -3,7 +3,7 @@
 [priority]: # (1)
 # Introduction
 
-__Summary__
+## Summary
 
 Splunk Enterprise software that enables you to search, analyze, and visualize
 the data gathered by your IT infrastructure, in this case, Secret Server (SS).
@@ -13,7 +13,7 @@ on-premises SS.
 After defining the data source, Splunk Enterprise indexes the data stream and
 parses it into a series of individual events that can be viewed and searched.
 
-__Integration Scope__
+## Integration Scope
 
 SS event data with Splunk SIEM solutions can give organizations deep insight
 into privileged account usage (such as Windows local administrator, service or
@@ -22,7 +22,7 @@ together, these tools provide secure access to privileged accounts and provide
 greater visibility to meet compliance mandates and detect internal network
 threats.
 
-__Conclusion__
+## Conclusion
 
 Organizations that need to meet strict compliance requirements can implement
 privileged account management and real-time event analysis using SS and Splunk.
