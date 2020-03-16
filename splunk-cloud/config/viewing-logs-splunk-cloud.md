@@ -7,89 +7,73 @@ To view logs in the Splunk cloud, you must first clear the Secret Server
 Application Pool and then add data. After adding data, you must search for the
 logs using a query.
 
-**To clear and add data:**
+## To clear and add data
 
-1.  Type IIS in the **Search** box. The **Internet Information Services (IIS)
-    Manager app** is populated.
+1. Type IIS in the __Search__ box. The __Internet Information Services (IIS)
+    Manager app__ is populated.
 
-    ![](media/d6e83bea620e0eeda623e49f4a9cb570.png)
+    ![Search](images/d6e83bea620e0eeda623e49f4a9cb570.png)
+1. Click the __Internet Information Services (IIS) Manager__ app. The
+    __Internet Information Services (IIS) Manager__ dialog box appears.
 
-2.  Click the **Internet Information Services (IIS) Manager** app. The
-    **Internet Information Services (IIS) Manager** dialog box appears.
+1. Go to __Connections | Application Pools | Secret Server__.
 
-3.  Go to **Connections** \> **Application Pools** \> **SecretServer**.
+   ![Secret Server](images/c783635423dfd1fa2d406900ddafdd9a.png)
+1. Right-click __SecretServer__ and click __Recycle__.
 
-    ![](media/c783635423dfd1fa2d406900ddafdd9a.png)
+1. .  Go to __Splunk Cloud Instance | Settings | Add Data__ |
+    __Forward__. The __Select Forwarders__ page appears.
 
-4.  Right-click **SecretServer** and click **Recycle**.
-
-5.  Go to **Splunk Cloud Instance** \> **Settings** \> **Add Data** \>
-    **Forward**. The **Select Forwarders** page appears.
-
-    ![](media/055ff81572522f34b6c990784d7e250c.png)
-
-    In the **Available host(s)** text box, the computer on which the Universal
+   ![Select Forwarders](images/055ff81572522f34b6c990784d7e250c.png)
+1. In the __Available host(s)__ text box, the computer on which the Universal
     Forwarder instance is installed is displayed.
 
-6.  Click **Existing** \> **Select** \> Select the name of the Server Class.
+1. Click __Existing | Select | Select the name of the Server Class__.
 
-    ![](media/55baf8e76744d83bcb7765bb2e166d84.png)
+   ![Select the name of the Server Class](images/55baf8e76744d83bcb7765bb2e166d84.png)
 
-**Note:** To select a new server class, click **New** and add a new **Server
-Class**.
+   >**Note:** To select a new server class, click __New__ and add a new __Server Class__.
 
 The Universal Forwarder is selected. This Universal Forwarder sends data to the
 Splunk platform.
 
-![](media/498d2d65b08202cda8ff8167480b17ed.png)
+   ![Server Clas](images/498d2d65b08202cda8ff8167480b17ed.png)
 
-1.  Click **Next**. The **Select Source** page appears.
+1. Click __Next__. The __Select Source__ page appears.
 
-    ![](media/ff3d0797955376af5f4d913ca1e6a8c0.png)
+   ![Select Source](images/ff3d0797955376af5f4d913ca1e6a8c0.png)
+1. On the left-hand side, click __Files & Directories__.
 
-2.  On the left-hand side, click **Files & Directories**.
-
-    ![](media/78cdef85e7708c5637cd615f0e0102d9.png)
-
-3.  In the **File or Directory** text box, type the path of the syslog file that
+   ![Files & Directories](images/78cdef85e7708c5637cd615f0e0102d9.png)
+1. In the __File or Directory__ text box, type the path of the syslog file that
     is created in [Step 1](#Adding_Keys_Step_01).
+1. Click __Next__. The __Input Settings__ page appears.
 
-4.  Click **Next**. The **Input Settings** page appears.
+    ![Input Settings](images/9dbb756481acd86fb1552df93a6563fb.png)
+1. Click __Source type__ as __Automatic__
 
-    ![](media/9dbb756481acd86fb1552df93a6563fb.png)
+1. In the __Index__ list, select __Default__.
 
-5.  Click **Source type** as **Automatic**
+1. Click __Review__. The __Review__ page appears.
 
-6.  In the **Index** list, select **Default**.
+    ![Review](images/08bcb075a354334bcc4636e6fb8947c4.png)
+1. In the __Review__ page, review the information.
+1. Click __Submit__. The message “__File input has been created successfully.__” appears.
 
-7.  Click **Review**. The **Review** page appears.
+    ![Submit](images/d897c291e77fccd6624a5b8bf539273e.png)
+1. Click __Start Searching__. The __New Search__ page appears.
 
-    ![](media/08bcb075a354334bcc4636e6fb8947c4.png)
+    ![New Search](images/a7c27070481fc09f6584e7ac269bb9cb.png)
+1. In the __New Search__ text box, type the query and click Search icon.
 
-8.  In the **Review** page, review the information.
+    ![New Search](images/cf99b0eb8675e6b3ea7360d29a29c5b7.png)
 
-9.  Click **Submit**. The message “**File input has been created
-    successfully.**” appears.
+   >**Note:** For more information on search, see the following link: <https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Search>
 
-    ![](media/d897c291e77fccd6624a5b8bf539273e.png)
+   ![More information](images/2b70387416120596cf60c831e23cf322.png)
 
-10. Click **Start Searching**. The **New Search** page appears.
+   The Syslogs from the secret server appears along with the details.
 
-    ![](media/a7c27070481fc09f6584e7ac269bb9cb.png)
+   ![Syslogs](images/3bc5bdad55fb411b56ece9b03ad0ff1a.png)
 
-11. In the **New Search** text box, type the query and click Search
-
-    ![](media/cf99b0eb8675e6b3ea7360d29a29c5b7.png)
-
-    icon.
-
->   *Note: For more information on search, see the following link:*
->   <https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Search>
-
-![](media/2b70387416120596cf60c831e23cf322.png)
-
-The Syslogs from the secret server appears along with the details.
-
-![](media/3bc5bdad55fb411b56ece9b03ad0ff1a.png)
-
-The logs can be successfully viewed in the Splunk Cloud.
+   The logs can be successfully viewed in the Splunk Cloud.

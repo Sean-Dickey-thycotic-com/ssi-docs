@@ -11,19 +11,18 @@ instance.
 
 **To register with Splunk:**
 
-1.  In the browser, type the following URL: <https://www.splunk.com> and press
+1. In the browser, type the following URL: <https://www.splunk.com> and press
     **Enter**. The Splunk website appears.
 
-    ![](images/62691547cfb8c0faef339a264cd1fec8.png)
+    ![Splunk website](images/62691547cfb8c0faef339a264cd1fec8.png)
 
-2.  On the upper-right, click **Free Splunk**. The **Get Started With Splunk**
+1. On the upper-right, click **Free Splunk**. The **Get Started With Splunk**
     webpage appears.
 
-    ![](images/7b30233c714c5839860f620f61b21272.png)
+    ![*Free Splunk](images/7b30233c714c5839860f620f61b21272.png)
+1. Fill the form. An email is sent to the registered **Email Address**.
 
-    Fill the form. An email is sent to the registered **Email Address**.
-
-3.  From the email, copy the **Your Splunk Cloud URL** and paste it in a
+1. From the email, copy the **Your Splunk Cloud URL** and paste it in a
     browser. Press **Enter.** The Splunk website appears.
 
-    ![](images/897de8c06289a769972c0dbb6c777309.png)
+    ![Splunk Cloud URL](images/897de8c06289a769972c0dbb6c777309.png)
