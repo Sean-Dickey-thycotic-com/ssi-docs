@@ -15,16 +15,14 @@ The following are the overall steps to integrate Splunk Cloud with Secret Server
 
 ## Publishing and Packaging Splunk App
 
-This Splunk app is a quick way to get analysis, reports, health checks, and
-usage of your on-premises Secret Server instance.
-
-The App is created on the enterprise edition of Splunk so that it can be
+The Splunk app is a quick way to get analysis, reports, health checks, and
+usage of your on-premises Secret Server instance. The App is created on the enterprise edition of Splunk so that it can be
 packaged and published on the Splunkbase.
 
 ## Publishing and Packaging Splunk App to Splunkbase
 
 To create a Splunk App, ensure that the prerequisites are met. This section
-provides the steps to create an app, create dashboard, and package the app.
+provides the steps to create an app, dashboard, and package the app.
 
 The following are the steps to be performed:
 
