@@ -6,59 +6,52 @@
 ## Configure OpenID Connect Provider
 The next step is to configure the OpenID Connect Provider. 
 
-**To configure OpenID Connect Provider:**
+__To configure OpenID Connect Provider:__
 
-1. Type the `IP address` along with the port number (For example: 10.60.25.21:9443) in the browser and press **Enter**.
+1. Type the `IP address` along with the port number (For example: 10.60.25.21:9443) in the browser and press __Enter__.
 
-    >**Note**: The default port number is 9443.
+   >**Note:** The default port number is 9443.
 
-     ![accessibmigione](images/accessibmigione.png)
+   ![accessibmigione](images/accessibmigione.png)
 
-2.  Click **Advanced** and click **Proceed to `IP Address` (unsafe)**.
+1. Click __Advanced__ and click __Proceed to `IP Address` (unsafe)__.
 
-     ![accessibmigitwo](images/accessibmigitwo.png)
+   ![accessibmigitwo](images/accessibmigitwo.png)
 
-     The **IBM IGI Login** page appears.
+1. The __IBM IGI Login__ page appears.
+
       ![ibmlogintwo](images/ibmlogintwo.png)
- 
-3.	Fill in the required information, such as the user name, password, and click **Log In**. The IBM IGI user interface appears. 
+1. Fill in the required information, such as the user name, password, and click __Log In__. The IBM IGI user interface appears.
      >**Note:** The default value for user name and password is `admin`.
 
-4.	Click **Configure** > **Manage Server Setting** > **OpenID Connect Provider Configuration**. The **Connect Provider Configuration** page appears.
+1. Click __Configure__ > __Manage Server Setting__ > __OpenID Connect Provider Configuration__. The __Connect Provider Configuration__ page appears.
 
-     ![openidconnectprovider](images/openidconnectprovider.png)
+   ![openidconnectprovider](images/openidconnectprovider.png)
+1. Click __Disable__.
 
-5.	Click **Disable**. 
+   ![openidconnectproviderstatus](images/openidconnectproviderstatus.png)
+1. A message, '__Are you sure you want to disable OpenID Connect Authentication configuration?__' appears.
 
-     ![openidconnectproviderstatus](images/openidconnectproviderstatus.png)
+   ![openidconnectprovidermessage](images/openidconnectprovidermessage.png)
+1. Click __Yes__. The status of the configuration appears.
 
-     A message, '**Are you sure you want to disable OpenID Connect Authentication configuration?**' appears.
+   ![openidconnectprovidersystemnotification](images/openidconnectprovidersystemnotification.png)
 
-     ![openidconnectprovidermessage](images/openidconnectprovidermessage.png)
+   >**Note:** In the IBM IGI UI, the notifications are listed in the __Notifications__ section.
 
-6.	Click **Yes**. The status of the configuration appears.
+   ![restartibmigiserver](images/restartibmigiserver.png)
+1. In the __Server Control__ section, select the server and click __Restart__.
 
-     ![openidconnectprovidersystemnotification](images/openidconnectprovidersystemnotification.png)
+   ![restartibmigilocalmgmtinterface](images/restartibmigilocalmgmtinterface.png)
+1. Go to the __IBM IGI Virtual Appliance__.
 
-    > **Note**: In the IBM IGI UI, the notifications are listed in the **Notifications** section.
+   ![Virtualappliancereboot](images/Virtualappliancereboot.png)
+1. In the Virtual Appliance, type `reboot` and press __Enter__.
+1. To confirm, type `YES` and press __Enter__. The __IBM IGI login__ dialog box appears.
 
-     ![restartibmigiserver](images/restartibmigiserver.png)
+   ![ibmigilogin](images/ibmigilogin.png)
+1. Fill in the required information, such as the user name, password, and click __Log In__. The IBM IGI user interface appears.
 
-7. In the **Server Control** section, select the server and click **Restart**.
+   ![ibmigiuserinterface](images/ibmigiuserinterface.png)
 
-     ![restartibmigilocalmgmtinterface](images/restartibmigilocalmgmtinterface.png)
-
-8. Go to the **IBM IGI Virtual Appliance**.
-
-     ![Virtualappliancereboot](images/Virtualappliancereboot.png)
-9. In the Virtual Appliance, type `reboot` and press **Enter**.
-
-10.	To confirm, type `YES` and press **Enter**. The **IBM IGI login** dialog box appears.
-
-     ![ibmigilogin](images/ibmigilogin.png)    
-
-11. Fill in the required information, such as the user name, password, and click **Log In**. The IBM IGI user interface appears. 
-
-     ![ibmigiuserinterface](images/ibmigiuserinterface.png)
-
-The Virtual Appliance for IBM IGI is configured and setup. Now, the next step is to install [Security Directory Integrator 7.2](\steps\steptwoinstallingsdi7.2.md).
+The Virtual Appliance for IBM IGI is configured and setup. Now, the next step is to install [Security Directory Integrator 7.2](installing-security-directory-integrator-2.md).

@@ -3,76 +3,62 @@
 [priority]: # (105)
 # Step Two: Installing Security Directory Integrator 7.2
 
-You can install Security Directory Integrator 7.2. using the **Security Directory Integrator** wizard. IBM IGI uses Security Directory Integrator to communicate with various managed resources. 
+You can install Security Directory Integrator 7.2. using the __Security Directory Integrator__ wizard. IBM IGI uses Security Directory Integrator to communicate with various managed resources.
 
-**To install Security Directory Integrator 7.2:**
-1.	Go to the Security Directory Integrator 7.2 folder that you have downloaded from the IBM website.
-2.	Double-click the `windows_x86_64` folder.
+__To install Security Directory Integrator 7.2:__
 
-     ![installsdifile](images/installsdifile.png)
+1. Go to the Security Directory Integrator 7.2 folder that you have downloaded from the IBM website.
 
-3.	Right-click the `install_sdiv72_win_x86_64` file and click `Run as administrator`. The **User Account Control** dialog box appears.
-4.	Click **Yes** to run the setup. The **Security Directory Integrator wizard** appears.
- 
-     ![securitydirectorintegratorwizard](images/securitydirectorintegratorwizard.png)
+1. Double-click the `windows_x86_64` folder.
 
-5.	Click **OK**. The **Introduction** panel appears.
+   ![installsdifile](images/installsdifile.png)
+1. `Run as administrator`. The __User Account Control__ dialog box appears.
+1. Click __Yes__ to run the setup. The __Security Directory Integrator wizard__ appears.
 
-     ![introductionpanel](images/introductionpanel.png)
+   ![securitydirectorintegratorwizard](images/securitydirectorintegratorwizard.png)
+1. Click __OK__. The __Introduction__ panel appears.
 
-6.	 Click **Next**. The **Previous Installations** panel appears.
+   ![introductionpanel](images/introductionpanel.png)
+1. Click __Next__. The __Previous Installations__ panel appears.
 
-     ![previousinstallations](images/previousinstallations.png)
- 
-7.	 Click **Next**. The **Software License Agreement** panel appears.
+   ![previousinstallations](images/previousinstallations.png)
+1. Click __Next__. The __Software License Agreement__ panel appears.
 
-     ![softwarelicenseagreement](images/softwarelicenseagreement.png)
+   ![softwarelicenseagreement](images/softwarelicenseagreement.png)
+1. Select __I accept the terms in the license agreement__ and click __Next__.
 
-8.	 Select **I accept the terms in the license agreement** and click **Next**.
+   ![chooseinstallfolder](images/chooseinstallfolder.png)
+1. In the __Choose Install Folder__, the folder where Security Directory Integrator 7.2 is installed appears. Click __Choose__ to change the folder where you want to install Security Directory Integrator 7.2.
+1. After installing Security Directory Integrator 7.2, in the __Choose Install Folder__, click __Next__. The __Choose Install Set__ panel appears.
 
-     ![chooseinstallfolder](images/chooseinstallfolder.png)
+   ![chooseinstallset](images/chooseinstallset.png)
+1. Select __Typical__ and click __Next__. The __Solutions Directory__ panel appears.
 
-9.	In the **Choose Install Folder**, the folder where Security Directory Integrator 7.2 is installed appears. Click **Choose** to change the folder where you want to install Security Directory Integrator 7.2.
-10.	After installing Security Directory Integrator 7.2, in the **Choose Install Folder**, click **Next**. The **Choose Install Set** panel appears.
+   ![solutionsdirectory](images/solutionsdirectory.png)
+1. Click __Next__. The __Server Ports Values__ panel appears.
 
-     ![chooseinstallset](images/chooseinstallset.png)
+   ![serverportvalues](images/serverportvalues.png)
+1. Click __Next__. The __Register Server as Service__ panel appears.
 
-11.	 Select **Typical** and click **Next**. The **Solutions Directory** panel appears.
+   ![registerserverasservice](images/registerserverasservice.png)
+1. Click __Next__. The __Integrated Solutions Console Port Values__ panel appears.
 
-     ![solutionsdirectory](images/solutionsdirectory.png)
+   ![integratedsolutionsconsoleportvalues](images/integratedsolutionsconsoleportvalues.png)
+1. Click __Next__. The __AMC Service__ panel appears.
 
-12.	 Click **Next**. The **Server Ports Values** panel appears.
+   ![amcservice](images/amcservice.png)
+1. Click __Next__. The __Pre-Installation Summary__ panel appears.
 
-     ![serverportvalues](images/serverportvalues.png)
+   ![preinstallationsummary](images/preinstallationsummary.png)
+1. Click __Install__. The __Install Complete__ panel appears.
 
-13.	 Click **Next**. The **Register Server as Service** panel appears.
+   ![installcomplete](images/installcomplete.png)
+1. Click __Done__. The Security Directory Integrator 7.2 is installed successfully. The __Workspace Launcher__ dialog box appears.
 
-     ![registerserverasservice](images/registerserverasservice.png)
-
-14.	 Click **Next**. The **Integrated Solutions Console Port Values** panel appears.
-
-     ![integratedsolutionsconsoleportvalues](images/integratedsolutionsconsoleportvalues.png)
-
-15.	 Click **Next**. The **AMC Service** panel appears.
-
-     ![amcservice](images/amcservice.png)
-
-16.	 Click **Next**. The **Pre-Installation Summary** panel appears.
-
-     ![preinstallationsummary](images/preinstallationsummary.png)
-
-17.	 Click **Install**. The **Install Complete** panel appears.
-
-     ![installcomplete](images/installcomplete.png)
-
-18.	 Click **Done**. The Security Directory Integrator 7.2 is installed successfully. The **Workspace Launcher** dialog box appears.
-
-     ![workspacelauncher](images/workspacelauncher.png)
-
-19.	 Click **Cancel**.
-20.	Go to `C:\Program Files\IBM\TDI\V7.2`. This is the **Security Directory Integrator 7.2** folder.
+   ![workspacelauncher](images/workspacelauncher.png)
+1. Click __Cancel__.
+1. Go to `C:\Program Files\IBM\TDI\V7.2`. This is the __Security Directory Integrator 7.2__ folder.
 
 The Security Directory Integrator 7.2 is installed successfully in the respective folder.
 
-The next step is to [install Tivoli dispatcher](steps\stepthreeinstalllingtivolidispatcher.md). 
-
+The next step is to [install Tivoli dispatcher](installing-tivoli-dispatcher-3.md).
