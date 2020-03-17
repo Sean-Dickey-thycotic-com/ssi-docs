@@ -1,23 +1,36 @@
 [title]: # (IBM IGI)
 [tags]: # (introduction)
 [priority]: # (1)
-
 # IBM IGI
 
-<!-- 
-The int-template folder contains the template structure and template files for integration documents.
+The integration between Thycotic Secret Server and IBM IGI is created and maintained by IBM. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from IBM and testing performed by Thycotic.
 
-1. Make a copy of the template folder at the root of the integration repo.
-1. Rename the folder to reflect the actual integration product name, e.g. okta-for-saml.md. Use lowercase and hyphens for the names.
-1. Each folder requires an index.md file.
-1. The metadata tag `[display]: # (none)` needs to be removed or changed to `[display]: # (all)` once real contents is created and ready for publication.
-1. Each contents section needs an images folder if screen captures are part of the markdown files. Refer to the Okta for SAML folder to see an example on where/when the images folder is required. We cannot stage a template structure with images folders in place, empty folders cannot be committed into a repo.
-1. This index file becomes the introduction/overview page for the integration.
-1. Some topics are optional at this point and should only be filled in if information is readily available:
+IBM Secret Server now integrates with IBM Identity Governance & Intelligence (IGI) to provide an enhanced privileged identity and access governance solution. IBM Secret Server securely
+stores privileged credentials and other sensitive
+information, known as secrets, and provides visibility
+into who has access to those secrets. IGI ensures
+that users’ access levels are compliant with
+regulations and prevents SoD violations.
 
-  * consider-architecture.md
-  * consider-implementation.md
-  * troubleshooting.md
+By integrating these two products, organizations can
+centrally manage and control all identities, including
+privileged identities and entitlements. Compliance
+use cases such as managing entitlements,
+certification, new user provisioning and application
+access permissions are now unified for both
+privileged and non-privileged users
 
-1. The priority metadata tag determines the order of the TOC outline. For the files in the template that order is established. If a new file is added, adjust priority numbers accordingly to have the new .md file at the correct place in the TOC. 
--->
+This integration unifies processes for privileged and
+non-privileged users. It ensures that privileged users
+are granted appropriate access permissions based
+on similar privileged users’ attributes (e.g. job role,
+department), and in accordance with the
+organization’s access policy. It reduces the attack
+surface and enhances regulatory compliance by
+limiting access privileges and deactivating orphan
+privileged accounts. It streamlines governance and
+compliance processes by generating reports and
+auditing all identities and access permissions
+directly from IGI.
+
+For further information please visit IBM's website for [Security Identity Governance & Intelligence (IGI)](https://www.ibm.com/us-en/marketplace/identity-governance-and-intelligence/resources)

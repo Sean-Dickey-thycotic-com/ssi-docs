@@ -1,6 +1,6 @@
 [title]: # (Installing Tivoli Dispatcher)
 [tags]: # (introduction)
-[priority]: # (103)
+[priority]: # (106)
 # Step Three: Installing Tivoli Dispatcher
 
 You must install the Tivoli Dispatcher using the **IBM Security Identity Adapter**   wizard. The Tivoli Dispatcher is a Security Directory Integrator component that enables the IGI to communicate with IBM Security Directory Integrator.
