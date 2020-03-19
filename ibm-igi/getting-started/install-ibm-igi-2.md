@@ -1,95 +1,78 @@
-[title]: # (Configuring and Setting Up Virtual Appliance)
+[title]: # (Install IBM IGI)
 [tags]: # (introduction)
 [priority]: # (101)
 # Install IBM IGI
 
-## Install IBM IGI
 This section provides the steps to install IBM IGI.
 
-**To install IBM IGI:**
-1.	Type the login credentials. The **IBM Security Identity Governance and Intelligence setup wizard** appears.
+__To install IBM IGI:__
+
+1. Type the login credentials. The __IBM Security Identity Governance and Intelligence setup wizard__ appears.
      >**Note:** The default value for login and password is `admin`.
 
      ![ibmigisetupwizardone](images/ibmigisetupwizardone.png)
 
-2.	Press **Enter** to continue. The **Software License Agreement** appears.
+1. Press __Enter__ to continue. The __Software License Agreement__ appears.
 
      ![softwarelicenceagreement](images/softwarelicenceagreement.png)
-
-3.	In the **Software License Agreement**, select the option **Proceed to acceptance**.
+1. In the __Software License Agreement__, select the option __Proceed to acceptance__.
 
      ![agreeterms](images/agreeterms.png)
-
-4.	Select the option **I agree** to suggest that you agree that you have had the opportunity to review the terms of both the IBM and non-IBM licenses presented and such terms govern this transaction.
+1. Select the option __I agree__ to suggest that you agree that you have had the opportunity to review the terms of both the IBM and non-IBM licenses presented and such terms govern this transaction.
 
      ![fipsmodeconfiguration](images/fipsmodeconfiguration.png)
-
-5.	Under **FIPS 140-2 Mode Configuration**, select the option **Next screen** . 
+1. Under __FIPS 140-2 Mode Configuration__, select the option __Next screen__.
 
      ![appliancepassword](images/appliancepassword.png)
-
-6.	Under **Appliance Password**, select the option **Change password** .
+1. Under __Appliance Password__, select the option __Change password__ .
 
      ![changeappliancepassword.](images/changeappliancepassword..png)
-
-7. Under **Change Password**, fill in the required information, such as old password, new password, and confirm new password. The ‘**Password successfully changed.**’ message appears.
+1. Under __Change Password__, fill in the required information, such as old password, new password, and confirm new password. The ‘__Password successfully changed.__’ message appears.
 
      ![appliancepasswordchangeconfirmation](images/appliancepasswordchangeconfirmation.png)
 
-8.	Under **Appliance Password**, select the option **Next screen**.
+1. Under __Appliance Password__, select the option __Next screen__.
 
      ![hostconfiguration](images/hostconfiguration.png)
-
-9.	Under **Host Name Configuration**, select the option **Change the host name**.
+1. Under __Host Name Configuration__, select the option __Change the host name__.
 
      ![changehostname](images/changehostname.png)
-
-10.	Under **Change the Host Name**, enter the FQDN host name. (For example: igi.thycotic.ibm.com )
+1. Under __Change the Host Name__, enter the FQDN host name. (For example: igi.thycotic.ibm.com )
 
      ![hostconfiguartionupdated](images/hostconfiguartionupdated.png)
-
-11.	Under **Host Name Configuration**, select the option **Next screen**.
+1. Under __Host Name Configuration__, select the option __Next screen__.
 
      ![managementinterfaceSettingone](images/managementinterfaceSettingone.png)
-
-12.	Under **Management Interface Settings**, select the option **Configure M.1**.
+1. Under __Management Interface Settings__, select the option __Configure M.1__.
 
      ![selectipv4configmode](images/selectipv4configmode.png)
-
-13.	Under **Configure M.1**, select the option **Manual**.
+1. Under __Configure M.1__, select the option __Manual__.
 
      ![enteripv4values](images/enteripv4values.png)
+1. Fill in the required information, such as type the IPV4 address, IPV4 subnet mask, IPV4 gateway, and then select __IPV6 configuration mode__ as __Automatic__.
 
-14.	Fill in the required information, such as type the IPV4 address, IPV4 subnet mask, IPV4 gateway, and then select **IPV6 configuration mode** as **Automatic**.
- 
       ![managementinterfacesettingstwo](images/managementinterfacesettingstwo.png)
-
-15. In the **Management Interface Settings**, select the option as **Next screen**.
+1. In the __Management Interface Settings__, select the option as __Next screen__.
 
       ![dnsconfigurationone](images/dnsconfigurationone.png)
-
-16. In **DNS Configuration**, select the option **Set DNS server 1**.
+1. In __DNS Configuration__, select the option __Set DNS server 1__.
 
       ![setdnsserverone](images/setdnsserverone.png)
-
-17. In **Set DNS server 1**, type the DNS server IP address. 
+1. In __Set DNS server 1__, type the DNS server IP address. 
 
      ![dnsconfigurationtwo](images/dnsconfigurationtwo.png)
-
-18. In **DNS Configuration**, select the option **Next screen**.
+1. In __DNS Configuration__, select the option __Next screen__.
 
      ![timeconfiguration](images/timeconfiguration.png)
-
-19. In **Time Configuration**, select the option **Next screen**.
+1. In __Time Configuration__, select the option __Next screen__.
 
      ![summary](images/summary.png)
-
-20. In **Summary**, select the option **Accept the configuration**. After applying the policy changes, a message, ‘**Policy changes were successfully applied. Local Management Interface has been restarted.**’ appears. 
+1. In the __Summary__, select the option __Accept the configuration__.
+1. After applying the policy changes, a message, ‘__Policy changes were successfully applied. Local Management Interface has been restarted.__’ appears.
 
      ![applyingpolicychanges](images/applyingpolicychanges.png)
- 
-      The **IBM IGI** appliance login page appears.
+1. The __IBM IGI__ appliance login page appears.
 
      ![ibmigiappliancelogin](images/ibmigiappliancelogin.png)
 
-IBM IGI is successfully installed. Now, let us set up  IBM IGI.
+1. IBM IGI is successfully installed.

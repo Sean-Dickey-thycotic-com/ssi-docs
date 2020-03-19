@@ -1,74 +1,61 @@
 [title]: # (Installing Tivoli Dispatcher)
 [tags]: # (introduction)
 [priority]: # (106)
-# Step Three: Installing Tivoli Dispatcher
+# Installing Tivoli Dispatcher
 
-You must install the Tivoli Dispatcher using the **IBM Security Identity Adapter**   wizard. The Tivoli Dispatcher is a Security Directory Integrator component that enables the IGI to communicate with IBM Security Directory Integrator.
+You must install the Tivoli Dispatcher using the __IBM Security Identity Adapter__ wizard. The Tivoli Dispatcher is a Security Directory Integrator component that enables the IGI to communicate with IBM Security Directory Integrator.
 
-**To install Tivoli Dispatcher:**
-1.	Go to the **Thycotic Shared Folder** > **IGI** > **Thycotic Adapter** > **SIA_RMI_7139_SDI_7X_ML**.
-2.	In the **Widnows Search** box type `cmd`. The results are auto-populated. Right-click **Command Prompt** and click **Run as administrator**.
-3.	In the **User Account Control** dialog box, click **Yes**.
+__To install Tivoli Dispatcher:__
 
-     ![administratorcommandprompt](images/administratorcommandprompt.png)
+1. Go to the __Thycotic Shared Folder__ > __IGI__ > __Thycotic Adapter__ > __SIA_RMI_7139_SDI_7X_ML__.
+1. In the __Widnows Search__ box type `cmd`. The results are auto-populated. Right-click __Command Prompt__ and click __Run as administrator__.
+1. In the __User Account Control__ dialog box, click __Yes__.
 
-4.	In the **Command Prompt** type the following: 
+   ![administratorcommandprompt](images/administratorcommandprompt.png)
+1. In the __Command Prompt__ type the following:
 `cd <path where the DispatcherInstall is located>`
-and press **Enter**.
-5.	In the **Command Prompt** then type the following:
+and press __Enter__.
+1. In the __Command Prompt__ then type the following:
 `Java -jar DispatcherInstall.jar`  
-and press **Enter**. The **IBM Security Identity Adapter** wizard appears.
+and press __Enter__. The __IBM Security Identity Adapter__ wizard appears.
 
-     ![ibmsecurityidentityadapter](images/ibmsecurityidentityadapter.png)
+   ![ibmsecurityidentityadapter](images/ibmsecurityidentityadapter.png)
+1. Click __OK__. The __ITDI Based Dispatcher__ panel appears.
 
-6.	Click **OK**. The **ITDI Based Dispatcher** panel appears.
+   ![itdibaseddispathcher](images/itdibaseddispathcher.png)
+1. Click __Next__. The __Choose ITDI Home Directory__ panel appears.
 
-     ![itdibaseddispathcher](images/itdibaseddispathcher.png)
+   ![chooseitdihomedirectory](images/chooseitdihomedirectory.png)
+1. Click __Choose__ to select Security Directory Integrator path and click __Next__. The __Choose a Solution Directory__ panel appears.
 
-7.	 Click **Next**. The **Choose ITDI Home Directory** panel appears.
+   ![chooseasolutiondirectory](images/chooseasolutiondirectory.png)
+1. Add `\timsol` to the `ITDI Home Directory` and click __Next__. The __Dispatcher Instance Name__ panel appears.
 
-     ![chooseitdihomedirectory](images/chooseitdihomedirectory.png)
+   >**Note:** Timsol is the folder where all the Tivoli directory integrator based dispatcher file is placed.
 
-8.	 Click **Choose** to select Security Directory Integrator path and click **Next**. The **Choose a Solution Directory** panel appears.
+   ![dispatcherinstancename](images/dispatcherinstancename.png)
+1. Click __Next__. The __Port Number__ panel appears.
 
-     ![chooseasolutiondirectory](images/chooseasolutiondirectory.png)
+   ![portnumber](images/portnumber.png)
+1. Click __Next__. The __Enable JVM Security__ panel appears.
 
-9.	 Add `\timsol` to the `ITDI Home Directory` and click **Next**. The **Dispatcher Instance Name** panel appears.
+   ![enablejvmsecurity](images/enablejvmsecurity.png)
+1. Type username, password, re-type  password and click __Next__. The __Enable SSL__ panel appears.
 
-     >**Note**: Timsol is the folder where all the Tivoli directory integrator based dispatcher file is placed.
+   ![enablessl](images/enablessl.png)
+1. Click __Next__. The __Installing Dispatcher__ panel appears.
 
-     ![dispatcherinstancename](images/dispatcherinstancename.png)
+   ![installingdispatcher](images/installingdispatcher.png)
+1. Click __Next__. The __Pre-Installation Summary__ panel appears.
 
-10.	 Click **Next**. The **Port Number** panel appears.
-
-     ![portnumber](images/portnumber.png)
-
-11.	 Click **Next**. The **Enable JVM Security** panel appears.
-
-     ![enablejvmsecurity](images/enablejvmsecurity.png)
-
-12.	 Type username, password, re-type  password and click **Next**. The **Enable SSL** panel appears.
-
-     ![enablessl](images/enablessl.png)
-
-13.	 Click **Next**. The **Installing Dispatcher** panel appears.
-
-     ![installingdispatcher](images/installingdispatcher.png)
-
-14.	 Click **Next**. The **Pre-Installation Summary** panel appears.
-
-     ![preinstallationsummary](images/preinstallationsummary.png)
-
-15.	 Click **Install**.
+   ![preinstallationsummary](images/preinstallationsummary.png)
+1. Click __Install__.
 
      ![installcomplete](images/installcomplete.png)
+1. In the __Install Complete__ panel, click __Done__. The Security Directory Integrator is installed.
+1. To verify the installation, go to `C:\Program Files\IBM\TDI\V7.2` and verify if the `timsol` folder is created.
+1. In the __Search__ box type `services`. The results are auto-populated.
+1. Click `Services`. Verify if the __IBM Security Directory Integrator (ISIM Adapters)__ service is running.
+1. The Tivoli Dispatcher is successfully installed.
 
-16.	In the **Install Complete** panel, click **Done**. The Security Directory Integrator is installed.
-
-17.	To verify the installation, go to `C:\Program Files\IBM\TDI\V7.2` and verify if the `timsol` folder is created.
-18.	In the **Search** box type `services`. The results are auto-populated.
-19.	Click `Services`. Verify if the **IBM Security Directory Integrator (ISIM Adapters)** service is running.
-
-The Tivoli Dispatcher is successfully installed. 
-
-The next step is to [configure IBM IGI and Dispatcher to access the Admin Console](steps\stepfouraccessadminconsole.md) 
+The next step is to [configure IBM IGI and Dispatcher to access the Admin Console](../config/integrate-ss-ibm-igi-admin-console-5.md) 

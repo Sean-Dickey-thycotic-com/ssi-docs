@@ -3,111 +3,92 @@
 [priority]: # (103)
 # How to set up IBM IGI
 
-## Set up IBM IGI
 This section provides the steps to set up IBM IGI.
 
-**To set up IBM IGI:**
+__To set up IBM IGI:__
 
-1. In the **igi.thycotic.ibm.com** domain name, enter login and password details. 
+1. In the __igi.thycotic.ibm.com__ domain name, enter login and password details.
 
-2. Type the `IP address` along with the port number (For example: 10.60.25.21:9443) in the browser and press **Enter**.
+1. Type the `IP address` along with the port number (For example: 10.60.25.21:9443) in the browser and press __Enter__.
 
-     >**Note**: The default port number is 9443.
+   >**Note:** The default port number is 9443.
 
-     ![accessibmigione](images/accessibmigione.png)
+   ![accessibmigione](images/accessibmigione.png)
 
-3.	Click **Advanced** and click **Proceed to `IP Address` (unsafe)**.
+1. Click __Advanced__.
+1. Click __Proceed to `IP Address` (unsafe)__.
 
-     ![accessibmigitwo](images/accessibmigitwo.png)
+   ![accessibmigitwo](images/accessibmigitwo.png)
 
-      The IBM IGI Login page appears.
- 
-      ![ibmigilogin](images/ibmigilogin.png)
+1. The IBM IGI Login page appears.
 
-4.	Fill in the required information, such as the user name, password, and click **Login**. The **IBM Security Identity Governance and Intelligence** page appears.
-     >**Note:** The default value for user name is `admin`. The value of the password is what you have changed in the Console window.
+   ![ibmigilogin](images/ibmigilogin.png)
+1. Fill in the required information, such as the user name, password, and click __Login__. The __IBM Security Identity Governance and Intelligence__ page appears.
 
-     ![ibmigifirstpage](images/ibmigifirstpage.png)
+   >__Note:__ The default value for user name is `admin`. The value of the password is what you have changed in the Console window.
 
-5. Click **Setup** for setting up a primary node for the IBM Security Identity Governance and Intelligence cluster. The **IBM IGI setup wizard** appears.
+   ![ibmigifirstpage](images/ibmigifirstpage.png)
+1. Click __Setup__ for setting up a primary node for the IBM Security Identity Governance and Intelligence cluster. The __IBM IGI setup wizard__ appears.
 
-     ![ibmigisetupwizard](images/ibmigisetupwizard.png)
+   ![ibmigisetupwizard](images/ibmigisetupwizard.png)
+1. In the __Mode Selection__ page, click __Next page__. The __Application Interfaces__ page appears.
 
-6.	In the **Mode Selection** page, click **Next page**. The **Application Interfaces** page appears.
+   ![ibmigisetupwizardapplicationinterface](images/ibmigisetupwizardapplicationinterface.png)
+1. In the __Application Interfaces__ page, click the __New__ ![newicon](images/newicon.png) icon. The __Add Address__ dialog box appears.
+1. In the __Add Address__ dialog box, fill in the required information.
 
-     ![ibmigisetupwizardapplicationinterface](images/ibmigisetupwizardapplicationinterface.png)
+   ![addaddress](images/addaddress.png)
 
-7.	In the **Application Interfaces** page, click the **New** ![newicon](images/newicon.png) icon. The **Add Address** dialog box appears.
+    * __IPv4__ - Select the required option.
 
-8.	In the **Add Address** dialog box, fill in the required information.
+    * __Interface FQDN__ - Type the fully qualified domain name.
 
-    ![addaddress](images/addaddress.png)
+    * __Interface Gateway__ - Type the interface gateway details.
 
-    * **IPv4** - Select the required option.
-    
-    * **Interface FQDN** - Type the fully qualified domain name.
-    
-    * **Interface Gateway** - Type the interface gateway details.
+    * __IPv4 Settings - Address__ - Type the IP Address.
 
-    * **IPv4 Settings - Address** - Type the IP Address.
-    
-       >**Note**: Ensure the IP Address is not assigned to any other computer.
-    
-    * **IPv4 Settings - NetMask** - Type the netmask details.
-9.	Click **Save**. A message “**The new application address is added successfully.**” appears and the IP Address is listed.
+   >**Note:** Ensure the IP Address is not assigned to any other computer.
 
-     ![applicationinterfaces](images/applicationinterfaces.png)
+    * __IPv4 Settings - NetMask__ - Type the netmask details.
 
-10.	Click **Next page**. The **Mail Server Configuration** page appears.
+1. Click __Save__. A message “__The new application address is added successfully.__” appears and the IP Address is listed.
 
-     ![mailserverconfiguration](images/mailserverconfiguration.png)
+   ![applicationinterfaces](images/applicationinterfaces.png)
+1. Click __Next page__. The __Mail Server Configuration__ page appears.
 
-11.	Click the **Configure** ![configureicon](images/configureicon.png) icon. The **Mail Server Configuration Details** dialog box appears.
+   ![mailserverconfiguration](images/mailserverconfiguration.png)
+1. Click the __Configure__ ![configureicon](images/configureicon.png) icon. The __Mail Server Configuration Details__ dialog box appears.
+1. In the __Mail Server Configuration Details__ dialog box, fill in all the information.
 
-12.	In the **Mail Server Configuration Details** dialog box, fill in all the information.
+   ![mailserverconfigurationdetails](images/mailserverconfigurationdetails.png)
+1. Click __Save Configuration__. A message, ‘__Mail server configuration added.__’ appears and the email configuration is listed.
 
-     ![mailserverconfigurationdetails](images/mailserverconfigurationdetails.png)
+   ![mailserverconfigurationadded](images/mailserverconfigurationadded.png)
+1. Click __Next page__. The __Database Server Configuration__ page appears.
 
+   ![database serverq configuration](images/databaseserverqconfiguration.png)
+1. Click the __Configure__ ![configureicon](images/configureicon.png) icon. The __Identity data store__ details dialog box appears.
+1. In the __Connection__ tab, fill in all the information.
 
-13.	Click **Save Configuration**. A message, ‘**Mail server configuration added.**’ appears and the email configuration is listed. 
+   ![connection tab](images/connectiontab.png)
+1. Click __Save Configuration__. A message,'__Identity data store configuration created.__ 'appears and the database configurations are displayed.
 
-     ![mailserverconfigurationadded](images/mailserverconfigurationadded.png)
+   ![database server configured](images/dbserverconfigured.png)
+1. Click __Next page__.
 
-14.	Click **Next page**. The **Database Server Configuration** page appears.
+   ![completesetup](images/completesetup.png)
+1. In the __Complete Setup__ page, click __Complete Setup__. The progress bar of the setup appears.
 
-      ![databaseserverqconfiguration](images/databaseserverqconfiguration.png)
+   ![setupwizardprogressbar](images/setupwizardprogressbar.png)
+1. The __Complete Setup__ page appears.
 
-15.	Click the **Configure** ![configureicon](images/configureicon.png) icon. The **Identity data store** details dialog box appears.
-16.	In the **Connection** tab, fill in all the information.
-    
-     ![connectiontab](images/connectiontab.png)
+   ![lastpagecompletesetup](images/lastpagecompletesetup.png)
+1. After the completion of the setup, click `here` in the sentence `Click here to go to the dashboard`. The __Session Ended__ dialog box appears.
 
- 17.	Click **Save Configuration**. A message,'**Identity data store configuration created.** 'appears and the database configurations are displayed.   
-  ![databaseserverconfigured](images/dbserverconfigured.png)
-     
+   ![sessionended](images/sessionended.png)
+1. In the __Session Ended__ dialog box, click the sentence `Click here to return to the local management interface`. The IBM IGI dashboard appears.
 
-18.	Click **Next page**.
- 
-      ![completesetup](images/completesetup.png)
+   >**Note:** If the IBM IGI dashboard does not appear, type the IP address along with the port number (For example: 10.60.25.21:9443) in the browser and press Enter. If required, replace the domain name with the IP Address.
 
-19. In the **Complete Setup** page, click **Complete Setup**. The progress bar of the setup appears.
-
-     ![setupwizardprogressbar](images/setupwizardprogressbar.png)
-
-     The **Complete Setup** page appears.
-
-     ![lastpagecompletesetup](images/lastpagecompletesetup.png)
-
-20. After the completion of the setup, click `here` in the sentence `Click here to go to the dashboard`. The **Session Ended** dialog box appears.
-
-      ![sessionended](images/sessionended.png)
-21. In the **Session Ended** dialog box, click the sentence `Click here to return to the local management interface`. The IBM IGI dashboard appears.
-
-    >**Note**: If the IBM IGI dashboard does not appear, type the IP address along with the port number (For example: 10.60.25.21:9443) in the browser and press Enter. If required, replace the domain name with the IP Address. 
-
-     ![ibmigidashboard](images/ibmigidashboard.png)
-
-22. Close the session.
-
-
-The IBM IGI setup is completed successfully. Now, the OpenID Connect Provider is to be configured.
+   ![ibmigidashboard](images/ibmigidashboard.png)
+1. Close the session.

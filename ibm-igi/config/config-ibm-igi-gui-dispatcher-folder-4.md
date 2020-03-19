@@ -12,7 +12,7 @@ Following are the steps:
 * [Add Thycotic certificate](#Add-Thycotic-certificate)
 * [Manage host file](#Manage-host-file)
 
-The detailed procedure for each step  is explained below.
+The detailed procedure for each step is explained below.
 
 ## Update files in folders
 
@@ -204,7 +204,6 @@ Make sure that your certificate is valid. If the validity expires, you need to e
 25.	Go to `C:\Program Files\IBM\TDI\V7.2\serverapi` and paste `testadmin.jks` file.
 
 The validity of the certificate is verififed and now you need to import the Thycotic certificate.
-
 
 ## Import Thycotic certificate
 For secure connection between Thycotic Secret Server and IBM IGI, you need to import Thycotic certificate.
