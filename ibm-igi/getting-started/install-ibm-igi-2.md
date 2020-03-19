@@ -1,9 +1,8 @@
-[title]: # (Configuring and Setting Up Virtual Appliance)
+[title]: # (Install IBM IGI)
 [tags]: # (introduction)
 [priority]: # (101)
 # Install IBM IGI
 
-## Install IBM IGI
 This section provides the steps to install IBM IGI.
 
 __To install IBM IGI:__
@@ -76,4 +75,4 @@ __To install IBM IGI:__
 
      ![ibmigiappliancelogin](images/ibmigiappliancelogin.png)
 
-IBM IGI is successfully installed. Now, let us set up  IBM IGI.
+1. IBM IGI is successfully installed.

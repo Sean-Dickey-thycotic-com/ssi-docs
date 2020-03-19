@@ -3,7 +3,6 @@
 [priority]: # (103)
 # How to set up IBM IGI
 
-## Set up IBM IGI
 This section provides the steps to set up IBM IGI.
 
 __To set up IBM IGI:__
@@ -93,5 +92,3 @@ __To set up IBM IGI:__
 
    ![ibmigidashboard](images/ibmigidashboard.png)
 1. Close the session.
-
-The IBM IGI setup is completed successfully. Now, the OpenID Connect Provider is to be configured.

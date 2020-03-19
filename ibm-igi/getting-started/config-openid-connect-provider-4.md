@@ -3,8 +3,7 @@
 [priority]: # (104)
 # Configure the OpenID Connect Provider
 
-## Configure OpenID Connect Provider
-The next step is to configure the OpenID Connect Provider. 
+The next step is to configure the OpenID Connect Provider.
 
 __To configure OpenID Connect Provider:__
 
@@ -13,17 +12,14 @@ __To configure OpenID Connect Provider:__
    >**Note:** The default port number is 9443.
 
    ![accessibmigione](images/accessibmigione.png)
-
 1. Click __Advanced__ and click __Proceed to `IP Address` (unsafe)__.
 
    ![accessibmigitwo](images/accessibmigitwo.png)
-
 1. The __IBM IGI Login__ page appears.
 
-      ![ibmlogintwo](images/ibmlogintwo.png)
+   ![ibmlogintwo](images/ibmlogintwo.png)
 1. Fill in the required information, such as the user name, password, and click __Log In__. The IBM IGI user interface appears.
-     >**Note:** The default value for user name and password is `admin`.
-
+   >**Note:** The default value for user name and password is `admin`.
 1. Click __Configure__ > __Manage Server Setting__ > __OpenID Connect Provider Configuration__. The __Connect Provider Configuration__ page appears.
 
    ![openidconnectprovider](images/openidconnectprovider.png)
