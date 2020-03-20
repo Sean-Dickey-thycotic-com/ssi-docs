@@ -3,17 +3,9 @@
 [priority]: # (1)
 # Introduction
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< dev
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< dev
-The integration between Thycotic Secret Server and Splunk is created and maintained by Splunk. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from the vendor and testing performed by Thycotic.
+This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from the vendor and testing performed by Thycotic.
 
-**Summary**
-========================================================================
-__Summary__
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> el.dev.163057.splunk
-========================================================================
 ## Summary
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> el.dev.163057.splunk
 
 Splunk Enterprise software that enables you to search, analyze, and visualize
 the data gathered by your IT infrastructure, in this case, Secret Server (SS).
