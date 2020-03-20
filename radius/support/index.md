@@ -3,6 +3,8 @@
 [priority]: # (100000)
 # Support
 
+Integrations are supported to the extent of the third-party product procedures documented for this integration. Please contact the third-party for any customized setup of the integrated product.
+
 Thycotic customers have access to support by phone and email. You also can open a case in Thycotic’s support ticketing system, which promotes follow-through to issue resolution.
 
 * Use the means you prefer, except for Severity 1 issues—for those, always use phone support.

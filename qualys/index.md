@@ -3,7 +3,7 @@
 [priority]: # (1)
 # Introduction
 
-The integration between Thycotic Secret Server and Qualys is created and maintained by Qualys. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from the vendor and testing performed by Thycotic.
+The integration between Thycotic Secret Server and Qualys is created and maintained by Qualys. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from the vendor and testing performed by Thycotic. Integrations are supported to the extent of the third-party product procedures documented for this integration. Please contact the third-party for any customized setup of the integrated product.
 
 ## Using Secret Server as a Credential Vault for Authenticated Scans
 
