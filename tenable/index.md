@@ -3,7 +3,7 @@
 [priority]: # (1)
 # Tenable Integration with Secret Server
 
-The integration between Thycotic Secret Server and tenable.sc or tenable.io is created and maintained by Tenable. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from Tenable and testing performed by Thycotic. This document applies to the integration Tenable.sc. The integration with Tenable’s cloud solution, Tenable.io is not supported.
+The integration between Thycotic Secret Server and tenable.sc or tenable.io is created and maintained by Tenable. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from Tenable and testing performed by Thycotic. This document applies to the integration Tenable.sc. The integration with Tenable’s cloud solution, Tenable.io is not supported. Integrations are supported to the extent of the third-party product procedures documented for this integration. Please contact the third-party for any customized setup of the integrated product.
 
 Other content provided in this document is to assist customers with further understanding the technical requirements needed to configure the integration and address scalability and performance concerns that may be encountered when utilizing the integration.
 

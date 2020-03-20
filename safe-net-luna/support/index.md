@@ -3,6 +3,8 @@
 [priority]: # (100000)
 # Support
 
+Integrations are supported to the extent of the third-party product procedures documented for this integration. Please contact the third-party for any customized setup of the integrated product.
+
 If you encounter a problem while installing, registering, or operating SafeNet Luna, refer to the documentation. If you cannot resolve the issue, contact your supplier or [Gemalto Customer Support](https://supportportal.gemalto.com/).
 
 Thycotic customers have access to support by phone and email. You also can open a case in Thycotic’s support ticketing system, which promotes follow-through to issue resolution.

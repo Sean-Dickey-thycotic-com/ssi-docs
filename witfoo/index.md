@@ -3,7 +3,7 @@
 [priority]: # (1)
 # WitFoo Precinct Integration
 
-The integration between Thycotic Secret Server and WitFoo Precinct is created and maintained by WitFoo Precinct. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from the vendor and testing performed by Thycotic.
+The integration between Thycotic Secret Server and WitFoo Precinct is created and maintained by WitFoo Precinct. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from the vendor and testing performed by Thycotic. Integrations are supported to the extent of the third-party product procedures documented for this integration. Please contact the third-party for any customized setup of the integrated product.
 
 WitFoo Precinct is a __Comprehensive Security Operations (SECOPS) Platform__ built to enable organizations to mature SECOPS by addressing the following pain points:
 
