@@ -116,5 +116,3 @@ __To configure the Connector:__
 1. On the right-hand side, click __Accounts__. All the users of secret server appear.
 
    ![manageaccountconfigurationaccounts](images/manageaccountconfigurationaccounts.png)
-
-Now, the connector is configured successfully and data from Secret Server is synchronized.

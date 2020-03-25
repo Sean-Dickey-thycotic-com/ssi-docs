@@ -62,7 +62,8 @@ __To import the attribute mapping file:__
 1. Navigate to the `ThycoticAdapterProfile` file and click __Open__.
 
    ![importthycoticadapterprofile](images/importthycoticadapterprofile.png)
-1. Click __Upload file__. A message, '__Profile imported successfully. Close this window to proceed.__' appears. Click __Close__.
+1. Click __Upload file__. A message, '__Profile imported successfully. Close this window to proceed.__' appears. 
+1. Click __Close__.
 
    ![importdialogboxwithmessageone](images/importdialogboxwithmessageone.png)
 1. In the __Enterprise Connectors__ page, Click __Manage | Profiles__.

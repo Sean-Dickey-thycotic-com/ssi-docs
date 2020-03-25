@@ -9,18 +9,16 @@ __To configure OpenID Connect Provider:__
 
 1. Type the `IP address` along with the port number (For example: 10.60.25.21:9443) in the browser and press __Enter__.
 
-   >**Note:** The default port number is 9443.
+1. The default port number is __9443__.
 
-   ![accessibmigione](images/accessibmigione.png)
-1. Click __Advanced__ and click __Proceed to `IP Address` (unsafe)__.
+   >**Note:** If you receive an error screen due to not having a certificate configured, please proceed by clicking __Advanced | proceed (unsafe)__.
 
-   ![accessibmigitwo](images/accessibmigitwo.png)
 1. The __IBM IGI Login__ page appears.
 
    ![ibmlogintwo](images/ibmlogintwo.png)
 1. Fill in the required information, such as the user name, password, and click __Log In__. The IBM IGI user interface appears.
    >**Note:** The default value for user name and password is `admin`.
-1. Click __Configure__ > __Manage Server Setting__ > __OpenID Connect Provider Configuration__. The __Connect Provider Configuration__ page appears.
+1. Click __Configure__ | __Manage Server Setting__ | __OpenID Connect Provider Configuration__. The __Connect Provider Configuration__ page appears.
 
    ![openidconnectprovider](images/openidconnectprovider.png)
 1. Click __Disable__.
@@ -41,7 +39,7 @@ __To configure OpenID Connect Provider:__
    ![restartibmigilocalmgmtinterface](images/restartibmigilocalmgmtinterface.png)
 1. Go to the __IBM IGI Virtual Appliance__.
 
-   ![Virtualappliancereboot](images/Virtualappliancereboot.png)
+   ![Virtualappliancereboot](images/virtualappliancereboot.png)
 1. In the Virtual Appliance, type `reboot` and press __Enter__.
 1. To confirm, type `YES` and press __Enter__. The __IBM IGI login__ dialog box appears.
 
@@ -50,4 +48,4 @@ __To configure OpenID Connect Provider:__
 
    ![ibmigiuserinterface](images/ibmigiuserinterface.png)
 
-The Virtual Appliance for IBM IGI is configured and setup. Now, the next step is to install [Security Directory Integrator 7.2](installing-security-directory-integrator-2.md).
+The Virtual Appliance for IBM IGI is configured and setup.
