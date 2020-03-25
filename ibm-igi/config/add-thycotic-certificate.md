@@ -43,7 +43,7 @@ __To add cerficates:__
 1. In the __Enter a Label for the certificate__ text box, type the label and then click __OK__. The certificate is listed in the __Key database content__ section.
 
    ![addedsignercertificate](images/addedsignercertificate.png)
-1. Click Key __Key Database File__ tab > __Close__. The certificate is saved.
+1. Click Key __Key Database File__ tab | __Close__. The certificate is saved.
 
    ![closeibmkeymanagement](images/closeibmkeymanagement.png)
 1. Click open ![openicon](images/openicon.png) icon. The __Open__ dialog box appears.
@@ -64,7 +64,7 @@ __To add cerficates:__
 1. From the type of certificate list, select __Singer Certificates__.
 
    ![typeofcertificateslisttwo](images/typeofcertificateslisttwo.png)
-1. Click the certificate name __server__ and click __Add__. 
+1. Click the certificate name __server__ and click __Add__.
 ![signercertifcatelisttwo](images/signercertifcatelisttwo.png)
 1. The __Open__ dialog box appears.
   
@@ -79,5 +79,4 @@ __To add cerficates:__
 1. Click __Key Database File__ tab > __Close__. The certificate is saved.
 
    ![closesignercertificate](images/closesignercertificate.png)
-   
-The Thycotic Secret Server certificate is added successfully. Now, you need to manage the host file.
+

@@ -135,13 +135,13 @@ __To configure account:__
 1. Fill in the required information, such as first name, last name, email, display name, and then click __Next__. The __Target Attributes__ tab appears.
 
    ![editaccounttargetattributes](images/editaccounttargetattributes.png)
-1. In the __User’s Display Name__ text box, change the display name for the user. Click __Save__.
-1. Click the __Events__ tab. At the bottom of the __Events__ section, click __OUT Event__.
+1. In the __User’s Display Name__ text box, change the display name for the user.
+1. Click __Save__.
+1. Click the __Events__ tab.
+1. At the bottom of the __Events__ section, click __OUT Event__.
 
    ![manageuserseventstabtwo](images/manageuserseventstabtwo.png)
 
 1. The event is listed. Wait till the __Status__ and the __ERC Status__ is displayed as __Success__.
 
    ![manageuserseventstabthree](images/manageuserseventstabthree.png)
-
-The next step is to check user details and change password.

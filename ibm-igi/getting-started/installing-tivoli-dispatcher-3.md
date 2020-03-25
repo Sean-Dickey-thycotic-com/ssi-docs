@@ -57,5 +57,3 @@ and press __Enter__. The __IBM Security Identity Adapter__ wizard appears.
 1. In the __Search__ box type `services`. The results are auto-populated.
 1. Click `Services`. Verify if the __IBM Security Directory Integrator (ISIM Adapters)__ service is running.
 1. The Tivoli Dispatcher is successfully installed.
-
-The next step is to [configure IBM IGI and Dispatcher to access the Admin Console](../config/integrate-ss-ibm-igi-admin-console-5.md) 

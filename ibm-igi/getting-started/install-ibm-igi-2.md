@@ -7,7 +7,7 @@ This section provides the steps to install IBM IGI.
 
 __To install IBM IGI:__
 
-1. Type the login credentials. The __IBM Security Identity Governance and Intelligence setup wizard__ appears.
+1. Type the login credentials. The __IBM Security Identity Governance and Intelligence setup wizard__ will appear.
      >**Note:** The default value for login and password is `admin`.
 
      ![ibmigisetupwizardone](images/ibmigisetupwizardone.png)
@@ -18,7 +18,7 @@ __To install IBM IGI:__
 1. In the __Software License Agreement__, select the option __Proceed to acceptance__.
 
      ![agreeterms](images/agreeterms.png)
-1. Select the option __I agree__ to suggest that you agree that you have had the opportunity to review the terms of both the IBM and non-IBM licenses presented and such terms govern this transaction.
+1. Select the option __I agree__ to suggest that you agree that you have had the opportunity to review the terms of both the IBM and non-IBM licenses presented and such terms that govern this transaction.
 
      ![fipsmodeconfiguration](images/fipsmodeconfiguration.png)
 1. Under __FIPS 140-2 Mode Configuration__, select the option __Next screen__.

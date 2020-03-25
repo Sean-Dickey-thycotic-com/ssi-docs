@@ -19,7 +19,7 @@ __To install the firmware on the VM:__
 1. On the VM window, right-click the name of the Virtual Machine created and click __Power On__.
 
    ![vmpoweron](images/vmpoweron.png)
-1. Right-click the name of the VM and click __Connect or View__ > __Connect via Console__.
+1. Right-click the name of the VM and click __Connect or View__ | __Connect via Console__.
 
    ![vmconnectviaconsole](images/vmconnectviaconsole.png)
 1. The __Windows Security__ dialog box appears.
@@ -46,7 +46,7 @@ __To set up properties for VM:__
 1. On the VM window, right-click the name of the VM created and click __Properties__.
 
    ![vmproperties](images/vmproperties.png)
-1. Click __Hardware Configuration__ > __Virtual DVD drive__.
+1. Click __Hardware Configuration__ | __Virtual DVD drive__.
 
    ![hwconfiguration](images/hwconfiguration.png)
 1. In the __Media__ area, select __No media__ and click __OK__. The VM gets updated.
@@ -54,4 +54,5 @@ __To set up properties for VM:__
 
    ![appliancelogin](images/appliancelogin.png)
 
-The VM properties are set successfully. Now, IBM IGI is to be installed.
+The VM properties are set successfully.
+

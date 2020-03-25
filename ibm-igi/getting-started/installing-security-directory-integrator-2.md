@@ -58,7 +58,3 @@ __To install Security Directory Integrator 7.2:__
    ![workspacelauncher](images/workspacelauncher.png)
 1. Click __Cancel__.
 1. Go to `C:\Program Files\IBM\TDI\V7.2`. This is the __Security Directory Integrator 7.2__ folder.
-
-The Security Directory Integrator 7.2 is installed successfully in the respective folder.
-
-The next step is to [install Tivoli dispatcher](installing-tivoli-dispatcher-3.md).
