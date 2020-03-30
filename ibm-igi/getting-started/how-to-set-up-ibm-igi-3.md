@@ -10,15 +10,9 @@ __To set up IBM IGI:__
 1. In the __igi.thycotic.ibm.com__ domain name, enter login and password details.
 
 1. Type the `IP address` along with the port number (For example: 10.60.25.21:9443) in the browser and press __Enter__.
+1. The default port number is 9443.
 
-   >**Note:** The default port number is 9443.
-
-   ![accessibmigione](images/accessibmigione.png)
-
-1. Click __Advanced__.
-1. Click __Proceed to `IP Address` (unsafe)__.
-
-   ![accessibmigitwo](images/accessibmigitwo.png)
+   >**Note:** If you receive a privacy error message due to not having a valid certificate, you can click Advanced | Proceed to IP Address (unsafe).
 
 1. The IBM IGI Login page appears.
 
