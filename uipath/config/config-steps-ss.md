@@ -26,6 +26,7 @@
 
    ![Log in](images/config13.png)
 1. Click on __Assign Roles__.
+
    ![Log in](images/config14.png)
 1. Assign the following Roles in the screenshot below __(Administrator, Basic User, Group Owner, Read Only User, User, User Owner)__.
 1. Click __Save Changes__.
