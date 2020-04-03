@@ -3,15 +3,32 @@
 [priority]: # (204)
 # Setup a New Onboarding Rule in SDK Management
 
-1. Navigate to Admin | See All.
-1. Click on Tools & Integrations | SDK Client Management.
-1. Click on the Client Onboarding tab.
-1. Click the +Rule option and enter a name for the new rule.
-1. After clicking Save, it will auto-generate an onboarding key. You can see the key by selecting the show key option.
+1. Navigate to __Admin | See All__.
 
-1. Add the new rule for UiPath. Please take note of the rule name and the generated onboarding key.
-1. Navigate back to your UiPath Orchestrator account | Credential Stores.
-1. Click on the More Actions icon() to the right of the Secret Server credential store.
-1. Click Edit.
-1. Provide the following information: Secret Server Url, Rule name, onboarding key from Step 5.
-1. Click Update.
+   ![Log in](images/config23.png)
+1. Click on __Tools & Integrations | SDK Client Management__.
+
+   ![Log in](images/config24.png)
+1. Click on the __Client Onboarding__ tab.
+
+   ![Log in](images/config25.png)
+1. Click the __+Rule__ option.
+
+   ![Log in](images/config26.png)
+1. Enter a name for the new rule.
+1. After clicking Save, it will auto-generate an onboarding key. You can see the key by selecting the __show key__ option.
+
+   ![Log in](images/config27.png)
+1. Navigate back to your UiPath Orchestrator account | __Credential Stores__.
+1. Click on the __More Actions icon__ to the right of the Secret Server credential store.
+1. Click __Edit__.
+
+   ![Log in](images/config28.png)
+1. Provide the following information:
+   * __Secret Server Url__
+   * __Rule name__ (Step 5)
+   * __Onboarding key__ (Step 6).
+
+1. Click __Create__ or __Update__.
+
+   ![Log in](images/config29.png)
