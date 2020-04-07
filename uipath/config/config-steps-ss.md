@@ -1,4 +1,4 @@
-[title]: # (Configuration)
+[title]: # (Configuration Steps for Secret Server)
 [tags]: # (configuration, uipath)
 [priority]: # (203)
 # Configuration Steps for Secret Server
