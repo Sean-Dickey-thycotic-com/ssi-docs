@@ -3,23 +3,9 @@
 [priority]: # (201)
 # Install and Configure UiPath
 
-1. Navigate to the UiPath site at https://www.uipath.com/.
-1. Click on __Start Your Trial__.
+1. Navigate to your UiPath account you, you will be able to see the Monitoring Console screen.
 
-   ![Start Trial](images/1.png)
-1. Click on __Try it__ under Community Cloud and login with your account.
-
-   ![Try it](images/2.png)
-1. Click on __Download Studio__.
-
-   ![Download](images/3.png)
-1. Run the UiPath Studio Setup application file.
-
-   ![Download](images/4.png)
-1. Once you've run the setup file, navigate back to your UiPath account and select the service.
-
-   ![Download](images/5.png)
-1. The next screen will show your Monitoring Console screen.
+   >**Note:** You will first need robots deployed for the integration to work.
 
    ![Download](images/6.png)
 1. Under __Management__ click on __Robots__.
