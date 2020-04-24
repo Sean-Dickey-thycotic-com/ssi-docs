@@ -3,6 +3,8 @@
 [priority]: # (200)
 # Configuration for UiPath Orchestrator
 
+>**Note:** The following steps that incorporate the use of a credential store only apply only with UiPath Orchestrator On-Prem.
+
 Please review the following steps to setup and configure UiPath for Secret Server:
 
 * [Installing and Configuring UiPath](setup-uipath-steps.md)
