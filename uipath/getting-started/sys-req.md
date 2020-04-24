@@ -4,16 +4,15 @@
 # Integration Requirements
 
 ## System Requirements
+
 |   |   |   |
 | ----- | ----- | ----- |
 | __UiPath__|  |  |
 |  Version |  | UiPath Version 19.10 or later. |
 | Software |  | Orchestrator-CredentialStorePlugins: Visual Studio with .NET Framework 4.7.2|
-| | | For further information about system requirements for UiPath orchestrator please visit: https://docs.uipath.com/orchestrator/docs/hardware-requirements-orchestrator.|
+| System requirements | | For further information about system requirements for UiPath orchestrator please visit: https://docs.uipath.com/orchestrator/docs/hardware-requirements-orchestrator.|
 | __Secret Server__ |  |  |
-| Hardware |  |  |
-|  |  | For further information about system requirements for Secret Server please visit: https://thycotic.force.com/support/s/article/System-Requirements-for-Secret-Server. |
-| Version |  | Thycotic Secret Server version 8.9 or later. |
+| System requirements |  | For further information about system requirements for Secret Server please visit: https://thycotic.force.com/support/s/article/System-Requirements-for-Secret-Server. |
 | | | |
 
 * The integration uses the Secret Server SDK, which is documented in more detail here: https://github.com/thycotic/sdk-documentation.
