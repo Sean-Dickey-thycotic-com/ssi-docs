@@ -11,7 +11,7 @@
 
 1. Modify the web.config file to reflect the Secret Server dll value:
 
-   _<add Key="Plugins.SecureStores" value=SecretServer.SecureStore.dll">_
+   __`<add Key="Plugins.SecureStores" value=SecretServer.SecureStore.dll">`__
 
    ![Web.config](images/config3.png)
 
