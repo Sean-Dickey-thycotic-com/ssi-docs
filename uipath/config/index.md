@@ -12,4 +12,4 @@ Please review the following steps to setup and configure UiPath for Secret Serve
 * [Setup a New Onboarding Rule in SDK Management](setup-onboarding-rule-sdk.md)
 * [Create an Asset](create-an-asset.md)
 * [Create a Robot UiPath Orchestrator](create-robot.md)
-* [Create a Process](create-process-2.md)
+* [Create a Process](create-process-get-cred-2.md)
