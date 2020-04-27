@@ -21,7 +21,7 @@
 1. After clicking Save, it will auto-generate an onboarding key. You can see the key by selecting the __show key__ option.
 
    ![Log in](images/config27.png)
-1. Navigate back to your UiPath Orchestrator account | __Credential Stores__.
+1. Navigate back to your __UiPath Orchestrator account | Credential Stores__.
 1. Click on the __More Actions icon__ to the right of the Secret Server credential store.
 1. Click __Edit__.
 

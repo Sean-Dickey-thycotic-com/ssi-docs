@@ -1,7 +1,9 @@
 [title]: # (Create a Process and Schedule in UiPath Orchestrator)
 [tags]: # (configuration)
 [priority]: # (207)
+[display]: # (none)
 # Create a Process and Schedule in UiPath Orchestrator
+<!-- add troubleshooting topic and info -->
 
 ## Create a Process
 

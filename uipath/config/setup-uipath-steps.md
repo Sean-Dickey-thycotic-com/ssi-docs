@@ -1,7 +1,10 @@
 [title]: # (Install and Configure UiPath)
 [tags]: # (uipath)
 [priority]: # (201)
+[display]: # (none)
 # Install and Configure UiPath
+
+<!-- add troubleshooting topic and info -->
 
 1. Navigate to your UiPath account you, you will be able to see the Monitoring Console screen.
 

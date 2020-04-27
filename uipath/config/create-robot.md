@@ -4,7 +4,7 @@
 # Create a Robot UiPath Orchestrator
 
 1. Click on __Robots__, in your UiPath Orchestrator account.
-1. Click the (+)Plus Icon to add a Robot.
+1. Click the __(+)__ icon to add a Robot.
 
    ![Robot](images/config33.png)
 

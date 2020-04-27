@@ -5,7 +5,7 @@
 
 ## Create an Application Account
 
-1. Navigate to Secret Server and login with the Administrator account.
+1. Navigate to Secret Server and login.
 
    ![Log in](images/config8.png)
 1. Click __Admin | Users__.
@@ -28,17 +28,15 @@
 1. Click on __Assign Roles__.
 
    ![Log in](images/config14.png)
-1. Assign the following Roles in the screenshot below __(Administrator, Basic User, Group Owner, Read Only User, User, User Owner)__.
+1. Assign the __User__ role.
 1. Click __Save Changes__.
-
-   ![Log in](images/config15.png)
 
 ## Create a Secret for the UiPath
 
 1. Navigate back to __Home__ in Secret Server.
 
    ![Log in](images/config16.png)
-1. Click on (+) next to __Secrets__.
+1. Click on __(+)__ icon next to __Secrets__.
 
    ![Log in](images/config17.png)
 1. Search for the __Windows Account__ template.
