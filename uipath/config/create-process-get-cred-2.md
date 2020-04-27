@@ -42,7 +42,7 @@ Now that Get Credential is pulling a password from Secret Server and saving it a
 
 1. The only important field here is __Text__ where we will instruct the message box to display our newly saved variable:
 
-   __new System.Net.NetworkCredential(String.empty, pwtest).Password__
+   `new System.Net.NetworkCredential(String.empty, pwtest).Password`
 
 1. Once the Message Box action is configured, we can test the Secret Server connectivity by clicking on __Run File__.
 
