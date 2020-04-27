@@ -10,4 +10,6 @@
 
 ## Licensing Considerations
 
-<!-- add information for all three headings, if not applicable, comment heading out, if not available at this time, add a note that information will be provided as soon as possible. -->
+<!-- add information for all three headings, if not applicable, comment heading out, if not available at this time, add a note that information will be provided as soon as possible. 
+
+Provide URLs to information provided by the third-party vendor, don't copy their information here.-->
