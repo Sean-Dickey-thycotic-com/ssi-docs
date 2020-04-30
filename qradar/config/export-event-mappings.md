@@ -6,38 +6,39 @@
 **After Creating your QIDmap entries, you can map them to your events using the
 DSM editor and export them via the export option.**
 
-1. Navigate Login to Qradar and click on Admin  
+1. Navigate and login to Qradar.
+1. Click on __Admin__.  
 
     ![](images/712c5b9b62bc2dcf480f7bfa7ffcb75d.png)
-1. Click on DSM editor option and select created log source i.e SecretServer in our case**  
+1. Click on the __DSM editor__ option.
+1. Select the created log source, for this example it would be __SecretServer__.
 
     ![](images/29061db7ce75bdd0d249fff45f92f6b6.png)
-1. Click on Select.
+1. Click on __Select__.
 
-1. Then click on Export option**  
+1. Click on __Export.__  
 
     ![](images/2352e52b47becaa503a7bcb700593c36.png)
-1. Enter the details and click on Export button.
+1. Enter in the required details.
+1. Click on __Export__.
 
     ![](images/caae05fd9b51484ae9f17b40f00a23aa.png)
-1. Zip will be downloaded.
+1. The zip will be downloaded.
 
     ![](images/2335cf3deff6f17c3c77db18efe104e3.png)
 
-   __You create a custom DSM, and map new events to it using the DSM Editor, lets call it "SecretServer"__.
-
 ## To search for your DSM using the ContentManagement Tool
 
-Enter in the following command:
+__Enter in the following command:__
 
    `[root\@qradar \~]\# /opt/qradar/bin/contentManagement.pl --action
-search --content-type 24 --id all --regex "\\w" \|grep Secret`   
+search --content-type 24 --id all --regex "\\w" \|grep Secret`
 
    ![](images/a301e9fb778a475bc449e3d9b4e66254.png)
 
-## To export everything and the custom mappings related
+## To export everything and the custom mappings
 
-Enter in the following command:
+__Enter in the following command:__
 
    `[root\@qradar \~]\# /opt/qradar/bin/contentManagement.pl -a export -c all`
 
@@ -49,10 +50,10 @@ Enter in the following command:
 
    ![](images/72ee84c17eac16402705341cb1ad374a.png)
 
-1. Rename your zip file MyExport.zip
+1. Rename the zip file to `MyExport.zip`.
 
-1. On the new Qradar fresh install, just copy the .zip file and reimport it
+1. On the new Qradar install, copy the .zip file and reimport it.
 
-Enter in the following command:
+__Enter in the following command:__
 
    `[root\@qradar \~]\# /opt/qradar/bin/contentManagement.pl --action import --file MyExport.zip`

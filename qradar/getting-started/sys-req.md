@@ -1,10 +1,15 @@
 [title]: # (Requirements)
 [tags]: # (introduction)
 [priority]: # (2)
-# Prerequisites for installing QRadar on your hardware
+# Prerequisites 
 
-Before you install the Red Hat Enterprise Linux (RHEL) operating system on your hardware ensure that your system meets the system requirements.
+## System Requirements
 
-The following table describes the system requirements:
-
-   ![Table](images/8bf66688c327864a58ec3324ee9e93e9.png)
+| Product| |Details | 
+|---|---|---| 
+|QRadar | | |
+| | Version | v7.3.0 or later |
+| | Hardware| For further information about system requirements for QRadar please visit: https://www.ibm.com/support/knowledgecenter/SS42VS_7.3.0/com.ibm.qradar.doc/c_siem_deploy_ov.html| 
+| Secret Server | | | 
+| | Version | Thycotic Secret Server version 8.9 or later. |
+| | Hardware| For further information about system requirements for Secret Server please visit: https://docs.thycotic.com/ss/10.8.0/secret-server-setup/system-requirements/index.md.|

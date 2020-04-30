@@ -1,7 +1,12 @@
 [title]: # (Installing Qradar after the RHEL installation)
 [tags]: # (introduction)
 [priority]: # (4)
+[display]: # (none)
 # Installing Qradar after the RHEL installation
+
+<!-- add and overview of covered troubleshooting topics 
+
+This section might not be needed depending on scope/complexity of integration.-->
 
 1. Copy the QRadar ISO to the device.  
 

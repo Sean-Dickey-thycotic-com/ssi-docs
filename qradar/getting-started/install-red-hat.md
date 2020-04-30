@@ -1,7 +1,12 @@
 [title]: # (Installing Red Hat Enterprise Linux on your hardware)
 [tags]: # (introduction)
 [priority]: # (3)
+[display]: # (none)
 # Installing Red Hat Enterprise Linux on your hardware
+
+<!-- add and overview of covered troubleshooting topics 
+
+This section might not be needed depending on scope/complexity of integration.-->
 
 You can install the Red Hat Enterprise Linux (RHEL) operating system on your hardware to use with IBM QRadar. Before you begin Download the Red Hat Enterprise Linux Server 7.5 x86_64 Boot ISO from https://access.redhat.com.
 
