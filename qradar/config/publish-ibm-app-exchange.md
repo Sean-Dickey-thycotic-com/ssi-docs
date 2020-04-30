@@ -1,7 +1,12 @@
 [title]: # (How to Publish to IBM App Exchange)
 [tags]: # (introduction)
 [priority]: # (106)
+[display]: # (none)
 # How to Publish to IBM App Exchange
+
+<!-- add and overview of covered troubleshooting topics 
+
+This section might not be needed depending on scope/complexity of integration.-->
 
 There are four key steps to get your zip ready for submission using the App Submission portal. All extensions published to the IBM Security App Exchange must include a manifest.txt and must be signed by your IBM issued certificate.
 
