@@ -6,7 +6,7 @@
 **After Creating your QIDmap entries, you can map them to your events using the
 DSM editor and export them via the export option.**
 
-1. Navigate and login to Qradar.
+1. Navigate and login to __Qradar__.
 1. Click on __Admin__.  
 
     ![](images/712c5b9b62bc2dcf480f7bfa7ffcb75d.png)
@@ -36,7 +36,7 @@ search --content-type 24 --id all --regex "\\w" \|grep Secret`
 
    ![](images/a301e9fb778a475bc449e3d9b4e66254.png)
 
-## To export everything and the custom mappings
+## To export the custom mappings
 
 __Enter in the following command:__
 
@@ -46,14 +46,13 @@ __Enter in the following command:__
 
 ## Result
 
-   ![](images/c4cdc4f2d5e27d2805bdc294d1c86b02.png)
-
-   ![](images/72ee84c17eac16402705341cb1ad374a.png)
+   ![tag](images/c4cdc4f2d5e27d2805bdc294d1c86b02.png)
+   ![tag](images/72ee84c17eac16402705341cb1ad374a.png)
 
 1. Rename the zip file to `MyExport.zip`.
 
 1. On the new Qradar install, copy the .zip file and reimport it.
 
-__Enter in the following command:__
+   __Enter in the following command:__
 
    `[root\@qradar \~]\# /opt/qradar/bin/contentManagement.pl --action import --file MyExport.zip`
