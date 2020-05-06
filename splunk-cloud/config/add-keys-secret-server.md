@@ -21,5 +21,3 @@ Secret Server is installed.
 1. Add the keys as shown below.
 
     ![Add keys](images/736a6b5adf4fb351b3cd8db45debcab7.png)
-
-1. Where “Path of the Log file” is the path of Syslog file that is created in [Step 1](#Adding_Keys_Step_01). The keys are now added to the Secret Server config file.

@@ -6,10 +6,9 @@
 Register with Splunk to obtain the URL, username, password, and access to the
 Splunk’s instance.
 
-**Note:** This step may be skipped, if you currently have a Splunk cloud
-instance.
+>**Note:** This step may be skipped, if you currently have a Splunk cloud instance.
 
-**To register with Splunk:**
+__To register with Splunk:__
 
 1. In the browser, type the following URL: <https://www.splunk.com> and press
     **Enter**. The Splunk website appears.
