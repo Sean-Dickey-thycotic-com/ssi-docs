@@ -8,4 +8,4 @@
 * [Custom Parsers](custom-parsers.md)
 * [QID Mappings](qid-mappings.md)
 * [How to export the event mappings along with the Custom DSM](export-event-mappings.md)
-* [How to Publish to IBM App Exchange](publish-ibm-app-exchange.md)
+

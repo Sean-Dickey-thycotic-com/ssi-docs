@@ -4,9 +4,24 @@
 # Upload a Custom Parser
 
 1. Log into __QRadar__ on your web browser.
-1. Go to the __Admin__ tab and click __Log source extension__.
-1. Fill in the fields suitably and select the use condition to be parsing enhancement.
-1. Click __Choose file__  and select your custom-built parser, then select __Upload__. Save this.
-1. Click __Log sources__ and fill in the field again selecting __syslog__ as the protocol configuration.
-1. Ensure your log source identifier is the host name of TSS e.g. sv-thyss.
-1. Select the extension you created as your extension and make it a parsing override, then save.
+
+   ![tag](images/step1.png)
+1. Click the __Admin__ tab.
+
+   ![tag](images/step2.png)
+1. Click on __Log Sources__.
+
+   ![tag](images/step3.png)
+1. Click __Add__.
+
+   ![tag](images/step5.png)
+1. Fill in the required fields:
+   * __Log Source Name__
+   * __Log Source Description__
+   * __Log Source Type__
+   * __Protocol Configuration__
+   * __Log Source Identifier__
+   * __Log Source Extension__: Click the drop-down and choose your custom-built parser.
+1. Click __Save__.
+
+   ![tag](images/step6.png)
