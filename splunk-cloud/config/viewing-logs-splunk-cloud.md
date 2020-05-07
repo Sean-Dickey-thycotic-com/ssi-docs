@@ -5,9 +5,9 @@
 
 To view logs in the Splunk cloud:
 
-   * You will need to first clear the Secret Server Application Pool and then add data.
+   * You will need to first clear the Secret Server Application Pool and then add data
 
-   * After adding data, you will have to use a query to search for the logs.
+   * After adding data, you will have to use a query to search for the logs
 
 ## How to clear and add data
 
@@ -24,7 +24,7 @@ To view logs in the Splunk cloud:
 1. Right-click __SecretServer__ and click __Recycle__.
 
 1. .  Go to __Splunk Cloud Instance | Settings | Add Data__ |
-    __Forward__. The __Select Forwarders__ page appears.
+    __Forward__.
 
    ![Select Forwarders](images/055ff81572522f34b6c990784d7e250c.png)
 1. In the __Available host(s)__ text box, the computer on which the Universal
