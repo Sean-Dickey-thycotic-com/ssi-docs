@@ -27,5 +27,3 @@ __To install and configure Universal Forwarder:__
 
     ![Universal Forwarder](images/e4175952698e7c8378a6a3dd16ab97a0.png)
 1. Follow Steps 1 to 5 as mentioned on the screen above.
-
->**Note:** In Step 1, choose an appropriate __Installation Package__.

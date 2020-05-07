@@ -1,7 +1,10 @@
 [title]: # (Requirements)
 [tags]: # (introduction)
 [priority]: # (1)
-# Pre-requisites
+[display]: # (none)
+# Installation
+
+<!-- add installation instructions if any -->
 
 ## The following are the prerequisites to integrate Splunk Cloud with Secret Server
 

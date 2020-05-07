@@ -3,11 +3,13 @@
 [priority]: # (105)
 # Viewing logs in Splunk Cloud
 
-To view logs in the Splunk cloud, you must first clear the Secret Server
-Application Pool and then add data. After adding data, you must search for the
-logs using a query.
+To view logs in the Splunk cloud:
 
-## To clear and add data
+   * You will need to first clear the Secret Server Application Pool and then add data.
+
+   * After adding data, you will have to use a query to search for the logs.
+
+## How to clear and add data
 
 1. Type IIS in the __Search__ box. The __Internet Information Services (IIS)
     Manager app__ is populated.
@@ -34,8 +36,7 @@ logs using a query.
 
    >**Note:** To select a new server class, click __New__ and add a new __Server Class__.
 
-The Universal Forwarder is selected. This Universal Forwarder sends data to the
-Splunk platform.
+   The Universal Forwarder is selected. This Universal Forwarder sends data to the Splunk platform.
 
    ![Server Clas](images/498d2d65b08202cda8ff8167480b17ed.png)
 
@@ -45,8 +46,7 @@ Splunk platform.
 1. On the left-hand side, click __Files & Directories__.
 
    ![Files & Directories](images/78cdef85e7708c5637cd615f0e0102d9.png)
-1. In the __File or Directory__ text box, type the path of the syslog file that
-    is created in [Step 1](#Adding_Keys_Step_01).
+1. In the __File or Directory__ text box, type the path of the syslog file that was previously created.
 1. Click __Next__. The __Input Settings__ page appears.
 
     ![Input Settings](images/9dbb756481acd86fb1552df93a6563fb.png)
@@ -66,7 +66,7 @@ Splunk platform.
     ![New Search](images/a7c27070481fc09f6584e7ac269bb9cb.png)
 1. In the __New Search__ text box, type the query and click Search icon.
 
-    ![New Search](images/cf99b0eb8675e6b3ea7360d29a29c5b7.png)
+   ![New Search](images/cf99b0eb8675e6b3ea7360d29a29c5b7.png)
 
    >**Note:** For more information on search, see the following link: <https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Search>
 
