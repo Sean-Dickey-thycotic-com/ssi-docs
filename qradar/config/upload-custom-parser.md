@@ -5,33 +5,33 @@
 
 1. Save the following as an xml file. This is an example of a Custom Parser that you will need to upload in step 8.
 
-```xml
-<?xml version="1.0" encoding="UTF-8" standalone="true"?>
-- <ns2:device-extension xmlns:ns2="event_parsing/device_extension">
+   ```xml
+   <?xml version="1.0" encoding="UTF-8" standalone="true"?>
+   - <ns2:device-extension xmlns:ns2="event_parsing/device_extension">
 
-   <pattern id="EventCategory-Pattern-1" type="JavaPattern" use-default-pattern="false">\|\d+\|(.*)\|\d\|msg</pattern>
+      <pattern id="EventCategory-Pattern-1" type="JavaPattern" use-default-pattern="false">\|\d+\|(.*)\|\d\|msg</pattern>
 
-   <pattern id="EventName-Pattern-1" type="CefKey">$id$</pattern>
+      <pattern id="EventName-Pattern-1" type="CefKey">$id$</pattern>
 
-   <pattern id="SourceIp-Pattern-1" type="CefKey">src</pattern>
+      <pattern id="SourceIp-Pattern-1" type="CefKey">src</pattern>
 
-   <pattern id="UserName-Pattern-1" type="CefKey">suser</pattern>
+      <pattern id="UserName-Pattern-1" type="CefKey">suser</pattern>
 
-   <pattern id="AllEvents" type="JavaPattern">(.*?)</pattern>
-   - <match-group order="1" device-type-id-override="4001">
+      <pattern id="AllEvents" type="JavaPattern">(.*?)</pattern>
+         - <match-group order="1" device-type-id-override="4001">
 
-      <matcher order="1" field="EventCategory" pattern-id="EventCategory-Pattern-1" capture-group="\1" enable-substitutions="true"/>
+         <matcher order="1" field="EventCategory" pattern-id="EventCategory-Pattern-1" capture-group="\1" enable-substitutions="true"/>
 
-      <cef-matcher order="1" field="EventName" pattern-id="EventName-Pattern-1" enable-substitutions="true"/>
+         <cef-matcher order="1" field="EventName" pattern-id="EventName-Pattern-1" enable-substitutions="true"/>
 
-      <cef-matcher order="1" field="SourceIp" pattern-id="SourceIp-Pattern-1" enable-substitutions="true"/>
+         <cef-matcher order="1" field="SourceIp" pattern-id="SourceIp-Pattern-1" enable-substitutions="true"/>
 
-      <cef-matcher order="1" field="UserName" pattern-id="UserName-Pattern-1" enable-substitutions="true"/>
+         <cef-matcher order="1" field="UserName" pattern-id="UserName-Pattern-1" enable-substitutions="true"/>
 
-      <event-match-multiple pattern-id="AllEvents" send-identity="UseDSMResults" force-qidmap-lookup-on-fixup="true"/>
-   </match-group>
-</ns2:device-extension>
-```
+         <event-match-multiple pattern-id="AllEvents" send-identity="UseDSMResults" force-qidmap-lookup-on-fixup="true"/>
+      </match-group>
+   </ns2:device-extension>
+   ```
 
 1. Log into __QRadar__ on your web browser.
 
