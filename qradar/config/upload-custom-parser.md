@@ -5,7 +5,7 @@
 
 1. Save the following as an xml file. This is an example of a Custom Parser that you will need to upload in step 8.
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="true"?>
 - <ns2:device-extension xmlns:ns2="event_parsing/device_extension">
 
