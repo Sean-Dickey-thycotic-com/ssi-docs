@@ -13,6 +13,8 @@ The following are the overall steps to integrate Splunk Cloud with Secret Server
 * [Adding keys to Secret Server Config file](add-keys-secret-server.md)
 * [Viewing logs in Splunk Cloud](viewing-logs-splunk-cloud.md)
 
+>**Note:** Please be aware that the last steps are only for users that are interested in publishing the Splunk App. These steps are not required for configuring Splunk Cloud with Secret Server.
+
 ## Publishing and Packaging Splunk App
 
 The Splunk app is a quick way to get analysis, reports, health checks, and

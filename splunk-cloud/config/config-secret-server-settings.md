@@ -15,8 +15,7 @@ Server settings, add an event, and modify an event.
 The __Home__ page appears.
 
    ![Home](images/1e65851bcd136b7f9a108bdb1fca34f6.png)
-1. Click __Admin | Configuration__. The __Configuration__ page appears.
-    Multiple settings are available on the page.  
+1. Click __Admin | Configuration__.
 
     ![Configuration](images/a58bbf3275604a165dac6b461f482a37.png)
 1. At the bottom of the page, click __Edit__.  
@@ -53,7 +52,7 @@ You can add a new event subscription or modify the existing event.
 1. In the __Add Group/User__ list, select the group or the user.
 1. In the __Subscribed Events__ list, select the events.
 1. Modify the other fields as required.
-1. Click __Save__. A new event subscription is added.
+1. Click __Save__.
 
 ## To modify an existing event
 

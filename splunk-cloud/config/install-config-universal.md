@@ -3,7 +3,7 @@
 [priority]: # (102)
 # Installing and Configuring Universal Forwarder
 
-Install and configure Universal Forwarder on the server machine where Secret
+Install and configure the Universal Forwarder on the server where Secret
 Server is installed. The Universal Forwarder sends data to the Splunk platform.
 
 __To install and configure Universal Forwarder:__
@@ -16,7 +16,7 @@ __To install and configure Universal Forwarder:__
 
 1. In the __Password__, type the password.
 
-1. Click __Log In__. You are logged into Splunk.  
+1. Click __Log In__.  
 
     ![Log In](images/d0e348f8a0eb4f969304c5a89861463d.png)
 1. On the upper-right click __Username | Instances__. The __Explore Splunk Cloud__ window appears.  
