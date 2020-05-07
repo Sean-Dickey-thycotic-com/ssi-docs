@@ -1,7 +1,12 @@
 [title]: # (Custom Parsers)
 [tags]: # (introduction)
 [priority]: # (103)
+[display]: # (none)
 # Custom Parsers
+
+<!-- add and overview of covered troubleshooting topics 
+
+This section might not be needed depending on scope/complexity of integration.-->
 
 1. Begin by opening the __LSX_Template (Custom Parser)__ file in your chosen text editor.
 1. Now analyse the raw data that you are receiving from TSS.
