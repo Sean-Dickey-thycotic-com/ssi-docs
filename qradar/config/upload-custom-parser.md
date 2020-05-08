@@ -35,33 +35,33 @@
 
 1. Log into __QRadar__ on your web browser.
 
-   ![tag](images/step1.png)
+   ![QRadar](images/step1.png)
 1. Click the __Admin__ tab.
 
-   ![tag](images/step2.png)
+   ![Admin](images/step2.png)
 1. Click on __Log Source Extensions__.
 
-   ![tag](images/step7.png)
+   ![Log Source Extensions](images/step7.png)
 1. Click on __Add__.
 
-   ![tag](images/step8.png)
+   ![Add](images/step8.png)
 1. Add a name and description for the Log Source Extension.
 1. Click __Choose File__.
 
-   ![tag](images/step9.png)
+   ![Choose File](images/step9.png)
 1. Select the xml file you created in step 1 with the provided example.
 1. Click __Upload__.
 1. Select the log source extension and __set it to the default__.
 
-   ![tag](images/step10.png)
+   ![set it to the default](images/step10.png)
 1. Click __Save__.
 
 1. Click on __Log Sources__.
 
-   ![tag](images/step4.png)
+   ![Log Sources](images/step4.png)
 1. Click __Add__.
 
-   ![tag](images/step5.png)
+   ![Add](images/step5.png)
 1. Fill in the required fields:
    * __Log Source Name__
    * __Log Source Description__
@@ -72,4 +72,4 @@
 
 1. Click __Save__.
 
-   ![tag](images/step6.png)
+   ![Save](images/step6.png)
