@@ -26,4 +26,4 @@ __To verify the details and change the passowrd:__
 1. Click the __Events__ tab.
 1. At the bottom of the __Events__ tab, click on __OUT Event__. The event is listed. Wait till the Status and the __ERC Status__ is displayed as __Success__.
 
-The Secret Server is sucessfully integrated with IBM IGI Admin Console.
+Secret Server is sucessfully integrated with IBM IGI Admin Console.

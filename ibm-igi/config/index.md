@@ -12,6 +12,7 @@ The following are steps to integrate IBM IGI with Secret Server, please follow t
 1. [Import Thycotic certificate](import-thycotic-certificate.md).
 
 1. [Add Thycotic certificate](add-thycotic-certificate.md).
+
 1. [Manage Host file](manage-host-file.md).
 
 1. [Integrate Secret Server with IBM IGI Admin Console](integrate-ss-ibm-igi-admin-console-5.md).

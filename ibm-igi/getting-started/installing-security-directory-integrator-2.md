@@ -1,6 +1,6 @@
 [title]: # (Installing Security Directory Integrator 7.2)
 [tags]: # (introduction)
-[priority]: # (105)
+[priority]: # (4)
 # Installing Security Directory Integrator 7.2
 
 You can install Security Directory Integrator 7.2. using the __Security Directory Integrator__ wizard. IBM IGI uses Security Directory Integrator to communicate with various managed resources.

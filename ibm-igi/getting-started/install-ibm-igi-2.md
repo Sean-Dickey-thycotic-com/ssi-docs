@@ -1,7 +1,10 @@
 [title]: # (Install IBM IGI)
 [tags]: # (introduction)
 [priority]: # (101)
+[display]: # (none)
 # Install IBM IGI
+
+<!-- add troubleshooting topic and info -->
 
 This section provides the steps to install IBM IGI.
 

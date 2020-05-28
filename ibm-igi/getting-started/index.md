@@ -3,17 +3,12 @@
 [priority]: # (1)
 # Getting Started with IBM IGI
 
-The following are steps to integrate IBM IGI with Secret Server, please follow the steps in the following order to properly install and configure the components for the integration.
+Before configuring IBM IGI to integrate with Secret Server you will need to make sure you have met all of the [system requirements](requirements.md).
 
-1. [Configuring and Setting Up Virtual Appliance for IBM IGI](configuring-setting-up-virtual-1.md).
+After installing IBM IGI please complete the following steps below before configuring the connection between Secret Server and IBM IGI.
 
-1. [Install IBM IGI](install-ibm-igi-2.md).
+1. [Configure the OpenID Connect Provider](config-openid-connect-provider-4.md)
 
-1. [How to set up IBM IGI](how-to-set-up-ibm-igi-3.md).
+1. [Installing Security Directory Integrator 7.2](installing-security-directory-integrator-2.md)
 
-1. [Configure the OpenID Connect Provider](config-openid-connect-provider-4.md).
-
-1. [Installing Security Directory Integrator 7.2](installing-security-directory-integrator-2.md).
-
-1. [Installing Tivoli Dispatcher](installing-tivoli-dispatcher-3.md).
-
+1. [Installing Tivoli Dispatcher](installing-tivoli-dispatcher-3.md)

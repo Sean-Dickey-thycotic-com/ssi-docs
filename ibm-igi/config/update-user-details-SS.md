@@ -5,8 +5,8 @@
 
 The connector is configured, now you need to update the user details of Secret Server through IBM IGI. You need to:
 
-* Add user
-* Configure accounts
+* __Add user__
+* __Configure accounts__
 
 ## Add user
 
