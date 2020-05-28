@@ -3,7 +3,7 @@
 [priority]: # (103)
 # Import Thycotic certificate
 
-For secure connection between Thycotic Secret Server and IBM IGI, you need to import Thycotic certificate.
+For secure connection between Thycotic Secret Server and IBM IGI, you will need to import Thycotic certificate.
 
 __To import Thycotic certificate:__
 

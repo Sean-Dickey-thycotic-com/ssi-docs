@@ -13,8 +13,7 @@ __To install Tivoli Dispatcher:__
 
    ![administratorcommandprompt](images/administratorcommandprompt.png)
 1. In the __Command Prompt__ type the following:
-`cd <path where the DispatcherInstall is located>`
-and press __Enter__.
+`cd <path where the DispatcherInstall is located>` and press __Enter__.
 1. In the __Command Prompt__ then type the following:
 `Java -jar DispatcherInstall.jar`  
 and press __Enter__. The __IBM Security Identity Adapter__ wizard appears.
@@ -56,4 +55,3 @@ and press __Enter__. The __IBM Security Identity Adapter__ wizard appears.
 1. To verify the installation, go to `C:\Program Files\IBM\TDI\V7.2` and verify if the `timsol` folder is created.
 1. In the __Search__ box type `services`. The results are auto-populated.
 1. Click `Services`. Verify if the __IBM Security Directory Integrator (ISIM Adapters)__ service is running.
-1. The Tivoli Dispatcher is successfully installed.

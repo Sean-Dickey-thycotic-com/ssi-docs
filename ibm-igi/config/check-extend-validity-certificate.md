@@ -3,7 +3,9 @@
 [priority]: # (102)
 # Check and extend the validity of the certificate
 
-Make sure that your certificate is valid. If the validity expires, you need to extend the validity.
+Make sure that your certificate is valid. 
+
+>**Note:** If the validity of the certificate expires, you will need to extend the validity.
 
 __To check and extend validity of the certificate:__
 

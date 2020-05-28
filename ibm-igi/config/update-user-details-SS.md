@@ -3,7 +3,7 @@
 [priority]: # (108)
 # Update user details in Secret Server through IBM IGI
 
-The connector is configured, now you need to update the user details of Secret Server through IBM IGI. You need to:
+Once the connector is configured, you will need to update the user details for Secret Server through IBM IGI.
 
 * __Add user__
 * __Configure accounts__
