@@ -3,7 +3,7 @@
 [priority]: # (104)
 # Add the Thycotic Certificate
 
-You need to add the imported certificate.
+You will now need to add the imported certificate for Secret Server.
 
 __To add cerficates:__
 
@@ -76,7 +76,7 @@ __To add cerficates:__
 1. In the __Enter a label for the certificate__ text box, type the label and then click __OK__. The certificate is listed in the __Key database content__ area.
 
    ![singercertificatelistthree](images/singercertificatelistthree.png)
-1. Click __Key Database File__ tab > __Close__. The certificate is saved.
+1. Click __Key Database File__ tab | __Close__. The certificate is saved.
 
    ![closesignercertificate](images/closesignercertificate.png)
 

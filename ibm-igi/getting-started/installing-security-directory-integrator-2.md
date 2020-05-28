@@ -16,23 +16,26 @@ __To install Security Directory Integrator 7.2:__
 1. Click __Yes__ to run the setup. The __Security Directory Integrator wizard__ appears.
 
    ![securitydirectorintegratorwizard](images/securitydirectorintegratorwizard.png)
-1. Click __OK__. The __Introduction__ panel appears.
+1. Click __OK__. 
+1. The __Introduction__ panel appears.
 
    ![introductionpanel](images/introductionpanel.png)
-1. Click __Next__. The __Previous Installations__ panel appears.
+1. Click __Next__. 
+1. The __Previous Installations__ panel appears.
 
    ![previousinstallations](images/previousinstallations.png)
-1. Click __Next__. The __Software License Agreement__ panel appears.
+1. Click __Next__.
 
    ![softwarelicenseagreement](images/softwarelicenseagreement.png)
-1. Select __I accept the terms in the license agreement__ and click __Next__.
+1. Select __I accept the terms in the license agreement__.
+1. Click __Next__.
 
    ![chooseinstallfolder](images/chooseinstallfolder.png)
 1. In the __Choose Install Folder__, the folder where Security Directory Integrator 7.2 is installed appears. Click __Choose__ to change the folder where you want to install Security Directory Integrator 7.2.
 1. After installing Security Directory Integrator 7.2, in the __Choose Install Folder__, click __Next__. The __Choose Install Set__ panel appears.
 
    ![chooseinstallset](images/chooseinstallset.png)
-1. Select __Typical__ and click __Next__. The __Solutions Directory__ panel appears.
+1. Select __Typical__ and click __Next__.
 
    ![solutionsdirectory](images/solutionsdirectory.png)
 1. Click __Next__. The __Server Ports Values__ panel appears.

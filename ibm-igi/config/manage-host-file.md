@@ -3,7 +3,7 @@
 [priority]: # (105)
 # Manage Host file
 
-You need to add the details of host file for communication between Secret Server and Dispatcher.
+You will need to add the details of the host file for communication between Secret Server and Dispatcher.
 
 __To manage host file:__
 
@@ -24,7 +24,6 @@ __To manage host file:__
 
    ![createhostrecordtwo](images/createhostrecordtwo.png)
 
-   >**Note:** Fields marked with asterisk (*) are mandatory.
 
 1. __Address:__ Type the IP address where the Secret Server is installed.
 1. __Host Name:__ Type the host name.
@@ -39,4 +38,4 @@ __To manage host file:__
 1. Go to the __Windows Firewall__.
 1. Add port __1099__ to the Inbound Rule and Outbound Rule.
 
-   >**Note:** This step is mandatory for successful connection of Secret Server and IBM IGI.
+   >**Note:** This step is mandatory for a successful connection between Secret Server and IBM IGI.

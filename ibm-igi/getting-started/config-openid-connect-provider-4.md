@@ -3,11 +3,13 @@
 [priority]: # (3)
 # Configure the OpenID Connect Provider
 
-The next step is to configure the OpenID Connect Provider.
+The next step after installing IBM IGI is to configure the OpenID Connect Provider.
 
 __To configure OpenID Connect Provider:__
 
-1. Type the `IP address` along with the port number (For example: 10.60.25.21:9443) in the browser and press __Enter__.
+1. Type the `IP address` along with the port number (For example: 10.60.25.21:9443) in the browser.
+
+1. Press __Enter__.
 
 1. The default port number is __9443__.
 
@@ -41,11 +43,10 @@ __To configure OpenID Connect Provider:__
 
    ![Virtualappliancereboot](images/virtualappliancereboot.png)
 1. In the Virtual Appliance, type `reboot` and press __Enter__.
-1. To confirm, type `YES` and press __Enter__. The __IBM IGI login__ dialog box appears.
+1. To confirm, type `YES` and press __Enter__.
+1. The __IBM IGI login__ dialog box appears.
 
    ![ibmigilogin](images/ibmigilogin.png)
 1. Fill in the required information, such as the user name, password, and click __Log In__. The IBM IGI user interface appears.
 
    ![ibmigiuserinterface](images/ibmigiuserinterface.png)
-
-The Virtual Appliance for IBM IGI is configured and setup.

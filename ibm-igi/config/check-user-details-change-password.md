@@ -3,24 +3,29 @@
 [priority]: # (109)
 # Check user details and change password
 
-The last step is to check user details and change passsword.
+The last step is to check the user details and change the passsword.
+
 __To verify the details and change the passowrd:__
 
 1. Go to the __Secret Server | Admin | Users__.
 
-1. Click the user that is added. The details of the user is updated.
+1. Click on the user that was added. The details of the user should be updated.
 
    ![viewuser](images/viewuser.png)
 1. Go to __IBM IGI Administrator Console__.
 1. In the menu, click __Access Governance Core__.
-1. Click __Manage__ tab | __Users | Accounts__ tab. Select the account.
+1. Click __Manage__ tab | __Users | Accounts__ tab.
+1. Select the account.
 1. In the Actions list, click __Change Pwd__.
 
    ![manageusersacountchangepassword](images/manageusersacountchangepassword.png)
 1. The __Change Password__ dialog box appears.
 
    ![changepassword](images/changepassword.png)
-1. Fill in the required information, such as new password, confirm password, and then Click __OK__. A message, ‘__Operation successfully completed.__’ appears. Click __Ok__.
+1. Fill in the required information, such as new password and confirm password.
+1. Click __OK__.
+1. A message, ‘__Operation successfully completed.__’ appears.
+1. Click __Ok__.
 
    ![informationdialogboxtwo](images/informationdialogboxtwo.png)
 1. Click the __Events__ tab.

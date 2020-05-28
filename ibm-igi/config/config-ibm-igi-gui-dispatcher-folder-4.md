@@ -36,7 +36,7 @@ __To update the files in folders:__
 
    > __Note__: Stop the __IBM Security Directory Integrator__ service before pasting the file.
    ![pastethycoticconnector](images/pastethycoticconnector.png)
-1. Go to `C:\Program Files\IBM\TDI\V7.2\jars\3rdparty\others` and paste the following files here :
+1. Go to `C:\Program Files\IBM\TDI\V7.2\jars\3rdparty\others` and paste the following files here:
      * `commons-codec-1.11`
 
      * `commons-logging-1.2`
