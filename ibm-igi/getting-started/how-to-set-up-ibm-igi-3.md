@@ -1,7 +1,10 @@
 [title]: # (How to set up IBM IGI)
 [tags]: # (introduction)
 [priority]: # (103)
+[display]: # (none)
 # How to set up IBM IGI
+
+<!-- add troubleshooting topic and info -->
 
 This section provides the steps to set up IBM IGI.
 

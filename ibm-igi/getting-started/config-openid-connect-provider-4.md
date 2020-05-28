@@ -1,6 +1,6 @@
 [title]: # (Configure the OpenID Connect Provider)
 [tags]: # (introduction)
-[priority]: # (104)
+[priority]: # (3)
 # Configure the OpenID Connect Provider
 
 The next step is to configure the OpenID Connect Provider.

@@ -1,7 +1,10 @@
 [title]: # (Configuring and Setting Up Virtual Appliance)
 [tags]: # (introduction)
 [priority]: # (101)
+[display]: # (none)
 # Configuring and Setting Up Virtual Appliance for IBM IGI
+
+<!-- add troubleshooting topic and info -->
 
 To integrate IBM IGI with Secret Server, IBM IGI must be installed and configured using a Virtual Appliance.
 
