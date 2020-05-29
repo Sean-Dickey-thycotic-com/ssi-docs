@@ -1,8 +1,10 @@
 [title]: # (Configuration for UDP)
 [tags]: # (udp)
 [priority]: # (2)
+[display]: # (none)
 # Configuration for UDP
 
+<!-- add troubleshooting topic and info -->
 1. Navigate to __Splunk Cloud__.
 1. Click on __Download Universal Forwarder__.
 1. Go to __downloads__ on the machine.

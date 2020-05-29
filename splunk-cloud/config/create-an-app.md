@@ -1,6 +1,6 @@
 [title]: # (Create an App)
 [tags]: # (introduction)
-[priority]: # (106)
+[priority]: # (104)
 # Create an App
 
 The first step is to fill in the information for the __Add new page__ to create an App.

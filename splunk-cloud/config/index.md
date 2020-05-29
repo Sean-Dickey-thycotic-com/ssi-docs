@@ -7,12 +7,9 @@
 
 The following are the overall steps to integrate Splunk Cloud with Secret Server.
 
->**Note:** Both TCP and UDP Protocols are available to use when integrating Secret Server with Splunk Cloud. TCP is noted as the preferable way to collect the syslogs due to more accurate packet captures for Secret Server events.
-
 * [Registering with Splunk](registering-Splunk.md)
 * [Installing and configuring Universal Forwarder](install-config-universal.md)
-* [Configuration using TCP](steps/tcp.md)
-* [Configuration using UDP](steps/udp.md)
+* [Configuration using TCP](tcp.md)
 
 >**Note:** Please be aware that the last steps are only for users that are interested in publishing the Splunk App. These steps are not required for configuring Splunk Cloud with Secret Server.
 
