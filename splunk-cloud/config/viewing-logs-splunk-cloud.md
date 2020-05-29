@@ -1,7 +1,10 @@
 [title]: # (Viewing logs in Splunk Cloud)
 [tags]: # (introduction)
 [priority]: # (105)
+[display]: # (none)
 # Viewing logs in Splunk Cloud
+
+<!-- add troubleshooting topic and info -->
 
 To view logs in the Splunk cloud:
 

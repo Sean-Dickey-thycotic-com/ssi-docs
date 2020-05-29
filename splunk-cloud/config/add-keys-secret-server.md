@@ -1,7 +1,10 @@
 [title]: # (Adding keys to Secret Server Config file)
 [tags]: # (introduction)
 [priority]: # (104)
+[display]: # (none)
 # Adding keys to Secret Server Config file
+
+<!-- add troubleshooting topic and info -->
 
 You will have to frist create a folder and file to save the Syslogs on the computer where
 Secret Server is installed.

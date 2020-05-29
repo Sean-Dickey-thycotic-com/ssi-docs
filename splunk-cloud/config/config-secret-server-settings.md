@@ -1,7 +1,10 @@
 [title]: # (Configuring Secret Server settings)
 [tags]: # (introduction)
 [priority]: # (103)
+[display]: # (none)
 # Configuring Secret Server settings
+
+<!-- add troubleshooting topic and info -->
 
 Configure Secret Server settings such as Enable Web Service, Enable Syslog, and
 Add Event Subscription. This section provides the steps to configure Secret
