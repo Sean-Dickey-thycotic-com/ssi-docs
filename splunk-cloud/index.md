@@ -21,15 +21,3 @@ the Syslogs of Thycotic Secret Server to Splunk Cloud.
 Secret Server is a web-based password vault used throughout the world to help
 organizations properly manage privileged accounts. This guide will assist you
 with your Splunk Cloud and Secret Server integration project.
-
->**Note:** Splunk registration and configuration options depicted here are what
-is available as of writing this guide.
-
-The following are the overall steps to integrate Splunk Cloud with Secret
-Server.
-
-* Registering with Splunk
-* Installing and configuring Universal Forwarder
-* Configuring Secret Server settings
-* Adding keys to Secret Server Config file
-* Viewing logs in Splunk Cloud

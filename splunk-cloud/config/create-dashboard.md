@@ -1,6 +1,6 @@
 [title]: # (Create Dashboard)
 [tags]: # (introduction)
-[priority]: # (107)
+[priority]: # (105)
 # Create Dashboard
 
 The second step is to fill in the Create a New Dashboard dialog box and add

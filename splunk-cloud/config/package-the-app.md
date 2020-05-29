@@ -1,6 +1,6 @@
 [title]: # (Package the App)
 [tags]: # (introduction)
-[priority]: # (108)
+[priority]: # (106)
 # Package the App
 
 Packaging is the final step before uploading your app to Splunkbase. For this,
