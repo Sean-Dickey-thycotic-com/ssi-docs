@@ -31,11 +31,21 @@ __To update the files in folders:__
 
    ![services](images/services.png)
 1. Verify if the __IBM Security Directory Integrator (ISIM Adapters)__ service is running.
-1. Go to __Thycotic Adapter__ > __SIA_V7.1.5_SSS_Thycotic_Sec_Serv__ and copy `ThycoticConnector` file.
-1. Go to `C:\Program Files\IBM\TDI\V7.2\jars\connectors` and paste `ThycoticConnector`.
+1. Open the Thycotic Adapter integration files and navigate to __Thycotic Adapter__ | __SIA_V7.1.5_SSS_Thycotic_Sec_Serv__.
+1. Copy the `ThycoticConnector` file.
+1. On the server hosting IGI navigate to `C:\Program Files\IBM\TDI\V7.2\jars\connectors` and paste the `ThycoticConnector` file.
 
    > __Note__: Stop the __IBM Security Directory Integrator__ service before pasting the file.
+
    ![pastethycoticconnector](images/pastethycoticconnector.png)
+
+1. Download the following files:
+   * Commons Codec: http://commons.apache.org/proper/commons-codec/ 
+   * Commons Logging: http://commons.apache.org/proper/commons-logging/ 
+   * Http Client: https://hc.apache.org/downloads.cgi 
+   * Http Core: https://hc.apache.org/downloads.cgi 
+   * Json Simple: https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple/1.1.1 
+
 1. Go to `C:\Program Files\IBM\TDI\V7.2\jars\3rdparty\others` and paste the following files here:
      * `commons-codec-1.11`
 
@@ -47,23 +57,21 @@ __To update the files in folders:__
 
      * `json-simple-1.1.1`
 
-   > __Note__: Download these files from internet.
-
    ![pasteothers](images/pasteothers.png)
-1. Go to `C:\Program Files\IBM\TDI\V7.2\jars\3rdparty\IBM\axis2` and delete the existing version of the following files: 
+
+1. Go to `C:\Program Files\IBM\TDI\V7.2\jars\3rdparty\IBM\axis2` and delete the existing version of the following files:
    * `commons-codec`
    * `commons-logging`
    * `httpclient`
    * `httpcore`
 
-   and  paste the latest version of the following files:
+   and paste the latest version of the following files:
 
    * `commons-codec-1.11`
    * `commons-logging-1.2`
    * `httpclient-4.5.8`
    * `httpcore-4.4.11`
 
-   > __Note__: Download these files from internet.
    ![pasteaxis2](images/pasteaxis2.png)
 1. Go to `C:\Program Files\IBM\TDI\V7.2\timsol`.
 

@@ -1,17 +1,13 @@
 [title]: # (Configure the OpenID Connect Provider)
 [tags]: # (introduction)
 [priority]: # (3)
-# Configure the OpenID Connect Provider
+# Disable the OpenID Connector
 
 The next step after installing IBM IGI is to configure the OpenID Connect Provider.
 
 __To configure OpenID Connect Provider:__
 
-1. Type the `IP address` along with the port number (For example: 10.60.25.21:9443) in the browser.
-
-1. Press __Enter__.
-
-1. The default port number is __9443__.
+1. Open a browser and navigate to the IBM IGI login page. This should be an IP address and port number (Example: 10.60.25.21:9443). The default port number is __9443__.
 
    >**Note:** If you receive an error screen due to not having a certificate configured, please proceed by clicking __Advanced | proceed (unsafe)__.
 
