@@ -9,25 +9,6 @@ The integration of Secret Server is done with IBM IGI Admin Console to fetch Sec
 
 You can import the attribute mapping files using the IBM IGI Administration Console.
 
-__To import the attribute mapping file:__
-
-1. Sign into __Secret Server__.
-
-   ![secretserverlogin](images/secretserverlogin.png)
-1. The __All Secrets__ page appears.
-
-   ![allsecretspage](images/allsecretspage.png)
-1. Click __Admin | Folders__.
-
-   ![admindfoldersmenu](images/admindfoldersmenu.png)
-1. The __Folders__ page appears.
-
-   ![folderspage](images/folderspage.png)
-1. Double-click __Personal Folders__. Verify the presence of __admin__ folder.
-
-1. Click __Admin | Groups__. The __Groups__ tab appears. Verify the presence of __Everyone__ group.
-
-   ![admingroups](images/admingroups.png)
 1. Go to __IBM Security Identity Governance and Intelligence__ administrative UI.
 
    ![ibmigiloginpage](images/ibmigiloginpage.png)

@@ -1,56 +1,7 @@
-[title]: # (Update user details in Secret Server through IBM IGI)
+[title]: # (Update user details)
 [tags]: # (introduction)
 [priority]: # (108)
 # Update user details in Secret Server through IBM IGI
-
-Once the connector is configured, you will need to update the user details for Secret Server through IBM IGI.
-
-* __Add user__
-* __Configure accounts__
-
-## Add user
-
-__To add user detials in Secret Server through IBM IGI:__
-
-1. Go to __IBM IGI Administrator Console__.
-1. In the menu click __Access Governance Core__.
-
-   ![accessgovernancemenutwo](images/accessgovernancemenutwo.png)
-1. Click __Manage | Users__.
-
-   ![agcmanageusers](images/agcmanageusers.png)
-1. In the __Actions__ list, click __Add__.
-
-   ![agcmanageusersadd](images/agcmanageusersadd.png)
-1. In the __Details__ section, fill in the required information.
-
-   ![agcmanageusersdetails](images/agcmanageusersdetails.png)
-
-       a.	In the __User Type__ list, select `Employee`.
-  
-       b.	Select __OU Master__. In the __User Transfer__ dialog box, select `ACME Corp`  and click __OK__.
-  
-       c.	In the __Master UID__ text box, type the master user ID.
-1. Click __Save__. The __Password__ dialog box appears.
-
-   ![passworddialogbox](images/passworddialogbox.png)
-1. Fill in the required infomation, such as new password, confirm password, and then click __OK__.
-
-   >**Note:** The __Password Requirements__ appear on the right-hand side.
-
-1. A message,‘__Operation successfully completed.__’appears.
-1. Click __Ok__.
-
-   ![informationdialogboxtwo](images/informationdialogboxtwo.png)
-1. The __User__ is created in the __Users__ section.
-
-   ![agcmanageuserscreated](images/agcmanageuserscreated.png)
-
-The next step is to configure account.
-
-## Configure account
-
-__To configure account:__
 
 1. Click __Account Configurations__.
 

@@ -1,7 +1,9 @@
 [title]: # (Import Thycotic certificate)
 [tags]: # (introduction)
 [priority]: # (103)
+[display]: # (none)
 # Import Thycotic certificate
+<!-- add troubleshooting topic and info -->
 
 For secure connection between Thycotic Secret Server and IBM IGI, you will need to import Thycotic certificate.
 
@@ -64,4 +66,3 @@ __To import Thycotic certificate:__
 
    ![importsuccessfultwo](images/importsuccessfultwo.png)
 
-The Thycotic certficate is imported successfully. Now you need to add the certificate.

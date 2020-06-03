@@ -1,11 +1,11 @@
-[title]: # (Check user details and change password)
-[tags]: # (introduction)
+[title]: # (Verifying Integration)
+[tags]: # (verify)
 [priority]: # (109)
-# Check user details and change password
+# Verifying the Integration
 
-The last step is to check the user details and change the passsword.
+## Check user details and change password
 
-__To verify the details and change the passowrd:__
+If you would like to verify that the integration was successful, you can test this by checking the user details and changing the password.
 
 1. Go to the __Secret Server | Admin | Users__.
 

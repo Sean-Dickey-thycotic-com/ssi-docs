@@ -1,7 +1,9 @@
 [title]: # (Add Thycotic certificate)
 [tags]: # (introduction)
 [priority]: # (104)
+[display]: # (none)
 # Add the Thycotic Certificate
+<!-- add troubleshooting topic and info -->
 
 You will now need to add the imported certificate for Secret Server.
 
