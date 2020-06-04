@@ -5,9 +5,13 @@
 
 ## How to extend the validity of the Tivoli Directory Integrator certificate
 
-1. Click __OK__. The certificate details appear.
+If you received a Warning ‘__The selected certificate has expired!__’  from the [Check the validity of the Tivoli Directory Integrator certificate](check-extend-validity-certificate.md) section, you will need to extend the certificate. Please see the steps below.
+
+   ![certificateexpiredtestadmin](images/certificateexpiredtestadmin.png)
+
+1. Click __OK__.
 1. In __Windows Search__, type `cmd` and press __Enter__. The results are auto-populated.
-1. Right-click `Command Prompt` and click __Run as Administrator__. 
+1. Right-click `Command Prompt` and click __Run as Administrator__.
 1. In the __User Account Control__ dialog box, click __Yes__. The __Administrator: Command Prompt__ appears.
 1. To move to the `timsol` folder, type `C:\Program Files\IBM\TDI\V7.2\timsol and press Enter`.
 1. Run the following eight commands:

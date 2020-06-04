@@ -3,8 +3,6 @@
 [priority]: # (102)
 # Check the validity of the Tivoli Directory Integrator certificate
 
-__To check and extend validity of the certificate:__
-
 1. Go to `C:\Program Files\IBM\TDI\V7.2\jvm\jre\bin`.
 
    ![ikeymanfile](images/ikeymanfile.png)
@@ -32,10 +30,11 @@ __To check and extend validity of the certificate:__
 1. In the __Open dialog__ box, click __OK__. The __Password Prompt__ dialog box appears.
 
    ![passwordprompttestadmin](images/passwordprompttestadmin.png)
+
 1. In the __Password__ text box, type the password, and click __OK__.
 
-   > __Note__: The default password of testserver.jks is `administrator`.
+   >**Note:** The default password of testserver.jks is `administrator`.
 
-1. On the right-hand side, click __View/Edit__. A Warning ‘__The selected certificate has expired!__’ might appear. If so, please see further steps for extending the certifcate in [Troubleshooting](troubleshooting.md)
+1. On the right-hand side, click __View/Edit__. A Warning ‘__The selected certificate has expired!__’ might appear. If so, please see further steps for extending the certificate in [Troubleshooting](troubleshooting.md)
 
    ![certificateexpiredtestadmin](images/certificateexpiredtestadmin.png)

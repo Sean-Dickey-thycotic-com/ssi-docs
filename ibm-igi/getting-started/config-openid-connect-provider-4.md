@@ -1,4 +1,4 @@
-[title]: # (Configure the OpenID Connect Provider)
+[title]: # (Disable the OpenID Connector)
 [tags]: # (introduction)
 [priority]: # (3)
 # Disable the OpenID Connector
