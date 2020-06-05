@@ -1,6 +1,6 @@
 [title]: # (Mid-Server)
 [tags]: # (introduction)
-[priority]: # (1)
+[priority]: # (300)
 # ServiceNow Mid-Server
 
 The integration between Thycotic Secret Server and ServiceNow is created and maintained by ServiceNow. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from the vendor and testing performed by Thycotic. Integrations are supported to the extent of the third-party product procedures documented for this integration. Please contact the third-party for any customized setup of the integrated product.
@@ -12,7 +12,6 @@ __The CredentialResolver has two modes of operation with respect to the OAuth2 a
    * Using ext.tss.oauth2.grant file to load an access_token from an OAuth2 Access Grant stored in a file.
   
    * Using ext.tss.oauth2.username and ext.tss.oauth2.password to submit an OAuth2 Access Grant Request using the OAuth2 “password” grant_type just-in-time.
-
 
 __This document was created with versions__:
 
