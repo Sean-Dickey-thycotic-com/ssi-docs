@@ -12,9 +12,9 @@ __To install and configure Universal Forwarder:__
     The __Log In__ window appears.  
 
     ![Splunk website](images/56ab3b54a0a22b234d827f0d5d32f75f.png)
-1. In the __Username__, type the username.
+1. For the __Username__, enter the username.
 
-1. In the __Password__, type the password.
+1. For the __Password__, enter the password.
 
 1. Click __Log In__.  
 
