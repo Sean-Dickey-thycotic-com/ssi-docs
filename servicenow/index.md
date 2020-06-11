@@ -1,7 +1,7 @@
-[title]: # (ServiceNow)
+[title]: # (ServiceNow ITSM)
 [tags]: # (servicenow)
 [priority]: # (1)
-# About ServiceNow
+# About ServiceNow ITSM
 
 The integration between Thycotic Secret Server and ServiceNow is created and maintained by ServiceNow. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from the vendor and testing performed by Thycotic. Integrations are supported to the extent of the third-party product procedures documented for this integration. Please contact the third-party for any customized setup of the integrated product.
 
@@ -9,6 +9,6 @@ ServiceNow is a software-as-a-service provider that provides technical managemen
 
 Visit the ServiceNow website for more information.
 
-## Why should ServiceNow be integrated with Thycotic Secret Server
+## Why should ServiceNow ITSM be integrated with Thycotic Secret Server
 
 After integrating the incident and change management systems of ServiceNow with Secret Server, you can validate ticket numbers or incidences.
