@@ -1,7 +1,7 @@
 [title]: # (Install “Release Thycotic Secret Server.bprelease”)
 [tags]: # (install)
 [priority]: # (101)
-# Install “Release Thycotic Secret Server.bprelease”
+# Install Release Thycotic Secret Server.bprelease
 
 1. Select the __import file__.
 

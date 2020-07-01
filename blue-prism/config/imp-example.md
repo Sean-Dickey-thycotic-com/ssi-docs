@@ -1,13 +1,11 @@
 [title]: # (Implementation Considerations)
 [tags]: # (introduction)
 [priority]: # (104)
-# Implementation example
+# Implementation Example
 
-Executing an automated process on a Blue Prism Runtime
-Resource
+Executing an automated process on a Blue Prism Runtime Resource.
 
-The VBO LoginAgent allows a process to operate under the context of the logged in user and provides access to all local applications and network resources that
-it may need.
+The VBO LoginAgent allows a process to operate under the context of the logged in user and provides access to all local applications and network resources that it may need.
 
    ![tag](images/13.png)
 
