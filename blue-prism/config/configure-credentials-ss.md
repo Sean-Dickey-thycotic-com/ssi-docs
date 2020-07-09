@@ -5,7 +5,7 @@
 
 After a successful BP package import, configure the account settings for Secret Server.
 
-   ![tag](images/6.png)
+   ![BP package import](images/6.png)
 1. Create a credential entry. In the example above we used the name __Thycotic Secret Server__.
 
 1. Enter the required settings:
