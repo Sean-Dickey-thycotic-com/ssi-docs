@@ -1,6 +1,7 @@
 [title]: # (Constraints)
 [tags]: # (introduction)
 [priority]: # (2)
+
 # Known Constraints and Limitations
 
 * The current implementation requests a token immediately prior to requesting the secret, when operating in just-in-time mode.  One-time token authentication with expiration-timer based renewal, will be offered in the next iteration of the integration

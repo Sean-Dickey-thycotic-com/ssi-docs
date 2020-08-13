@@ -1,15 +1,14 @@
 [title]: # (Scalability)
 [tags]: # (introduction)
 [priority]: # (4)
+
 # Scalability
 
-If you intend to use different credentials to use Discovery across different systems that are integrated with Secret Server, you will need to take advantage of the Credential Alias feature. Details on configuring this can be found here:
+Credential aliases for Discovery allow control over which credentials a given schedule is allowed to access. This prevents the unnecessary exposure of any elevated credentials. Multiple credentials can be assigned to a single alias, allowing you to configure a set of credentials to use across different systems in our environment.
 
-<https://docs.servicenow.com/bundle/orlando-servicenow-platform/page/product/credentials/concept/discovery-credential-alias.html>
+Creating credential aliases for Discovery is documented under the `Connections and Credentials` for our deployed release of ServiceNow.
 
-Below are a few example screenshots of our Windows based credential linked to a
-Credential Alias and then a screenshot of that being linked to a Discovery
-Schedule
+Below are a few example screenshots of a Windows-based credential linked to a Credential Alias and then a screenshot of that being linked in a Discovery Schedule:
 
 ![](images\9fdd24b5bb5ad4d0e4d27069eca21a55.png)
 

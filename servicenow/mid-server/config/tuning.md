@@ -1,18 +1,14 @@
 [title]: # (Tuning)
 [tags]: # (introduction)
 [priority]: # (3)
+
 # Tuning Configurable Options
 
-It may be required for you to adjust the field mappings file to fit your
-individual needs. If you open tss-credential-resolver-1.0.jar with winzip/winrar
-you will notice the following folder structure:
+It may be required for you to adjust the field mapping file to fit your individual needs. If you open tss-credential-resolver-1.0.jar with winzip/winrar you will notice the following folder structure:
 
 ![](images\cc7618007aaef06512869476029b86bb.png)
 
-You can edit the tss-credential-resolver-field-mappings.json file. This is as
-simple as ensuring once the pattern mapping file is modified, you re-zip the
-files/folders, then rename the new zip file to .jar. You can then upload the
-modified .jar file to ServiceNow.
+You can edit the tss-credential-resolver-field-mappings.json file. This is as simple as ensuring once the pattern mapping file is modified, you re-zip the files/folders, then rename the new zip file to .jar. You can then upload the modified .jar file to ServiceNow.
 
 ![](images\690fddc76da3e877672c537dcf95cd07.png)
 

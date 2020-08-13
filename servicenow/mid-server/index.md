@@ -1,22 +1,25 @@
-[title]: # (Mid-Server)
+[title]: # (MID Server)
 [tags]: # (introduction)
 [priority]: # (300)
-# ServiceNow Mid-Server
 
-The integration between Thycotic Secret Server and ServiceNow is created and maintained by ServiceNow. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from the vendor and testing performed by Thycotic. Integrations are supported to the extent of the third-party product procedures documented for this integration. Please contact the third-party for any customized setup of the integrated product.
+# ServiceNow MID Server
 
-This integration contains an implementation of com.snc.discovery.CredentialResolver that enables ServiceNow to use Thycotic Secret Server secrets as Discovery Credentials. The CredentialResolver uses the Secret Server REST API to request secrets, and field-mappings to map the Secret Server secret fields to ServiceNow Discovery Credential-type fields.
+The integration between Thycotic Secret Server and a ServiceNow MID Server is maintained by Thycotic. This document is provided as a guide and best practice for implementing the Thycotic Credential Resolver with ServiceNow MID servers in your environment.
 
-__The CredentialResolver has two modes of operation with respect to the OAuth2 access_token__:
+This integration contains an implementation of the `com.snc.discovery.CredentialResolver` that enables ServiceNow to use Secret Server secrets as Discovery Credentials with the MID Server(s). The Credential Resolver uses the Secret Server REST API to request secrets, and field-mappings to map the secret fields to ServiceNow Discovery Credential fields.
 
-   * Using ext.tss.oauth2.grant file to load an access_token from an OAuth2 Access Grant stored in a file.
-  
-   * Using ext.tss.oauth2.username and ext.tss.oauth2.password to submit an OAuth2 Access Grant Request using the OAuth2 “password” grant_type just-in-time.
+# Implementation Modes
 
-__This document was created with versions__:
+The REST API for Secret Server utilizes an OAuth2 token for authentication. The Java class in use by our Credential Resolver was written to handle two modes for this authentication:
 
-   * Secret Server Version: 10.7.00059
+## Just-In-Time Mode
 
-   * ServiceNow Version: glide-newyork-06-26-2019__patch4-hotfix1-12-16-2019_12-17-2019_0856.zip
+In this mode the MID Server agent configuration file is modified to include the Secret Server API accounts username and password. In this mode the MID Server agent will handle authenticating to the REST API and requesting the needed OAuth2 token to retrieve secrets.
 
-   * Java 8 Update 231
+> **Note**: It does require providing the username and password in plain text within the configuration file. If this method is utilized ensure access is controlled to the MID Server and the agent folder.
+
+## Grant File Mode
+
+In this mode the MID Server agent configuration file is modified to include the file path to a `oauth2_grant.json` file. This file contains the OAuth2 token that the MID Server will utilize for retrieving secrets.
+
+This method requires an external process is authenticating to Secret Server and populating the `json` file with a valid OAuth2 token. The recommended mechanism provided in this document will utilize Windows Task Scheduler.
