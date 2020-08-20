@@ -25,10 +25,8 @@ This section is about the Secret Server Dashboard extension in IBM QRadar.
 ## Secret Server settings
 
 1. Navigate to __Secret Server__.
-1. Click on __Admin__.
-1. Click on __Remote Password Changing__.
+1. Click on __Admin__ | __Remote Password Changing__.
 
-   ![Remote Password Changing](images/5.png)
 1. Click __Edit__.
 
    ![Edit](images/6.png)
@@ -36,7 +34,7 @@ This section is about the Secret Server Dashboard extension in IBM QRadar.
 1. Click __Save__.
 
    ![Save](images/7.png)
-1. Click __Run Now__ under __Password Changing__ and __Heartbeat__.
+1. Under the __Password Changing__ and __Heartbeat__ tabs, click __Run Now__.
 
    ![Run Now](images/8.png)
    ![Run Now](images/9.png)
@@ -69,7 +67,7 @@ This section is about the Secret Server Dashboard extension in IBM QRadar.
 
    ![Dashboard](images/16.png)
 
-   >**Note:** You can select the star symbol next to the application to make it a favorite.
+   >**Note:** To add this to your favorites, click the star.
 
 The Secret Server Dashboard will be displayed.
 
