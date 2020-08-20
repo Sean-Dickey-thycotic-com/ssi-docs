@@ -3,7 +3,7 @@
 [priority]: # (300)
 # Secret Server Dashboard Extention
 
-This section is about the Secret Server Dashboard extension in IBM Qradar.
+This section is about the Secret Server Dashboard extension in IBM QRadar.
 
    ![intro](images/Intro.png)
 
@@ -43,7 +43,7 @@ This section is about the Secret Server Dashboard extension in IBM Qradar.
 
 ## Create an Authorized Token
 
-1. Navigate to __IBM QRadar__.
+1. Navigate to the __IBM QRadar console__.
 1. Click on __Admin__.
 
    ![Admin](images/1.png)
