@@ -5,7 +5,7 @@
 
 This section is about the Secret Server Dashboard extension in IBM QRadar.
 
-   ![intro](images/Intro.png)
+   ![intro](images/intro.png)
 
 ## How to Download the Secret Server Dashboard Extention
 
