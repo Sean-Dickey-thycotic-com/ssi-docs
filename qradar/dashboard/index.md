@@ -5,7 +5,7 @@
 
 This section is about the Secret Server Dashboard extension in IBM QRadar.
 
-   ![intro](images/Intro.png)
+   ![Intro](images/intro.png)
 
 ## How to Download the Secret Server Dashboard Extention
 
@@ -26,7 +26,6 @@ This section is about the Secret Server Dashboard extension in IBM QRadar.
 
 1. Navigate to __Secret Server__.
 1. Click on __Admin__ | __Remote Password Changing__.
-
 1. Click __Edit__.
 
    ![Edit](images/6.png)
