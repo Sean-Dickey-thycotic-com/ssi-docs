@@ -23,7 +23,7 @@
 |   |   | For further information about hardware requirements please contact Blue Prism.  |
 | Secret Server  |   |   |
 |   | Version  |  |
-|   |   |  Thycotic Secret Server 10.8 or later.  | 
+|   |   |  Thycotic Secret Server 10.8 or later.  |
 |   |  Hardware |  |
 |   |   |  For further information about system requirements for Secret Server please visit: https://docs.thycotic.com/ss/10.8.0/secret-server-setup/system-requirements/index.md. |
 |   |   |   |

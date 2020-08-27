@@ -3,7 +3,7 @@
 [priority]: # (101)
 # Import the Thycotic Secret Server Integration
 
-1. In order to connect Secret Server with BluePrism, the package “Release Thycotic Server.bprelease” must be present on the BluePrism host.
+1. In order to connect Secret Server with BluePrism, the package “Release Thycotic Server.bprelease” must be present on the BluePrism host. Please click [here](https://thy.center/ssi/link/SSBluePrism) to download the package for Blue Prism.
 
 1. In BluePrism, select __Import__ and choose the Thycotic integration as the input file.
 
