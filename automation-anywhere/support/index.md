@@ -1,12 +1,13 @@
 ﻿[title]: # (Support)
 [tags]: # (thycotic)
 [priority]: # (100000)
-[display]: # (none)
 # Support
 
 Thycotic customers have access to support by phone and email. You also can open a case in Thycotic’s support ticketing system, which promotes follow-through to issue resolution.
 
-* Use the means you prefer, except for Severity 1 issues—for those, always use phone support.
+>**Note**: Please see our [Support Services Guide](https://thycotic.my.salesforce.com/sfc/p/#37000000KAUl/a/1G000000TU6g/_z6_M8tD_6.x3JB2LOI8q20vzWkkiLhKbFv0Wec9Fw0) for details about our support policy. This page provides a high-level summary of portions of that guide.
+
+Use the means you prefer, except for Severity 1 issues—for those, always use phone support.
 
   Severity 1 means a critical problem that has caused *complete loss of service* and work cannot reasonably continue at your worksite.
 
@@ -58,7 +59,3 @@ As an alternative to support by email or phone, you can open a support ticket an
 * Visit the [Support Portal Login Page](https://thycotic.force.com/support/s/login/) using the credentials you received when you became a customer.
 * After logging in, you will be on the main page. Click the __Cases__ tab, then __Create a Case__.
 * Follow the instructions to complete your case.
-
-<!-- ## Enhancement Requests
-
-add URL for request form (if there is one) -->
