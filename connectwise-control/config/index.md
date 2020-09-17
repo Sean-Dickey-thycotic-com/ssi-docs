@@ -11,10 +11,10 @@ Thycotic has developed an extension for ConnectWise Control. The extension is lo
 
 The extension provides the following features:
 
-* Users can connect to a Secret Server instance
-* Users can search and select folders
-* Users can search and select secrets located within a folder
-* Users can pass the userid/password (and domain) to the Connected Machine
+* Users can connect to a Secret Server instance.
+* Users can search and select folders.
+* Users can search and select secrets located within a folder.
+* Users can pass the userid/password (and domain) to the Connected Machine.
 
 Please see the following sections in order to configure Connectwise Control.
 

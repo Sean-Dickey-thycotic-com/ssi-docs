@@ -8,9 +8,9 @@ The on site ConnectWise Control server is self-hosted, and runs as a .NET Framew
 
 The integration between Secret Server and ConnectWise Control ensures that:
 
-* Passwords are securely vaulted in Secret Server
-* Users can connect to a Secret Server instance
-* Users can search and select folders
-* Users can search and select secrets located within a folder
-* Users can pass the userid/password (and domain) to the Connected Machine
-* All access by users is captures in Secret Server Audit Trail
+* Passwords are securely vaulted in Secret Server.
+* Users can connect to a Secret Server instance.
+* Users can search and select folders.
+* Users can search and select secrets located within a folder.
+* Users can pass the userid/password (and domain) to the Connected Machine.
+* All access by users is captures in Secret Server Audit Trail.

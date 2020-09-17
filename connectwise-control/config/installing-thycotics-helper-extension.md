@@ -5,7 +5,7 @@
 
 The installation instructions below are largely derived from [ConnectWise University’ Extension Development Guide](https://docs.connectwise.com/ConnectWise_Control_Documentation/Developers/Extension_development_guide).
 
-## What's the process?
+## What's the Process?
 
 To create an extension with ConnectWise Control, you'll have to follow this process:
 
