@@ -1,6 +1,6 @@
 [title]: # (Installing the Splunk App for Secret Server)
 [tags]: # (configuration)
-[priority]: # (103)
+[priority]: # (104)
 # Installing the Splunk App for Secret Server
 
 1. Download the Splunk App (splunk-app-for-secret-server_11.tgz) for Secret Server at https://splunkbase.splunk.com/.

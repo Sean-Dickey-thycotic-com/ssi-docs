@@ -5,7 +5,9 @@
 
 Please see the steps below to properly configure Splunk with Secret Server:
 
-   * [Initial Configuration and Event Log Analysis](event-log-analysis.md)
-   * [Configuring Splunk](configuring-splunk.md)
-   * [Installing the Splunk App for Secret Server](installing-splunk-app.md)
-   * [Using Splunk](using-splunk.md)
+* [Configuration and Event Log Analysis](event-log-analysis.md)
+* [Configuring Splunk](configuring-splunk.md)
+* [Setting up the Windows heavy forwarder](heavy-forwarder.md)
+* [Setting up the Universal Forwarder](universal-forwarder.md)
+* [Configuring Secret Server settings](configure-ss-settings.md)
+* [Using Splunk](using-splunk.md)
