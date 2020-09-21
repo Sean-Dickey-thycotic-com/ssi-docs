@@ -1,6 +1,6 @@
 [title]: # (Using Splunk)
 [tags]: # (configuration)
-[priority]: # (104)
+[priority]: # (106)
 # Using Splunk
 
 ## Overview
@@ -8,6 +8,12 @@
 You can easily correlate Secret Server syslog data using Splunk’s field-extraction
 capabilities. Secret Server’s detailed Syslog currently contains 44 different events,
 tracking more than 20 unique data fields.
+
+## Accessing Secret Server Events in the SplunkCloud
+
+Login to SplunkCloud and click on __search and Reporting and__ enter the query: `source=”syslog”` and click __Search icon__.
+
+   ![](images/3ee96cc9ae6ebcbb6855393408a73342.png)
 
 ## Example: Tracking Frequent Use
 
@@ -120,4 +126,4 @@ Only Data Fields relevant to the Event ID are included in the log.
 
 In this event, the Administrator account in SS has edited the secret:
 
-   ![](images/13.jpg)
+   ![event](images/13.jpg)
