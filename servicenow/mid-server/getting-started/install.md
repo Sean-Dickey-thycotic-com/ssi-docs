@@ -2,6 +2,7 @@
 [tags]: # (introduction)
 [priority]: # (4)
 [display]: # (none)
+
 # Installation
 
 <!-- add installation instructions that pertain directly to the Secret Server installation

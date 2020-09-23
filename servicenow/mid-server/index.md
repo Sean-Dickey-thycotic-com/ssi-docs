@@ -16,10 +16,10 @@ The REST API for Secret Server utilizes an OAuth2 token for authentication. The 
 
 In this mode the MID Server agent configuration file is modified to include the Secret Server API accounts username and password. In this mode the MID Server agent will handle authenticating to the REST API and requesting the needed OAuth2 token to retrieve secrets.
 
-> **Note**: It does require providing the username and password in plain text within the configuration file. If this method is utilized ensure access is controlled to the MID Server and the agent folder.
+> **Note**: It does require providing the username and password in plain text within the configuration file. If this method is utilized ensure access to the MID Server and the agent folder are restricted.
 
 ## Grant File Mode
 
-In this mode the MID Server agent configuration file is modified to include the file path to a `oauth2_grant.json` file. This file contains the OAuth2 token that the MID Server will utilize for retrieving secrets.
+In this mode the MID Server agent configuration file is modified to include the path to a `oauth2_grant.json` file. This file will contain the access token the agent will use for authenticating the API calls. It requires an external source to write the OAuth2 token to the file.
 
-This method requires an external process is authenticating to Secret Server and populating the `json` file with a valid OAuth2 token. The recommended mechanism provided in this document will utilize Windows Task Scheduler.
+The external source will require execution on a regular schedule based on the Web Services configuration of your Secret Server instance. The recommended mechanism documented is Windows Task Scheduler.
