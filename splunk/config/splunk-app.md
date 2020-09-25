@@ -137,4 +137,4 @@ __To package the app to GZIP using 7-Zip:__
 
 This section includes the following:
 
-   * Syslog Events: Click [here](syslog_events.md) for the following file has the sample data of the available syslog entries.
+   * Syslog Events: Click [here](syslog-events.md) for the following file has the sample data of the available syslog entries.
