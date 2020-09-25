@@ -92,8 +92,7 @@ apply to the event.
 The following table is a complete list of data fields in Secret Server’s Syslog.
 Only Data Fields relevant to the Event ID are included in the log.
 
->   **Note:** Some log entries may differ by field content. See the examples
->   below.
+   >**Note:** Some log entries may differ by field content. See the examples below.
 
 #### Secret Server Event Definitions
 

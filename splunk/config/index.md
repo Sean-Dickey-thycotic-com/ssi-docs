@@ -11,3 +11,4 @@ Please see the steps below to properly configure Splunk with Secret Server:
 * [Setting up the Universal Forwarder](universal-forwarder.md)
 * [Configuring Secret Server settings](configure-ss-settings.md)
 * [Using Splunk](using-splunk.md)
+* [Publishing and Packaging the Splunk App](splunk-app.md)
