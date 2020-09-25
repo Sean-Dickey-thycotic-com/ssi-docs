@@ -41,7 +41,7 @@ Setting up a [heavy](https://docs.splunk.com/Splexicon:Heavyforwarder) forwarde
 1. When prompted, click __Save File__ and click __OK__. By default,
 the splunkclouduf.spl file downloads to the Downloads directory. If you download to a different location, make note of that location.
 
-1. Move the splunkclouduf.spl file to the `C:\\ProgramFiles\\Splunk\\etc\\apps directory of your enterprise.`
+1. Move the splunkclouduf.spl file to the `C:\ProgramFiles\Splunk\etc\apps` directory of your enterprise.
 1. Open a command prompt window and run the following command:
 `tar xvf splunkclouduf.spl`.
 
@@ -57,6 +57,6 @@ the splunkclouduf.spl file downloads to the Downloads directory. If you down
 
 1. Restart your forwarder: `/splunk restart`.
 1. Once splunk is restarted you'll need to check the correct __output.conf__ is installed.
-1. Make sure that `C:\\ProgramFiles\\Splunk\\etc\\apps\\yourcloudnamesplunkcloud\\default\\outsputs.conf`is the same as `C:\\Program Files\\Splunk\\etc\\system\\local\\outputs.conf`.
+1. Make sure that `C:\ProgramFiles\Splunk\etc\apps\yourcloudnamesplunkcloud\default\outsputs.conf`is the same as `C:\Program Files\Splunk\etc\system\local\outputs.conf`.
 
-1. __If__ the files above aren't the same copy `C:\\ProgramFiles\\Splunk\\etc\\apps\\yourcloudnamesplunkcloud\\default\\outsputs.conf to C:\\Program Files\\Splunk\\etc\\system\\local\\outputs.conf and restart splunk.`
+1. __If__ the files above aren't the same copy `C:\ProgramFiles\Splunk\etc\apps\yourcloudnamesplunkcloud\default\outsputs.conf to C:\Program Files\Splunk\etc\system\local\outputs.conf` and restart splunk.
