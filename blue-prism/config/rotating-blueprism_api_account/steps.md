@@ -9,8 +9,8 @@ The first step is to enable local API account rotation for an application accoun
 
 1. Create a custom remote password changer.
 
-   ![tag](images/1.png)
-   ![tag](images/2.png)
+   ![Password changer](images/1.png)
+   ![Password changer](images/2.png)
 
 __Heartbeat Script__
 
@@ -81,6 +81,7 @@ catch [System.Net.WebException]
 __Password Changing Script__
 
    ```
+
 $params = $args
 $username = $params[0]
 $password = $params[1]
@@ -149,24 +150,26 @@ catch [System.Net.WebException]
 
 
    ```
+
 ## Step 2
 
 1. Create a Secret Template for the Local API account.
 
    >**Note:** This template is the same as the “Password” default template, but with the Local API Password Changer identified in Step 1 added to it as its password changing mechanism.
 
-   ![tag](images/3.png)
+   ![Template](images/3.png)
 1. The template will need a __resource__,__target__ or __Host__ field to identify the location of the BluePrism server.
 
 ## Step 3
 
 1. Create a __dependency changer for BluePrism__. This remotely invokes AutomateC from BluePrism in order to set the credential property to the new password for the Secret.
 
-   ![tag](images/4.png)
+   ![Dependency](images/4.png)
 
 __Dependency Script__
 
    ```
+
    $params = $args
    $username = $params[0]
    $newpassword = $params[1]
@@ -205,12 +208,12 @@ __Dependency Script__
     throw $results
     }
 
-   ``` 
+   ```
 
-   ![tag](images/5.png)
+   ![Dependency](images/5.png)
 
 BluePrism Credential dependency settings are shown below.
 
-   ![tag](images/6.png)
+   ![Dependency](images/6.png)
 
    >**Note:** A dependency will need to be created for each BluePrism server.
