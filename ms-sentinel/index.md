@@ -12,11 +12,14 @@ This article explains how to connect your Thycotic Secret Server appliance to Az
 
 Configure Thycotic Secret Server to forward Syslog messages in CEF format to your Azure workspace via the Syslog agent. If you don't have such a log forwarding server, see [these instructions](https://docs.microsoft.com/en-us/azure/sentinel/connect-cef-agent) to get one up and running.
 
-1. In the Azure Sentinel portal, click Data connectors, select Thycotic Secret Server and then Open connector page.
-2. Follow the [configure Secret Server](https://thy.center/ss/link/syslog) instructions to configure sending syslog data to the log forwarding server.
-3. Validate your connection and verify data ingestion using these [instructions](https://docs.microsoft.com/en-us/azure/sentinel/connect-cef-verify). It may take up to 20 minutes until your logs start to appear in Log Analytics.
+1. In the Azure Sentinel portal:
+   1. Click Data connectors.
+   1. Select Thycotic Secret Server.
+   1. Open the connector page.
+1. Follow the [configure Secret Server](https://thy.center/ss/link/syslog) instructions to configure sending syslog data to the log forwarding server.
+1. Validate your connection and verify data ingestion using these [instructions](https://docs.microsoft.com/en-us/azure/sentinel/connect-cef-verify). It may take up to 20 minutes until your logs start to appear in Log Analytics.
 
-## Find your data
+## Find Your Data
 
 After a successful connection is established, the data appears in Logs, under the Azure Sentinel section, in the __CommonSecurityLog__ table.
 
