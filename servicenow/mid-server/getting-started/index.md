@@ -28,4 +28,4 @@ The ServiceNow **External Credential Store** plugin must be activated for your S
 
 Thycotic has open-sourced the credential resolver Java code that can be found on GitHub, [Thycotic/service-now-credential-resolver](https://github.com/thycotic/service-now-credential-resolver). This can be compiled to obtain the JAR file for this integration.
 
-A compiled jar file can be downloaded here for ease: [tss-credential-resolver-1.0.jar](https://updates.thycotic.com/secretsever/servicenow/tss-credential-resolver-1.0.jar).
+A compiled jar file can be downloaded via the archive file here: [tss-credential-resolver-1.0.zip](https://updates.thycotic.com/secretserver/servicenow/tss-credential-resolver-1.0.zip).
