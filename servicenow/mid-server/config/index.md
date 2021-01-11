@@ -1,114 +1,168 @@
 [title]: # (Configuration)
 [tags]: # (introduction)
 [priority]: # (100)
-# Configuration
 
-1. Install the Mid-Server on the system that has been designated to host the
-    Mid-Server function. You can retrieve the Download link by navigating to the
-    **MID Server** section in ServiceNow and clicking **Downloads**. For this
-    tutorial we chose 64 bit.
+# Configuring MID Server Agent
 
-   ![](images/ff614493f9f919b992075d03423d0a42.png)
+## Create MID Server JAR File
 
-1. Follow the instructions outlined in this article if you need any assistance
-    with the installation of the Mid-Server -
-    <https://docs.servicenow.com/bundle/london-servicenow-platform/page/product/mid-server/task/t_InstallAMIDServerOnWindows.html#t_InstallAMIDServerOnWindows>
+1. Access your ServiceNow portal
+1. Navigate to **MID Server | JAR Files**
+1. Click the **New** button
+1. Click the **paperclip** on the top right
+1. Click **Choose file** in the **Attachments** prompt
+1. Locate the JAR file you downloaded from [Thycotic/service-now-credential-resolver](https://github.com/thycotic/service-now-credential-resolver)
+1. Click **Open** to upload the file
+1. Click the **X** to close the **Attachments** prompt
+1. Enter the below details:
+   * Name: **Thycotic Credential Resolver**
+   * Source: **https://github.com/thycotic/service-now-credential-resolver**
+1. Click **Submit** (or **Update**)
 
-   >**Note:** When installing the MID Server you will be providing the
-ServiceNow MID Server username and password. This is the user that you created
-during the pre-requisites section within ServiceNow. Below is a screenshot of
-the user account we created for our documentation*
+### Verify Agent download
 
-   ![](images/2086f846a7ad42c7467a8016690b2ae9.png)
+Once you have submitted the JAR file through ServiceNow, your MID Servers will pull the file. You can verify the file has been downloaded by checking the `extlib` directory within your agent's root path.
 
-   Verify that the Mid-Server Status is **Up** and that is has been validated
-before proceeding to the next steps. This can be found under the **Orchestration
-\> MID Servers** category.
+> **Note**: If updating the file, verify the modified date changes to the current day's timestamp.
 
-   ![](images/7e1cf31e9ddbc5c91d10e09a4a909cb9.png)
+# Edit Agent Config
 
-1. Upload the .jar file provided to ServiceNow by logging into your ServiceNow
-    instance and navigating to **MID Server \> JAR Files.** Click the **New**
-    button and provide all relevant information. Click on the attachment
-    paperclip icon to upload the .jar file and once you’ve entered all relevant
-    information click **Submit.** Below is an example of ours.
+The `config.xml` file will be modified to add additional elements for the credential resolver's parameters. These are added at the end of the file just before the closing tag `</parameters>`. Follow the steps below for updating the config file:
 
-    ![](images/2cccf3088585e3841015ff225e47172f.png)
+1. Edit the `config.xml` configuration file for your MID Server
+1. Copy and paste the associated contents (_based on the mode chosen_) just before the `</parameter>` tag at the end of the file
+1. Adjust the values accordingly
+1. Save the config.xml and close your editor
+1. Navigate to **MID Server | Servers** in the ServiceNow portal
+1. **Restart** the MID Server that was just updated
 
-1. Add the following to the target MID Server(s) config.xml. These parameters
-    will be added in near the bottom of the file:
+## Just-In-Time Mode
 
-   __To request an OAuth2 Access Grant from the server:__
+| Attribute | Value Description |
+| --------- | ----------------- |
+| `ext.tss.url` | URL for your Secret Server |
+| `ext.tss.oauth2.username` | Secret Server User Account for API access |
+| `ext.tss.oauth2.password` | Secret Server User Account password |
+| `ext.tss.allow.self_signed_certificate` | Set to `true` if you are using a self-signed cert for Secret Server instance |
 
-   \<parameter name="ext.tss.url"
-value="*https://your-secert-server.com/SecretServer*" /\>
+Content to copy/paste into the `config.xml` file:
 
-   \<parameter name="ext.tss.oauth2.username"
-value="your_ss_mid_server_app_account" /\>
+```xml
+   <parameter name="ext.tss.url" value="<replace>" />
+   <parameter name="ext.tss.oauth2.username" value="<replace>" />
+   <parameter name="ext.tss.oauth2.password" value="<replace>" />
+   <parameter name="ext.tss.allow.self_signed_certificates" value="false" />
+```
 
-   \<parameter name="ext.tss.oauth2.password"
-value="your_ss_mid-server_app_account_pw" /\>
+## Grant File Mode
 
-   \<parameter name="ext.tss.allow.self_signed_certificates" value="false" /\>
+| Attribute | Value Description |
+| --------- | ----------------- |
+| `ext.tss.url` | URL for your Secret Server |
+| `ext.tss.oauth2.grant_file` | Path to the file, recommended to write this file to the agent directory |
+| `ext.tss.allow.self_signed_certificate` | Set to `true` if you are using a self-signed cert for Secret Server instance |
 
-   ![](images/e67301b935ffd8e969b4b133c2fc12d5.png)
+Content to copy/paste into the `config.xml` file:
 
-   >**Note:** It is important that you restart the MID server after making modifications to the config.xml
+```xml
+   <parameter name="ext.tss.url" value="<replace>" />
+   <parameter name="ext.tss.oauth2.grant_file" value="oauth2_grant.json" />
+   <parameter name="ext.tss.allow.self_signed_certificates" value="false" />
+```
 
-   ![](images/ecd1a57c265d89a3179b6c66f4343d5d.png)
+### Scheduled Task
 
-   __To use an OAuth2 Access Grant stored in a file:__
+The recommended method for generating the grant file is utilizing a Scheduled Task. A task can be used to run a PowerShell script that requests a token using the `oauth2/token` endpoint or using the `tss` utility with the [Secret Server Client SDK](<!-- Need short URL for SDK page -->).
 
-   \<parameter name="ext.tss.url"
-value="https://your-secert-server.com/SecretServer" /\>
+Save one of the scripts below to a desired location on the agent server, and then configure a task to call each one. The frequency that each one will be triggered should be based on the **Webservices session timeout** value for Secret Server (e.g., set to 20 minutes, would recommend triggering the task every 19 minutes ).
 
-   \<parameter name="ext.tss.oauth2.grant_file" value="/path/to/oauth2_grant.json"
-/\>
+#### refresh-oauth2.ps1
 
-   \<parameter name="ext.tss.allow.self_signed_certificates" value="false" /\>
+> **Note:** To provide a more secure method for the username/password required for the OAuth2 endpoint, a password file is utilized where the value is encrypted. Note that this process is unique to a MID Server. It must be created individually on each MID Server.
 
-   >**Note:** that the OAuth2 user used to obtain the access_token must be a Secret Server User with "View" access on the secret(s) being used as Credentials in ServiceNow Discovery. Using *Application User* credentials is recommended.When using an access_token from an OAuth2 Grant in a file, a script like Get-OAuth2AccessToken.ps1 (example PS script provided below) should be run with enough frequency to ensure that the token in the file is never expired.
+Issue this command to create the password file:
 
-   ```
+```PowerShell
+ 'replace with the password' | ConvertTo-SecureString -AsPlainText -Force | Export-Clixml -Path c:\Thycotic\passfile.XML
+ ```
 
-   # Secret Server is running with a self-signed certificate)
-   #[System.Net.ServicePointManager]::ServerCertificateValidationCallback = {$False }
-   [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-   #netsh winhttp import proxy source=ie
+```powershell
+param(
+    [string]$SecretServerUrl,
+    [string]$User,
+    [string]$PasswordFile,
+    [string]$Path
+)
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-   $secret_server_url = "https://srv-usp1-web19.thycotic.blue/SecretServer"
-   $secret_server_api_url = \$secret_server_url + "/api/v1"
-   $secret_server_oauth2_token_url = \$secret_server_url + "/oauth2/token"
-   $oauth2_grant_request = \@{ 'username' = 'api_servicenow; 'password' =
-   'your_app_account_pw'; 'grant_type' = 'password'; }
-   Invoke-WebRequest -Method Post -Uri \$secret_server_oauth2_token_url -Body
-   $oauth2_grant_request -OutFile "path\\to\\agentdir\\oauth2_grant.json"
-   ```
+$password = Import-Clixml -Path $PasswordFile
+$plainTextPwd = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($password))
 
-   ![](images/bc38460e52636b7452a5e6a86c2f9630.png)
+$body = @{
+    "grant_type" = "password"
+    "username" = $User
+    "password" = $plainTextPwd
+}
 
-   To keep the configuration simple, we stored the oauth2_grant in the same location as the agent config.xml file. It is recommended to configure this as a scheduled task that runs every 19 minutes. Secret Server defaults to have a session timeout for web services of 20 minutes.
+$value = Invoke-RestMethod -Method POST -Uri "$SecretServerUrl/oauth2/token" -Body $body | Select-Object -Expandproperty access_token
+Set-Content -Path $Path -Encoding Ascii -Force -Value $value -NoNewline
+```
 
-   ![](images/921878b45b223416471d0470f455aa70.png)
+Example argument for task:
 
-   Below is an example of the required permissions per secret you intend to integrate with:
+```powershell
+-NoProfile -ExecutionPolicy Bypass -Command "C:\Thycotic\refresh-oauth2.ps1 -SecretServerUrl 'https://enterprisevault.com/SecretServer' -User midapp -PasswordFile 'C:\Thycotic\passfile.xml'"
+```
 
-   ![](images/c32552c7e4ddf203a18b1776a4e851d5.png)
+#### refresh-oauth2_useSDK.ps1
 
-1. In the **Orchestration** section go to **Mid Server Configuration
-    Credentials** and click on **New.** Choose the option for **Windows
-    Credentials.**
+```powershell
+[cmdletbinding()]
+param(
+    [string]$Path,
+    [string]$SdkPath
+)
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-   ![](images/178a9797bdd81ebadc718dfe50765aa5.png)
+if (Test-Path $SdkPath) {
+    Set-Location $SdkPath
+} else {
+    throw "Unable to find SDK Path: $SdkPath"
+}
 
-   Fill out all relevant information. For the CredentialID field, be sure to enter the SecretID in the field and then place a checkmark in the **External Credential Store** option.
+if (Test-Path '.\tss.exe') {
+    try {
+        $value = .\tss.exe token
+    } catch {
+        throw "Unable to obtain token: $($_.Exception.Message)"
+    }
+}
 
-   ![](images/b691cfa3bec55c69d09933cda19045e7.png)
+Set-Content -Path $Path -Encoding Ascii -Force -Value $value -NoNewline
+```
 
-   >**Note:** The SecretID can be found in the URL of the Secret you would like to integrate with.
+Example argument for task:
 
-   ![](images/b2ea0a31a34b9fee8934731958da166e.png)
+```powershell
+-NoProfile -ExecutionPolicy Bypass -Command "C:\Thycotic\refresh-oauth2_useSDK.ps1 -Path C:\ServiceNow\prod\agent\oauth2_grant.json -SdkPath C:\Thycotic\secretserver-sdk-1.4.1-win-x64"
+```
 
-   `/SecretServer/app/\#/secret/2/sharing – **[2]** is the SecretID`
+## Secret Server SSL
 
-   Then, whenever adding a Credential in ServiceNow, check External credential store and enter the Id of the Thycotic Secret Server secret to which this credential corresponds, in the Credential ID field. These values should always match.
+> **Note:** The following applies to on-premises installations of Secret Server
+
+Suppose your certificate for the Secret Server site is published from an internal Active Directory Certificate Authority (CA). In that case, that certificate needs to be added to the MID Server Agent's local Keystore for Java.
+
+ServiceNow has documented the method for adding the certificate and can be found [here](https://docs.servicenow.com/search?q=Add+SSL+certificates+for+the+MID+Server&facetreset=yes). The following provides a few details that are not included by ServiceNow.
+
+1. Download your SSL certificate for Secret Server to the MID Server.
+1. Open a PowerShell prompt and set the location to the Java bin directory: `<fullAgentPath>\jre\bin`
+1. Run the following command, replacing with your environment specifics:
+
+```powershell
+.\keytool.exe -import -alias <cert alias> -file <full path to *.cer file> -keystore '<fullAgentPath>\jre\bin\security\cacerts'
+```
+
+> **Note:** You will be prompted to provide the password for the Keystore. If this has not been altered previously, it will be `changeit`.
+
+> **Note:** The second prompt will be if you trust the certificate being imported.
