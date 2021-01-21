@@ -1,6 +1,6 @@
 [title]: # (Install and Configure UiPath)
 [tags]: # (uipath)
-[priority]: # (201)
+[priority]: # (301)
 [display]: # (none)
 # Install and Configure UiPath
 

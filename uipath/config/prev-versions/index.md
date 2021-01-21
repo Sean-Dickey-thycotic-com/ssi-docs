@@ -1,7 +1,7 @@
 [title]: # (Configuration)
 [tags]: # (introduction)
-[priority]: # (200)
-# Configuration for UiPath Orchestrator
+[priority]: # (300)
+# UiPath Orchestrator Configuration (Version 19.0)
 
 >**Note:** The following steps incorporate the use of a credential store and only apply to UiPath Orchestrator On-Premise.
 

@@ -1,6 +1,6 @@
 [title]: # (Create an Asset)
 [tags]: # (configuration, asset)
-[priority]: # (205)
+[priority]: # (305)
 # Create an Asset
 
 1. In your UiPath Orchestrator account, click on __Assets__.

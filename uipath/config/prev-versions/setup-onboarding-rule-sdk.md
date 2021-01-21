@@ -1,6 +1,6 @@
 [title]: # ( Setup a New Onboarding Rule in SDK Management)
 [tags]: # (configuration, onboarding rule)
-[priority]: # (204)
+[priority]: # (304)
 # Setup a New Onboarding Rule in SDK Management
 
    >**Note:** You will need to re-visit the credential store steps after setting up an onboarding rule in SKD Management and creating an onboarding key. [Create a Credential Store in UiPath Orchestrator](create-credential-store-uipath.md)

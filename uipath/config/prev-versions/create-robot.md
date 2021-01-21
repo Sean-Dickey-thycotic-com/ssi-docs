@@ -1,6 +1,6 @@
 [title]: # (Create a Robot UiPath Orchestrator)
 [tags]: # (configuration)
-[priority]: # (206)
+[priority]: # (306)
 # Create a Robot UiPath Orchestrator
 
 1. Click on __Robots__, in your UiPath Orchestrator account.
