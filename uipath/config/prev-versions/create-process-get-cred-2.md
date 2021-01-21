@@ -1,6 +1,6 @@
 [title]: # (Create a Process)
 [tags]: # (configuration)
-[priority]: # (208)
+[priority]: # (308)
 # Create a Process in UiPath Studio 
 
 The most important activity for integrating with Secret Server is __Get Credential__. With this activity, the robot will request a password from Secret Server and save it as a variable to be used later.

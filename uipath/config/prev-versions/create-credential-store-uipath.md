@@ -1,6 +1,6 @@
 [title]: # (Create a Credential Store in UiPath Orchestrator)
 [tags]: # (credential store)
-[priority]: # (202)
+[priority]: # (302)
 # Create a Credential Store in UiPath Orchestrator
 
 1. Copy the SecretServer.SecureStore.dll file into the following directory: 

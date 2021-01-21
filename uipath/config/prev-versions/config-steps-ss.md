@@ -1,6 +1,6 @@
 [title]: # (Configuration Steps for Secret Server)
 [tags]: # (configuration, uipath)
-[priority]: # (203)
+[priority]: # (303)
 # Configuration Steps for Secret Server
 
 ## Create an Application Account
