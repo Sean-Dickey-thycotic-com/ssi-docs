@@ -1,6 +1,6 @@
 [title]: # (Configuration)
 [tags]: # (introduction)
-[priority]: # (200)
+[priority]: # (1)
 # UiPath Orchestrator Configuration (Version 20.0)
 
 * [Prepare Orchestrator For Integration](prep-orch.md)
