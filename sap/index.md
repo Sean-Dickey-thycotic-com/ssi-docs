@@ -1,9 +1,8 @@
-[title]: # (Splunk)
+[title]: # (SAP)
 [tags]: # (introduction)
 [priority]: # (1)
-# Splunk
+# SAP
 
 Below are the following integrations that are available with SAP:
 
-* [Splunk](splunk-on-prem/index.md)
-* [Splunk Cloud](splunk-cloud/index.md)
+* [SAP Hana](sap-hana/index.md)

@@ -47,8 +47,3 @@ The communication between WitFoo virtual appliance and Secret Server happens thr
 The following prerequisites must be met for the integration of Thycotic Secret Server with WitFoo Precinct Virtual Appliance:
 
 * Install Thycotic Secret Server
-<!-- * Configure Ubuntu 18.40.3 desktop image 
-
-## Licensing Considerations
-
-add information for all three headings, if not applicable, comment heading out, if not available at this time, add a note that information will be provided as soon as possible. -->
