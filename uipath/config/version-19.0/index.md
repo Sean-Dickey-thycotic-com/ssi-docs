@@ -1,4 +1,4 @@
-[title]: # (Configuration)
+[title]: # (Version 19.0)
 [tags]: # (introduction)
 [priority]: # (2)
 # UiPath Orchestrator Configuration (Version 19.0)

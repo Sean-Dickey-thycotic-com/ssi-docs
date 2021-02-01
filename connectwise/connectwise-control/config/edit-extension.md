@@ -1,4 +1,4 @@
-[title]: # ([Edit an Extension)
+[title]: # (Edit an Extension)
 [tags]: # (edit extension)
 [priority]: # (104)
 # Edit an Extension
