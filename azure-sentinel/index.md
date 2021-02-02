@@ -1,6 +1,6 @@
 [title]: # (Microsoft)
 [tags]: # (introduction)
-[priority]: # (2)
+[priority]: # (1)
 # Microsoft
 
 Below are the following integrations that are available with Microsoft:
