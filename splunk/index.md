@@ -5,5 +5,5 @@
 
 Below are the following integrations that are available with SAP:
 
-* [Splunk](splunk-on-prem/index.md)
+* [Splunk on-prem](splunk-on-prem/index.md)
 * [Splunk Cloud](splunk-cloud/index.md)
