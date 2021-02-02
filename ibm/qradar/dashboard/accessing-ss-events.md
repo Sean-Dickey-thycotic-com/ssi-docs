@@ -3,37 +3,34 @@
 [priority]: # (302)
 # Accessing Secret Server Events in the Secret Server Application within QRadar
 
-1. Login to qradar to QRadar as the admin user: `https://<ipaddress>`
+1. Login to QRadar as the admin user: `https://<ipaddress>`
 
    ![](images/8a69f0826c6758514ab82ae604b22048.png)
 
-1. Click on Log activity, select the log from Secret server, then click on DSM
-    editor under admin. (Required configuration for application integration)
+1. Click on Log activity, select the log from Secret server, then click on DSM editor under admin
 
    ![](images/6afd2274a6fdf25edd152ceec32594f9.png)
 
-1. Select the log Source popup will be displayed, create new or select the
-    existing one. (Required configuration for application integration).
+1. Select the log Source shown in the window displayed, create new or select an existing one.
 
    ![](images/0ac8a336f2bef3f5b5f4aea1f44fb808.png)
 
-1. Click on Event Mapping category and click on Add option to map the event
-    with event ID. In the DSM editor you need values showing up in the Log
-    Preview for both __"Event ID"__ and __"Event Category".__  (NOT REQUIRED FOR APPLICATION INTEGRATION).
+1. Click on the Event Mapping category.
+1. Click on __Add option__ to map the event with event ID. In the DSM editor you will need to have values showing up in the Log Preview for both __"Event ID"__ and __"Event Category".__  (NOT REQUIRED FOR APPLICATION INTEGRATION).
 
    ![](images/acc3fb737045ee63d962ad29bd26e324.png)
 
 ## How to create a new QID (OPTIONAL)
 
-1. Click on the button Choose QID
+1. Click on __Choose QID__ button.
 
    ![](images/49d8aaf2e76569e35e4be00941dc7c4b.png)
 
-1. Click on Create New QID Record button or select the existing one.
+1. Click on __Create New QID Record__ button or select the existing one.
 
    ![](images/cd59576f731cb4d288757eaf32d023e4.png)
 
-1. (OPTIONAL) Click on add a new Event Mapping using the same two values for Event ID and Category. The last step is to choose the event. Either selects an existing event name by searching using the search field, or create a new record ("Create New QID Record"). The Event ID, Event Category that is used to match the Event depend on using the same value.  
+1. (__OPTIONAL__) Click on add a new Event Mapping using the same two values for Event ID and Category. The last step is to choose the event. Either selects an existing event name by searching using the search field, or create a new record ("Create New QID Record"). The Event ID, Event Category that is used to match the Event depend on using the same value.  
 
 For more info click on : <https://developer.ibm.com/qradar/develop-dsm/>
 
@@ -43,13 +40,13 @@ For more info click on : <https://developer.ibm.com/qradar/develop-dsm/>
 
    ![](images/6d79b09dd0adbcb90220a03c1ef2fda8.png)
 
-1. Click on __Create New__ button to add New Properties __ItemId__ and __Item Name__.
+1. Click on __Create New__ button to add New Properties __Item Id__ and __Item Name__.
 
    ![](images/c7fd8bf2e0d5288d5dc350ae637a437f.png)
 
 ## Create Custom Property
 
-1. Create two properties __ItemId__ and __Item Name__.
+1. Create two properties __Item Id__ and __Item Name__.
 1. Check the check box to __enable the properties in Rules and Search indexing__ before clicking on the __Save__ button.
 
    ![](images/03ed0433a78ceda2f53c8c29770c3f7f.png)
@@ -60,9 +57,9 @@ After properties have been added they will be displayed under __Properties tab__
 
 ## Enable access to property values
 
-1. Click on created properties
+1. Click on __created properties__.
 
-1. Enter the following expression
+1. Enter the following expression:
 
    * Field Name: __Item Id__       expression: __Item Id__:\s(\d*)
 
@@ -70,11 +67,11 @@ After properties have been added they will be displayed under __Properties tab__
 
    ![](images/91297c0ddc9778e2af5fc13098a3a71c.png)
 
-1. click on __Ok__.
+1. Click on __Ok__.
 
 ## Enable Configuration
 
-1. Click on __Configuration__ option.
+1. Click on the __Configuration__ option.
 
 1. __Enable__ the __Log property Auto Detection__ option.
 
@@ -86,7 +83,7 @@ After properties have been added they will be displayed under __Properties tab__
 
    ![](images/465a51d52902899d858ecacd34e14a4c.png)
 
-1. __Click Save__.
+1. Click __Save__.
 
 ## Create log source
 
@@ -96,7 +93,7 @@ After properties have been added they will be displayed under __Properties tab__
 
 1. Click on the __Add__ button.
 
-1. Add log source popup will be displayed.
+1. Add the log source in the popup window displayed:
 
    * Enter the Name
 
@@ -112,7 +109,7 @@ After properties have been added they will be displayed under __Properties tab__
 
 ## Deploy Log Source
 
-1. On the Admin Page of QRadar, click on __deploy changes__ button.
+1. On the Admin Page of QRadar, click on the __deploy changes__ button.
 
    ![](images/48c6869e6d9f8a58aacabfaa0e936afb.png)
 
@@ -124,6 +121,6 @@ After properties have been added they will be displayed under __Properties tab__
 
    ![](images/e03d1466d6a02844923edad90c32acf1.png)
 
-1. We would be able to see the log under log source which we have created using DSM editor
+1. You will bed able able to see the log under __log source__ which was created using the DSM editor.
 
    ![](images/7da125d55b02ed9f5e578fa781bcad3c.png)
