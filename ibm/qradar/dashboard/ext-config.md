@@ -3,9 +3,7 @@
 [priority]: # (304)
 # Extension Configuration
 
-## In System Configuration section
-
-1. Click __Extensions Management__.
+1. In the System Configuration section, click __Extensions Management__.
 
    ![](images/a510e1ad9b64a255489da0e1232a3ddc.png)
 
@@ -21,7 +19,7 @@
 
 ## Create Authentication Token
 
-1. Before you can use the extension, you must create an __authentication token__. IBM QRadar requires that you use an authentication token to authenticate the QRadar API calls that the extension leverages. You use the __Manage Authorized Services__ window on the __Admin__ tab to create authentication token.
+Before you can use the extension, you must create an __authentication token__. IBM QRadar requires that you use an authentication token to authenticate the QRadar API calls that the extension leverages. You use the __Manage Authorized Services__ window on the __Admin__ tab to create authentication token.
 
 1. On the __Admin__ tab, go to the __User Management__ section.
 1. Click __Authorized Services__.
@@ -60,16 +58,16 @@
 
 ## Add token to enable extension
 
-1. Navigate to __admin__ | __Secret server Dashboard__ under App section
+1. Navigate to __admin__ | __Secret Server Dashboard__ under App section
 
    ![](images/d79658914539bb3e5ac6a9dd74d6e998.png)
-1. Configuration page will be displayed.
+1. The Configuration page will be displayed.
 1. Enter the __Log source identifier__ previously configured.
 1. Paste the token string into the __SEC Token__ field.
 
    ![](images/f59cdbb93fe6b2fdb00de10ae386f4c4.png)
 
-   >**Note:** This SEC token will be used in Secret Server app to display dashboard, reports etc.
+   >**Note:** This SEC token will be used in the Secret Server app to display dashboard, reports etc.
 
 1. Click __Save__.
 

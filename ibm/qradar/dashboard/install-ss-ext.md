@@ -1,4 +1,4 @@
-[title]: # (Secret Server Dashboard)
+[title]: # (Install the Secret Server QRadar Extension)
 [tags]: # (dashboard)
 [priority]: # (303)
 # Install the Secret Server QRadar Extension
