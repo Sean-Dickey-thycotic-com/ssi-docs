@@ -4,7 +4,7 @@
 # SailPoint IdentityIQ
 
 This section reviews the SailPoint IdentityIQ pre-configuration for use with the SCIM Connector,
-as well as an use examples and known usability issues. 
+as well as an use examples and known usability issues.
 
 ## SailPoint Documentation
 

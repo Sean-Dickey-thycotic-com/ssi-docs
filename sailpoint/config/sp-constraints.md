@@ -3,7 +3,7 @@
 [priority]: # (4)
 # SailPoint Integration Concepts and Limitations
 
-This section reviews any SailPoint-specific limitations. For a list of the SCIM Connector application limitations, please see the [SCIM Connector Limitations](../../install/constraints.md) section.
+This section reviews any SailPoint-specific limitations. For a list of the SCIM Connector application limitations, please see the [SCIM Connector Limitations](https://docs.thycotic.com/scim/2.5.0/install/constraints.md) section.
 
 * In SailPoint IdentityIQ, there are "containers" and "privileged data." The containers map to Secret Server folders, and privileged data maps to secrets.
 * SailPoint allows adding permissions to containers, but they cannot be directly added to privileged data.  That is, they cannot be added directly to a Secret Server secret. So when a user gets access to a container, the user is really getting access to a Secret Server folder.
