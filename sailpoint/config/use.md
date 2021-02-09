@@ -11,7 +11,7 @@ Once SailPoint IdentityIQ is configured to work as an endpoint for the SCIM Conn
 
 1. In the main SailPoint dashboard, click the menu icon in the top left corner and select __Manage Access__.
 1. Click to select the __Manage User Accounts__ sub-option.
-1. Search for the user name for the account that you want to add to a group. 
+1. Search for the user name for the account that you want to add to a group.
 1. Once the user is found, click to select the radio button in the top left corner of the user card. The button turns green.
 1. Click __Next__.
 1. Search to find the group that the user should be added into.

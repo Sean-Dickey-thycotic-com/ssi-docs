@@ -1,5 +1,5 @@
 [title]: # (OneLogin)
-[tags]: # (onelogin)
+[tags]: # (introduction)
 [priority]: # (1)
 # OneLogin Provisioning
 
@@ -112,3 +112,4 @@
 1. Navigate to __Secret Server| Users__ and search for the robertt user, you should see the robertt user is deleted
 
    ![Users](images/890716938853cfd00e266dc111831118.png)
+
