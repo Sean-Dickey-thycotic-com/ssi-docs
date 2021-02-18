@@ -21,4 +21,3 @@
 * SAML connectivity is not currently supported.
 * Thycotic’s Helper Extension requires an on-prem installation of ConnectWise.
 * Installation requires access to ControlWise’ Developer Extension.
-

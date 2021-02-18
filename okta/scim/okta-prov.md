@@ -18,10 +18,7 @@
 
 1. If you are in the Developer Console, click __Developer Console__ and then __Classic UI__ to switch over to the Admin Console in your Okta org.
 
-   ![Developer Console](images/efbc2cc31d503895ce81861d736125a8.png)
 1. Click __Applications__.
-
-   ![Applications](images/ca232b1b2e9d578f449f3fd973e954df.png)
 1. Click __Add Application__.
 
    ![Add Application](images/1be304a7f8a05ec0980c26f243d119a2.png)
@@ -59,8 +56,6 @@
 1. Login to __Okta__ using dev account.
 
 1. Click on __application__ | __applications__.
-
-   ![Applications](images/740248741e680b84f3042f0fdc3fb7f6.png)
 1. Click on the __SCIM application__ created above.
 
    ![SCIM application](images/4a96908b79e4c01e757a9dea60eba220.png)
@@ -78,9 +73,7 @@
    ![Edit](images/72fc46c075d3a5cc481d12f083bdd64a.png)
 1. Navigate to __Directory__.
 1. Click on __People__.
-
-   ![People](images/6748e4d7686a0baa9c12082c771f12dc.png)
-1. Click on __add Person__ and enter the details. 
+1. Click on __add Person__ and enter the details.
 1. Click on __Save__.
 
    ![Save](images/dd0ea852d6a5ea0c25ab5d2139e078e8.png)
@@ -112,7 +105,6 @@
    ![Import](images/b866c861fcc5758977d5bc47d8e39b08.png)
 1. Click on __Directory | Groups__.
 
-   ![Groups](images/75fa135fdfd3b8ca07738afbf534e195.png)
 1. SecretServer Groups will be displayed.
 
    ![Groups](images/9b93578067dfd0aaf5d03db16d711fb3.png)

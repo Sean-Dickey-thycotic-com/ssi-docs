@@ -1,9 +1,25 @@
 [title]: # (Installation)
 [tags]: # (introduction)
 [priority]: # (4)
-[display]: # (none)
-# Installation
+# Setting up Folder Synchronization
 
-<!-- add installation instructions that pertain directly to the Secret Server installation
+The following image shows the ConnectWise synchronization view in Secret Server.
 
-Do not add third-party installation information here that can be looked up on vendor sites. Provide URLs to any third-party documentation, but don't include all the steps. Only reference the steps directly required for the integration with Secret Server. -->
+![folder-sync.png](images/folder-sync.jpg "Folder Synchronization")
+
+To set up this feature, click **Folder Synchronization** from the **Administration** menu.
+
+>**Note**: For the ability to edit these settings, an administrator must be assigned a role within Secret Server containing the Administer ConnectWise
+Integration permission.
+
+Enabling Folder Synchronization will require specifying the synchronization interval in days, hours, and minutes. Folder to Synchronize references the
+parent folder where Secret Server will create the ConnectWise companies as child folders.
+
+## Creating the ConnectWise Integrator Login
+
+If an integrator login doesn’t exist in ConnectWise, create one by:
+
+* Entering in the hostname of your ConnectWise instance
+* Enter your company id
+* Select the Secret of the ConnectWise integrator login
+
