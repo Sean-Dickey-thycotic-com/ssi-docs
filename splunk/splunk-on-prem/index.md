@@ -1,4 +1,4 @@
-[title]: # (Splunk)
+[title]: # (Splunk on-prem)
 [tags]: # (introduction)
 [priority]: # (200)
 # Introduction
