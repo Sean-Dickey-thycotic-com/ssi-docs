@@ -1,6 +1,7 @@
 [title]: # (Start the Service)
 [tags]: # (service)
 [priority]: # (704)
+[display]: # (none)
 # Start the Service
 
 You can start the IbmRadius.exe program either as a Windows service or from the command line.

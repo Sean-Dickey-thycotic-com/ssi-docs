@@ -3,7 +3,7 @@
 [priority]: # (400)
 # IBM Verify Gateway for RADIUS Server
 
-![](media/3f7231d19bebfed250337d6a21d625ad.png)
+>**Note**: Integration details coming soon
 
 This document discusses integrating IBM Verify Gateway for Remote Access Dial-In User (RADIUS) Server with Thycotic Verify Privilege Vault.
 
@@ -33,5 +33,3 @@ IBM Verify Gateway for RADIUS component includes a RADIUS interface where VPNs a
 
 IBM Verify Gateway for RADIUS documentation and installation can be found in the
 [IBMCloud](https://exchange.xforce.ibmcloud.com/hub/extension/cb468c6c4539fad9c64eff7a1b107e86).
-
->   IBMVerifyGatewayFo rRADIUS_v1.0.0.1.zi

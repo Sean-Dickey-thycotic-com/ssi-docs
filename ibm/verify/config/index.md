@@ -1,6 +1,7 @@
 [title]: # (Configure IBM Verify Gateway for RADIUS Server)
 [tags]: # (configuration)
 [priority]: # (700)
+[display]: # (none)
 # Configuration
 
 * [Configure IBM Verify Gateway for RADIUS Server](config-rad.md)

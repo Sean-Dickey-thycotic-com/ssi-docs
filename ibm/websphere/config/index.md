@@ -1,6 +1,7 @@
 [title]: # (Configuration)
 [tags]: # (configuration)
 [priority]: # (700)
+[display]: # (none)
 # Configuration
 
 ## Setup Secret Server SDK
