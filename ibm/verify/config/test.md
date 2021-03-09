@@ -1,6 +1,7 @@
 [title]: # (Test RADIUS Settings)
 [tags]: # (test)
 [priority]: # (705)
+[display]: # (none)
 # Test and Validate Authentication with RADIUS Server Settings
 
 ## Test RADIUS settings

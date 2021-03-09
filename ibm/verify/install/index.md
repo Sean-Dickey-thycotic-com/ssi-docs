@@ -1,6 +1,7 @@
 [title]: # (Install IBM Verify Gateway for RADIUS Server)
 [tags]: # (install)
 [priority]: # (600)
+[display]: # (none)
 # Install IBM Verify Gateway for RADIUS Server
 
 ## Before You Begin

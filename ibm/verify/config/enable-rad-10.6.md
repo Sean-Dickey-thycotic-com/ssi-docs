@@ -1,6 +1,7 @@
 [title]: # (Enable RADIUS Two-Factor Authentication for 10.6)
 [tags]: # (enable)
 [priority]: # (706)
+[display]: # (none)
 # Enable RADIUS Two-Factor Authentication in Thycotic Verify Privilege Vault 10.6 version
 
 Verify Privilege Vault allows the use of RADIUS two-factor authentication on top of the normal authentication process for additional security needs.
