@@ -1,6 +1,7 @@
 [title]: # (Configure IBM Verify Gateway for RADIUS Server)
 [tags]: # (configuration)
 [priority]: # (701)
+[display]: # (none)
 # Configure IBM Verify Gateway for RADIUS Server
 
 1. Create __API client credentials__ by signing into the IBM IBM Security Verify administration console.
