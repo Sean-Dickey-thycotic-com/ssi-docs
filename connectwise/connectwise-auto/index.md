@@ -3,8 +3,7 @@
 [priority]: # (400)
 # Connectwise Automate
 
->**Note**: Integration to be verified with new product versions.
-
+>**Important**: This integration is scheduled to go through a new verification cycle. The documentation provided for this integration is based on older versions of Secret Server and ConnectWise Manage.
 ## The Secret Server Approach
 
 Many environments with strict information security policies require methods to control and monitor access to privileged accounts. Companies often apply security policies, such as physical access restrictions to hardware, network

@@ -4,6 +4,8 @@
 
 # Managing Customer Privileged Accounts
 
+>**Note**: Integration to be verified with new product versions.
+
 ## Managing Folders
 
 Secret Server has a folder structure that needs to correspond to the client names in Automate (LabTech). When a client is selected, the plugin automatically searches Secret Server’s folders for a folder name matching the client name and selects it, showing all Secrets stored in the folder for that client.
