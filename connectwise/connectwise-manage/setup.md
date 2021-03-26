@@ -1,6 +1,6 @@
 [title]: # (Manage Folders)
 [tags]: # (setup)
-[priority]: # (300)
+[priority]: # (301)
 # Setting up Folder Synchronization
 
 >**Note**: Integration to be verified with new product versions.

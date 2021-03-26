@@ -1,6 +1,6 @@
-[title]: # (Connectwise Automate)
+[title]: # (Automate Folder Synchronization)
 [tags]: # (introduction)
-[priority]: # (400)
+[priority]: # (401)
 
 # Managing Customer Privileged Accounts
 
