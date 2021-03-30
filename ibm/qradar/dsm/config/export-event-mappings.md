@@ -11,9 +11,9 @@ DSM editor and export them via the export option.**
 
     ![](images/712c5b9b62bc2dcf480f7bfa7ffcb75d.png)
 1. Click on the __DSM editor__ option.
-1. Select the created log source, for this example it would be __SecretServer__.
+1. Select the created log source, search for __"Thy"__.
 
-    ![](images/29061db7ce75bdd0d249fff45f92f6b6.png)
+    ![](images/updatedimage.png)
 1. Click on __Select__.
 
 1. Click on __Export.__  
