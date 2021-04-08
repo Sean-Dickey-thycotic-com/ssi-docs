@@ -3,7 +3,6 @@
 [priority]: # (200)
 # Introduction
 
-The integration between Thycotic Secret Server and QRadar is created and maintained by QRadar. This document provides guidance and best practice for implementing the integration. It is based on the following publicly available documentation from the vendor and testing performed by Thycotic. Integrations are supported to the extent of the third-party product procedures documented for this integration. Please contact the third-party for any customized setup of the integrated product.
 
 ## Meeting Information Security Compliance Mandates: Secret Server and QRadar Security Intelligence Platform Integration and Configuration
 
