@@ -4,7 +4,7 @@
 
 # Architecture
 
-![](https://github.com/tcarolanthycotic/openshift/blob/main/Documentation/images/tssopenshift.png)
+![](images/tssopenshift.png)
 
 The diagram above represents the visual version of the architecture and its components.
 
