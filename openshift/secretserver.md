@@ -14,7 +14,7 @@ The integration is a [Mutating Admissions Webhook](https://kubernetes.io/docs/re
 
 The deployment is designed to be easily integratable in to existing deployment environments, as Secret requests only need to have the various [Annotations](#Annotations) added to them in order for the Secret Server based workflow to be enacted.
 
-__Note:__ There are numerous different ways of configuring OpenShift for different operating environments. Hence this guide, although intending to give a solid baseline idea for deployment of the integration, will not be the sole, authoritative way in which the integration can function or be deployed. All examples below use the `default` namespace which, alongside some other components, will likely need to be modified to ensure suitability with your organization's OpenShift environment.
+>**Note**: There are numerous different ways of configuring OpenShift for different operating environments. Hence this guide, although intending to give a solid baseline idea for deployment of the integration, will not be the sole, authoritative way in which the integration can function or be deployed. All examples below use the `default` namespace which, alongside some other components, will likely need to be modified to ensure suitability with your organization's OpenShift environment.
 
 ## The Webhook 
 
@@ -98,7 +98,7 @@ __Secret Server Cloud Example__
 
 Multiple roles and vaults can also be used. 
 
-__Note:__ In the absence of a role being explicitly specified, the `default` role will be used.
+>**Note**: In the absence of a role being explicitly specified, the `default` role will be used.
 
 __Multiple Vaults Example__
 ```json
@@ -142,7 +142,7 @@ COPY ${roles_file} ./roles.json
 ENTRYPOINT ["tss-injector-svc", "-cert", "tss.pem", "-key", "tss.key", "-roles", "roles.json" ]
 ```
 
-__Note:__ The `tss-injector` image on Docker Hub does not include these references, however the Docker Hub image reference (`thycotictc/openshift:latest`) in the Deployment below already includes the above configuration.
+>**Note**: The `tss-injector` image on Docker Hub does not include these references, however the Docker Hub image reference (`thycotictc/openshift:latest`) in the Deployment below already includes the above configuration.
 
 
 ## The Deployment
@@ -230,7 +230,7 @@ const(
 * `updateAnnotation` adds and overwrites existing fields but does not remove fields.
 * `setAnnotation` overwrites fields and removes fields that do not exist in the TSS Secret.
 
-__Note:__ Only one of these should be specified on any given k8s Secret, however, if more
+>**Note**: Only one of these should be specified on any given k8s Secret, however, if more
 than one are defined then the order of precedence is `setAnnotation` then
 `addAnnotation` then `updateAnnotation`.
 
@@ -238,7 +238,7 @@ than one are defined then the order of precedence is `setAnnotation` then
 
 In addition to the annotation, the `secretID` value will also need to be provided. This corresponds to the value of the target Secret within Secret Server from which data needs to be retrieved.
 
-__Note:__ The data fields on the request itself are generally ignored, depending on the annotation used.
+>**Note**: The data fields on the request itself are generally ignored, depending on the annotation used.
 
 #### SET
 ``` yaml

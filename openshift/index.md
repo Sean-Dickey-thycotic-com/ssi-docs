@@ -20,5 +20,5 @@ https://github.com/thycotic/tss-sdk-go
 
 https://github.com/thycotic/dsv-sdk-go
 
-__Note:__ This guide is tailored towards OpenShift deployment, however the method is also generally supported and cross-compatible on Kubernetes. 
+>**Note**: This guide is tailored towards OpenShift deployment, however the method is also generally supported and cross-compatible on Kubernetes. 
 
