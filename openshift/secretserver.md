@@ -47,6 +47,7 @@ webhooks:
     sideEffects: None
     timeoutSeconds: 5
 ```
+
 ### The Webhook Certificate
 
 Each of the pods in the deployment are in posesssion (via [ConfigMaps](#Certificate)) of a certificate that they present in order to identify themselves to the OpenShift instance. The `caBundle` value in the webhook must be the base64 encoded version of the public certificate (crt) that the pods are presenting.
@@ -75,8 +76,6 @@ spec:
     app: tss-injector
   type: LoadBalancer
 ```
-
-
 
 ## ConfigMaps
 
