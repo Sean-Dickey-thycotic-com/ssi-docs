@@ -1,18 +1,12 @@
-[title]: # (OpenShift)
+[title]: # (Integration with Secret Server)
 [tags]: # (Openshift, Kubernetes, K8S, OKD)
-[priority]: # (1)
-
-# Architecture
-
-![](images/tssopenshift.png)
-
-The diagram above represents the visual version of the architecture and its components.
+[priority]: # (3)
 
 # General Description
 
 The integration is a [Mutating Admissions Webhook](https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#admission-webhooks) that intercepts requests for OpenShift Secrets using a specialized annotation. The request is then updated with data from Secret Server and passed in to the OpenShift Secrets vault. This ensures that credentials in the OpenShift Secrets Vault are aligned with the values as managed by Secret Server, hence password changes can occur on the Secret Server side and be able to be reflected in the OpenShift Secrets Vault.
 
-The deployment is designed to be easily integratable in to existing deployment environments, as Secret requests only need to have the various [Annotations](#Annotations) added to them in order for the Secret Server based workflow to be enacted.
+The deployment is designed to be easily integrated with existing deployment environments, as Secret requests only need to have the various [Annotations](#Annotations) added to them in order for the Secret Server based workflow to be enacted.
 
 >**Note**: There are numerous different ways of configuring OpenShift for different operating environments. Hence this guide, although intending to give a solid baseline idea for deployment of the integration, will not be the sole, authoritative way in which the integration can function or be deployed. All examples below use the `default` namespace which, alongside some other components, will likely need to be modified to ensure suitability with your organization's OpenShift environment.
 
