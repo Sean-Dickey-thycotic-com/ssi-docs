@@ -12,12 +12,12 @@ Now we will head to Thycotic Secret Server and create the password changer withi
    ![tag](images/3.png)
 1. Press on the __Edit__ button and you will need to enter the Connection String as follows:
 
-   `DRIVER={HDBODBC};UID={$USERNAME};PWD={$PASSWORD};SERVERNODE={$SERVER}`
+   `DRIVER={HDBODBC};UID=$USERNAME;PWD=$PASSWORD;SERVERNODE=$SERVER`
 
    ![tag](images/4.png)
 
    Or (depending on requirements for optional specifying of the database):
-   `DRIVER={HDBODBC};UID={$USERNAME};PWD={$PASSWORD};SERVERNODE={$SERVER};DATABASENAME ={$DATABASE}`
+   `DRIVER={HDBODBC};UID=$USERNAME;PWD=$PASSWORD;SERVERNODE=$SERVER;DATABASENAME=$DATABASE`
 
    >**Note:** It is also possible to create a separate password changer that uses the database context as well, if required. These must be separate password changers and cannot be “optionally” used together.
 
