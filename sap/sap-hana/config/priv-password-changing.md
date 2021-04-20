@@ -8,7 +8,7 @@ If the account whose password we need to change does not have the ability to cha
 1. Head to __Admin | Remote Password Changing_ and create a new password changer called “SAP HANA Privileged Password Changer” and use the password changer created in the previous section as the base password changer.
 1. Edit the password changer (Click Edit) and update the connection string to as follows:
 
-   `DRIVER={HDBODBC};UID={$[1]$USERNAME};PWD={$[1]$PASSWORD};SERVERNODE={$SERVER}`
+   `DRIVER={HDBODBC};UID=$[1]$USERNAME;PWD=$[1]$PASSWORD;SERVERNODE=$SERVER`
 
    >**Note:**  the `$[1]` that precedes the username and password now. This denotes an “associated” Secret, and must be an account that has privileges that allow it to change passwords on other users’ behalf.
 
