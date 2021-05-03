@@ -10,7 +10,7 @@ The deployment is designed to be easily integrated with existing deployment envi
 
 >**Note**: There are numerous different ways of configuring OpenShift for different operating environments. Hence this guide, although intending to give a solid baseline idea for deployment of the integration, will not be the sole, authoritative way in which the integration can function or be deployed. All examples below use the `default` namespace which, alongside some other components, will likely need to be modified to ensure suitability with your organization's OpenShift environment.
 
-## The Webhook 
+## The Webhook
 
 The webhook is at the front end of the integration and intercepts the requests for Secrets that are inbound to the OpenShift Secrets store, when the requests are given the appropriate annotation. Below is a basic configuration YAML for deploying the webhook in your OpenShift instance.
 
