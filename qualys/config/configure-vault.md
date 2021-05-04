@@ -22,7 +22,7 @@ Instead of adding username/password credentials for use in trusted scans, the ad
    * __URL__: This is the URL for Secret Server web services. Ensure web services are enabled in your Secret Server instance by clicking __Configuration__ from the Administration menu and enabling web services.
 
    * Add /sswebservices/sswebservice.asmx to your Secret Server URL to obtain the URL for the web services:
-   >   [https://yoursecretserver/sswebservices/sswebservice.asmx.](https://yoursecretserver/sswebservices/sswebservice.asmx)
+   >   [https://yoursecretserver/webservices/sswebservice.asmx.](https://yoursecretserver/webservices/sswebservice.asmx)
 
    ![Url](images/86a692d81c1c4285b0546e8c2451e2aa.png)
 
