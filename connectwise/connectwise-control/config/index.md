@@ -18,7 +18,7 @@ The extension provides the following features:
 
 Please see the following sections in order to configure Connectwise Control.
 
-   * [Installing Thycotic’s Helper Extension](installing-thycotics-helper-extension)
+   * [Installing Thycotic’s Helper Extension](installing-thycotics-helper-extension.md)
    * [Install the Developer Extension](install-the-extension-developer-extension.md)
    * [Create an Extension](create-extension.md)
    * [Edit an Extension](edit-extension.md)
