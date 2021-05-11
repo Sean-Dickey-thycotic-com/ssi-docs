@@ -37,7 +37,7 @@ webhooks:
         path: "/inject"
         port: 8543
       caBundle: ""
-    admissionReviewVersions: ["v1"]
+    admissionReviewVersions: ["v1","v1beta1"]
     sideEffects: None
     timeoutSeconds: 5
 ```
