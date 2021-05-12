@@ -14,16 +14,16 @@ https://docs.thycotic.com/scim/2.5.0/install/standard-installation-process.md.
 
 1. Download the install file onto your server.
 1. Execute the file.
-1. Clock on the __standard__ option for the install.
+1. Click on the __standard__ option for the install.
 
    ![install](images/81efde09c93254b5e9bde90699b6859d.png)
-1. For the Standard option provide a name for the Application/Website on the server.
+1. For the Standard option provide a name for the __Application/Website__ on the server.
 
    ![application/website](images/48f733563a94eb2855d14437e4e517f4.png)
 1. Click on __Accept the License Agreement__ statement.
 
    ![License Agreement](images/693323d66974a9754878b8d34d810e1e.png)
-1. Provide a file location to place the application files.
+1. Provide a __file location__ to place the application files.
 
    ![application files](images/ea6b466431918cdaac0354f535c58aa8.png)
 1. Click __install__, and complete the installation.
@@ -44,7 +44,7 @@ Now that your SCIM connector is installed you will want to configure it to commu
 
    * The __BaseURL:__ the BaseURL will be the URL to your Secret Server Installation.
 
-   * __Username and Password:__ Username and password should be for a user with administrative rights inside SS (this will be the user that the SCMIN connector will use for API calls.
+   * __Username and Password:__ Username and password should be for a user with administrative rights inside Secret Server (this will be the user that the SCIM connector will use for API calls.
 
 1. Click on __Save__ and it will launch a connection test.
 
@@ -62,7 +62,7 @@ While you are configuring your Secret Server is a good time to also configure th
 
    ![SCIM Connector Endpoint](images/26b0525cddd3ea14141b970a6bc8cec7.png)
 
-1. Enter a Name for the Endpoint.
+1. Enter a __Name__ for the Endpoint.
 
    >**Note:** The name for the endpoint needs to be unique in the SCIM connector, a username and password for your IdenitiyNow installation, the URL it can be located at, and an authentication token. This token can be generated in the API management section under security in the IdentityNow Admin console.
 

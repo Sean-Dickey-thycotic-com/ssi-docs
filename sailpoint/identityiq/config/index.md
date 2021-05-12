@@ -1,5 +1,5 @@
-[title]: # (SailPoint IdentityIQ)
-[tags]: # (third-party)
+[title]: # (IdentityIQ)
+[tags]: # (configuration)
 [priority]: # (2)
 # Configuring a SailPoint IdentityIQ Endpoint
 
