@@ -5,8 +5,8 @@
 
 ## Install the Thycotic SCIM connector
 
-This SCIM installer can be located here
-<https://thy.center/scim/link/SCIMdownload> and installed on any Windows Server running server 2016 or newer.
+Download the SCIM installer [here](https://thy.center/scim/link/SCIMdownload).
+The SCIM installer can be downloaded on any Windows Server running server 2016 or newer.
 
 To install the SCIM connector please perform the
 following steps. Instructions can also be found at
