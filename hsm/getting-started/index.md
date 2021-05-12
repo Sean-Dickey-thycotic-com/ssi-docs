@@ -19,3 +19,18 @@ In the advanced settings for the application pool, set "Load User Profile" to tr
 
 >**Note:** Some HSM CNG providers interfere with each other. It is recommended that no more than one
 HSM CNG provider is configured on a Windows installation at a time.
+
+## Further Considerations
+
+* If your HSM properly supports CNG and supports the right algorithms
+* Each HSM must provide support for certain algorithms through CNG
+
+* Since Secret Server is using Microsoft’s CNG API to communicate with HSMs the following two references should be included:
+
+   * The NCRYPT_IMPL_TYPE_PROPERTY (L"Impl Type") value must be NCRYPT_IMPL_HARDWARE_FLAG (0x00000001, The provider is hardware based).
+
+   https://docs.microsoft.com/en-us/windows/win32/seccng/key-storage-property-identifiers
+
+   * The CNG Algorithm Identifiers must support BCRYPT_RSA_ALGORITHM ("RSA") - The RSA public key algorithm. Standard: PKCS #1 v1.5 and v2.0.
+
+   https://docs.microsoft.com/en-us/windows/win32/seccng/cng-algorithm-identifiers
