@@ -2,7 +2,7 @@
 [tags]: # (Openshift, Kubernetes, K8S, OKD)
 [priority]: # (3)
 
-# General Description
+# Integration with Secret Server
 
 The integration is a [Mutating Admissions Webhook](https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#admission-webhooks) that intercepts requests for OpenShift Secrets using a specialized annotation. The request is then updated with data from Secret Server and passed in to the OpenShift Secrets vault. This ensures that credentials in the OpenShift Secrets Vault are aligned with the values as managed by Secret Server, hence password changes can occur on the Secret Server side and be able to be reflected in the OpenShift Secrets Vault.
 
@@ -10,7 +10,7 @@ The deployment is designed to be easily integrated with existing deployment envi
 
 >**Note**: There are numerous different ways of configuring OpenShift for different operating environments. Hence this guide, although intending to give a solid baseline idea for deployment of the integration, will not be the sole, authoritative way in which the integration can function or be deployed. All examples below use the `default` namespace which, alongside some other components, will likely need to be modified to ensure suitability with your organization's OpenShift environment.
 
-## The Webhook 
+## The Webhook
 
 The webhook is at the front end of the integration and intercepts the requests for Secrets that are inbound to the OpenShift Secrets store, when the requests are given the appropriate annotation. Below is a basic configuration YAML for deploying the webhook in your OpenShift instance.
 
@@ -37,18 +37,18 @@ webhooks:
         path: "/inject"
         port: 8543
       caBundle: ""
-    admissionReviewVersions: ["v1"]
+    admissionReviewVersions: ["v1","v1beta1"]
     sideEffects: None
     timeoutSeconds: 5
 ```
 
 ### The Webhook Certificate
 
-Each of the pods in the deployment are in posesssion (via [ConfigMaps](#Certificate)) of a certificate that they present in order to identify themselves to the OpenShift instance. The `caBundle` value in the webhook must be the base64 encoded version of the public certificate (crt) that the pods are presenting.
+Each of the pods in the deployment are in possession (via [ConfigMaps](#Certificate)) of a certificate that they present in order to identify themselves to the OpenShift instance. The `caBundle` value in the webhook must be the base64 encoded version of the public certificate (crt) that the pods are presenting.
 
 ## The Service
 
-As per standard OpenShift configuration, a loadbalanced service allows orchestrated applications to be handled effectively from an internal OpenShift networking standpoint. Hence, we want this service to direct all requests to the appropriate deployment/pods when an annotated Secret request comes in. 
+As per standard OpenShift configuration, a load balanced service allows orchestrated applications to be handled effectively from an internal OpenShift networking standpoint. Hence, we want this service to direct all requests to the appropriate deployment/pods when an annotated Secret request comes in. 
 
 Below is an example of the service and how it could look against the `default` namespace:
 
