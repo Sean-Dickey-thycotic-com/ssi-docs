@@ -12,7 +12,7 @@ Access each integrated product folder to learn more about the integration detail
 
 ## Support for ThycoticCentrify Integrations
 
-__Prerequisites:__ _As a prerequisite of support for any ThycoticCentrify integrations the customer must have sufficient access to the ThycoticCentrify product and all parts of the third-party integration and must be able to provide ThycoticCentrify with requested information and meetings to examine in order to progress reported issues._
+__Prerequisites:__ As a prerequisite of support for any ThycoticCentrify integrations the customer must have sufficient access to the ThycoticCentrify product and all parts of the third-party integration and must be able to provide ThycoticCentrify with requested information and meetings to examine in order to progress reported issues.
 
 ### ThycoticCentrify In Product Integrations
 
