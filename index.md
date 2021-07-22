@@ -20,7 +20,7 @@ Integrations that are directly built into paid ThycoticCentrify products will be
 
 ### ThycoticCentrify In Product Customization
 
-Many ThycoticCentrify products can be customized in order to achieve an integration between the ThycoticCentrify product and third-party systems. If ThycoticCentrify documents an integration as a supported integration the integration will be configured as specified in our documentation in QA to ensure that it works as designed at regular intervals.
+Many ThycoticCentrify products can be customized in order to achieve an integration between the ThycoticCentrify product and third-party systems. If ThycoticCentrify documents an integration as a supported integration the integration will be configured as specified in our documentation and is verified to ensure that it works as designed at regular intervals.
 
    >**Note:** Assistance with design, configuration, or troubleshooting of customization designed to interact with third-party systems is not within the scope of what the ThycoticCentrify Support organization can provide at this time.
    ThycoticCentrify does not guarantee that every configuration of third-party systems will work with in product customizations. Assistance with design, configuration or troubleshooting for customization of ThycoticCentrify products can be worked on as part of a paid engagement with the Professional Services team.
@@ -29,9 +29,9 @@ Many ThycoticCentrify products can be customized in order to achieve an integrat
 
 Unpaid integrations created by ThycoticCentrify are code or applications that are not sold by Thycotic for monetary compensation. They are provided for the use of ThycoticCentrify customers and in some cases are available to the public.
 
-An example of this type of integration would be the RabbitMQ Helper, migration tools created by ThycoticCentrify, and code provided on the Thycotic Github. These integrations will be tested in QA to ensure that they work as designed.
+An example of this type of integration would be the RabbitMQ Helper, migration tools created by ThycoticCentrify, and code provided on the Thycotic Github. These integrations are verified by ThycoticCentrify to ensure that they work as designed.
 
-   >**Note:** Assistance with configuration or troubleshooting of these tools with third-party systems is not within the scope of what the ThycoticCentrify Support organization can provide at this time. ThycoticCentrify does not guarantee that every configuration of third-party systems will work with Unpaid Integrations. Assistance with the use of these tools, configuration, or troubleshooting for customization of ThycoticCentrify products can be worked on as part of a paid engagement with the Professional Services team.
+   >**Note:** Assistance with configuration or troubleshooting of these tools with third-party systems is not within the scope of what the ThycoticCentrify Support organization can provide at this time. ThycoticCentrify does not guarantee that every configuration of third-party systems will work with 3rd-Party Integrations. Assistance with the use of these tools, configuration, or troubleshooting for customization of ThycoticCentrify products can be worked on as part of a paid engagement with the Professional Services team.
 
 ### Third Party Integrations to ThycoticCentrify
 
@@ -39,7 +39,7 @@ This category of integration encompasses any code or script which integrates wit
 
 For instance, the third-party code may fail to respect Token expiry or issue calls too quickly without waiting for responses and time-outs. Third-party integrations are supported by verifying that the ThycoticCentrify application is functioning correctly. ThycoticCentrify does not support, code or maintain third-party code or scripts.
 
-For commercially sold third-party products which have vendor support will at ThycoticCentrify's discretion, if the third-party product can provide a knowledgeable resource, ThycoticCentrify may elect to attend calls with the third-party vendor if they are able to share specifics about how they integrate with the ThycoticCentrify application. __The goal of such calls would be to advise the third-party vendor about what they need to change to better integrate with ThycoticCentrify products__.
+For commercially sold third-party products which have vendor support will at ThycoticCentrify's discretion, if the third-party product can provide a knowledgeable resource, ThycoticCentrify may elect to attend calls with the third-party vendor, if they are able to share specifics about how they integrate with the ThycoticCentrify application. __The goal of such calls would be to advise the third-party vendor about what they need to change to better integrate with ThycoticCentrify products__.
 
 
 ### Professional Services Integrations
