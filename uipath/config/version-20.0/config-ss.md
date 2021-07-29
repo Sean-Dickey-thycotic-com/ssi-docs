@@ -24,6 +24,8 @@
 1. Check the box for __Application Account__.
 1. Click __Save__.
 
+   >**Note:** Generally when the UIPath Application Account is a domain account, the AppPool should have "Load User Profile" set to true.
+
    ![Save](images/c8ce4a55dbbfd9588a1b2d1fc1618e5d.png)
 1. Click __Ok__ on the next screen to convert the user to an Application Account.
 

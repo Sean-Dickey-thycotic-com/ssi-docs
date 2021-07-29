@@ -6,8 +6,8 @@
 1. Save the following as an xml file. This is an example of a Custom Parser that you will need to upload in step 8.
 
    ```xml
-   <?xml version="1.0" encoding="UTF-8" standalone="true"?>
-   - <ns2:device-extension xmlns:ns2="event_parsing/device_extension">
+   <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <ns2:device-extension xmlns:ns2="event_parsing/device_extension">
 
       <pattern id="EventCategory-Pattern-1" type="JavaPattern" use-default-pattern="false">\|\d+\|(.*)\|\d\|msg</pattern>
 
@@ -18,7 +18,7 @@
       <pattern id="UserName-Pattern-1" type="CefKey">suser</pattern>
 
       <pattern id="AllEvents" type="JavaPattern">(.*?)</pattern>
-         - <match-group order="1" device-type-id-override="4001">
+         <match-group order="1" device-type-id-override="4001">
 
          <matcher order="1" field="EventCategory" pattern-id="EventCategory-Pattern-1" capture-group="\1" enable-substitutions="true"/>
 
