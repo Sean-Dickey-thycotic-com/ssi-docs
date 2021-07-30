@@ -11,7 +11,7 @@
 
       * Enter the __URL__ for your Secret Server instance into the following URL:
 
-        `https://[YourSecretServerInstanceName]/saml/assertionconsumerservice.aspx`
+        `https://[YourSecretServerInstance.com]/samlemetadata`
       * Leave the __Use this for Recipient URL and Destination URL__ checked
       * Leave the __Allow this app to request other SSO URLs__ unchecked if Okta is the only IdP
    1. __Audience URI (SP Entity ID) __
