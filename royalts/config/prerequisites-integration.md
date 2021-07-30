@@ -20,6 +20,6 @@
    ![1564685461989](images/1.png)
 1. Ensure the Windows PowerShell ISE entry appears as a choice.
    
-   > **Important:** The script that you will run is designed for PowerShell 6, so please ensure you have that version.
+   > **Important:** The script that you will run is designed for PowerShell 6, so please ensure you have at least this version or newer.
    >
-   > **Note:** Each version of Windows and Windows Server includes a version of Windows PowerShell and the ISE. If you suspect yours is out of date, you can upgrade to the latest available by installing the latest Windows Management Framework (WMF). 
+   > **Note:** Each version of Windows and Windows Server includes a version of Windows PowerShell and the ISE. If you suspect yours is out of date, you can upgrade to the latest available by installing the latest Windows Management Framework (WMF).
