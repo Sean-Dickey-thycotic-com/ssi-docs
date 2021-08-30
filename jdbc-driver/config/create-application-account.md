@@ -1,4 +1,4 @@
-[title]: # (Create Application Account in Secret Server)
+[title]: # (Create App Account)
 [tags]: # (application account)
 [priority]: # (101)
 # Create Application Account in Secret Server

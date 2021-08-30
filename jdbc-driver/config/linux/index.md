@@ -1,7 +1,7 @@
-[title]: # (Locate your Database configuration file)
+[title]: # (Locate your DB Config)
 [tags]: # (database, linux)
-[priority]: # (105)
-# Locate your Database configuration file (Linux)
+[priority]: # (400)
+# Locate your Database Configuration File (Unix/Linux)
 
 There are different ways to connect to the database with the java application, JDBC Proxy Driver Supports following approaches. Identify how your application connects with the database and follow the instructions from the approaches below.
 
@@ -12,11 +12,11 @@ Navigate to your __Apache Tomcat__ folder and edit the __Conf__ file.
 ### Example: 
    `usr/share/apache-tomact/conf/context.xml`
 
-   ![tomcat](images/config.png)
+   ![tomcat](../images/config.png)
 
    The following is the database connection string and it should be present in the __context.xml__ file:
 
-   ![Config](images/15fb3736d9a675749a017ccae95fd3cb.png)
+   ![Config](../images/15fb3736d9a675749a017ccae95fd3cb.png)
 
    ```
    \<Resource __driverClassName__="com.thycen.jdbc.ThycenDriver" auth="Container"
@@ -47,8 +47,8 @@ Navigate to your java hosted app and edit the properties file.
 
    For this example the properties file resides in the `WEB-INF\Classes` folder and it’s name is __config.properties__. In your case it may vary. Please identify the database config file and change it as per the instructions as follows.
 
-   ![config](images/8567803a991f9fad5da033a67708fde9.png)
-   ![config](images/362b631dc6565b523e4a4deaf4650056.png)
+   ![config](../images/8567803a991f9fad5da033a67708fde9.png)
+   ![config](../images/362b631dc6565b523e4a4deaf4650056.png)
 
    * __username__ : Put the __Secret ID__ (1160) of the secret server
    * __password__: Put any password

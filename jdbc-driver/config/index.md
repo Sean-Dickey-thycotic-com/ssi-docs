@@ -7,9 +7,9 @@
 * [Create Secret in Secret Server](create-secret.md)
 
 ## Windows
-* [Locate your Database configuration file](windows-locate-database-config.md)
-* [Setup JDBC Driver Proxy Jar](windows-setup.md)
+* [Locate your Database configuration file](../windows-locate-database-config.md)
+* [Setup JDBC Driver Proxy Jar](./windows/windows-setup.md)
 
 ## Linux
-* [Locate your Database configuration file](linux-locate-database-config.md)
-* [Setup JDBC Driver Proxy Jar](linux-setup.md)
+* [Locate your Database configuration file](../linux-locate-database-config.md)
+* [Setup JDBC Driver Proxy Jar](../linux-setup.md)

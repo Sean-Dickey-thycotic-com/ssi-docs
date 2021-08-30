@@ -1,6 +1,6 @@
-[title]: # (Setup JDBC Driver Proxy Jar)
+[title]: # (Setup JDBC Driver)
 [tags]: # (setup, windows)
-[priority]: # (104)
+[priority]: # (301)
 # Setup JDBC Driver Proxy Jar (Windows)
 
 1. __Stop__ the tomcat service from Services.

@@ -1,4 +1,4 @@
-[title]: # (Create Secret in Secret Server)
+[title]: # (Create a Secret)
 [tags]: # (secret)
 [priority]: # (102)
 # Create Secret in Secret Server

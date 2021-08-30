@@ -1,7 +1,7 @@
-[title]: # (Locate your Database configuration file)
+[title]: # (Locate your DB Config)
 [tags]: # (database, windows)
-[priority]: # (103)
-# Locate your Database configuration file (Windows)
+[priority]: # (300)
+# Locate your Database Configuration File (Windows)
 
 There are different ways to connect to the database with the java application, JDBC Proxy Driver Supports following approaches. Identify how your application connects with the database and follow the instructions from the approaches below.
 
@@ -13,11 +13,11 @@ Navigate to your __Apache Tomcat__ folder and edit the __Conf__ file.
 
 `C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\context.xml`
 
-   ![Tomcat](images/tomcat.png)
+   ![Tomcat](../images/tomcat.png)
 
 The following is the database connection string and it should be present in the __context.xml__ file:
 
-   ![context.xml](images/15fb3736d9a675749a017ccae95fd3cb.png)
+   ![context.xml](../images/15fb3736d9a675749a017ccae95fd3cb.png)
 
 ~~~ 
 
@@ -60,8 +60,8 @@ The example below shows that the __properties file__ resides in the `WEB-INF\Cla
 
    >**Note:** In your case it may vary. Please identify the database config file and change it as per the instructions below:
 
-   ![Config](images/6c0753779a54e000c90a1b9524a66175.png)
-   ![Config](images/2f59a0ab24556adbf474bf1d76c538c5.png)
+   ![Config](../images/6c0753779a54e000c90a1b9524a66175.png)
+   ![Config](../images/2f59a0ab24556adbf474bf1d76c538c5.png)
 
    * __username__ : Put the __Secret ID__ (1160) of the secret server.
    * __password__: Put any password.  
