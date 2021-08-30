@@ -1,4 +1,4 @@
-[title]: # (Locate your DB Config)
+[title]: # (Locate your DB Config (Win))
 [tags]: # (database, windows)
 [priority]: # (300)
 # Locate your Database Configuration File (Windows)

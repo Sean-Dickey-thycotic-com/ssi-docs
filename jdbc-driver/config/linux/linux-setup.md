@@ -1,4 +1,4 @@
-[title]: # (Setup JDBC Driver)
+[title]: # (Setup JDBC Driver (*nix))
 [tags]: # (database, linux)
 [priority]: # (401)
 # Setup JDBC Driver Proxy Jar (Unix/Linux)

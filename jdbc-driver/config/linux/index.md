@@ -1,4 +1,4 @@
-[title]: # (Locate your DB Config)
+[title]: # (Locate your DB Config (*nix))
 [tags]: # (database, linux)
 [priority]: # (400)
 # Locate your Database Configuration File (Unix/Linux)
