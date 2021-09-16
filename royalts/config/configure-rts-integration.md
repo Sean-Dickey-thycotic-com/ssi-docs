@@ -20,7 +20,7 @@
 
 1. Click the **OK** button. The wizard closes and your new connection appears as a node in the tree in the left pane.
 
-1. Navigate to the dynamic folder PowerShell file for Secret Server at [https://github.com/royalapplications/toolbox/tree/master/Dynamic%20Folder/Thycotic%20Secret%20Server](https://github.com/royalapplications/toolbox/tree/master/DynamicFolder/ThycoticSecretServer):
+1. Navigate to the dynamic folder PowerShell file for Secret Server at [https://github.com/royalapplications/toolbox/tree/master/Dynamic%20Folder/Thycotic%20Secret%20Server](https://github.com/royalapplications/toolbox/tree/master/Dynamic%20Folder/Thycotic%20Secret%20Server):
 
    ![1564688229991](images/6.png)
    
