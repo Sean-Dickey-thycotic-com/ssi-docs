@@ -1,9 +1,11 @@
-[title]: # (Locate your DB Config (Win))
+[title]: # (Windows Locate your DB Config)
 [tags]: # (database, windows)
 [priority]: # (300)
 # Locate your Database Configuration File (Windows)
 
 There are different ways to connect to the database with the java application, JDBC Proxy Driver Supports following approaches. Identify how your application connects with the database and follow the instructions from the approaches below.
+
+Click here to download the [JDBC Driver Proxy](https://thycoticdownloadsprod.blob.core.windows.net/ssintegrations/JDBCProxyDriver/JDBC.zip?sp=rac[…]zWUH9YC0jwYR0Nj6%2fXjJ7fxsqO7UQA%2BR6RPFkON8%3D)
 
 ## Database Lookup Approach
 

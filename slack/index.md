@@ -1,6 +1,6 @@
 [title]: # (Secret Server Slack Integration)
 [tags]: # (Slack,Integration)
-[priority]: # (1000)
+[priority]: # (1)
 
 # Secret Server Slack Integration
 
