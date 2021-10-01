@@ -1,4 +1,4 @@
-[title]: # (Setup JDBC Driver)
+[title]: # (Setup JDBC Driver - WIN)
 [tags]: # (setup, windows)
 [priority]: # (301)
 # Setup JDBC Driver Proxy Jar (Windows)
