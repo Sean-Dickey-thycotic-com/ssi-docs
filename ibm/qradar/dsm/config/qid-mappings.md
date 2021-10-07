@@ -11,7 +11,7 @@ The QID or QRadar Identifier is what QRadar uses to give events their name, high
 
    For Example:
 
-   `./qidmap_cli.sh -c --qname “USER – LOGIN” --qdescription “A user as logged in.” --severity 1 –lowlevelcategoryid 19001`
+   `./qidmap_cli.sh -c --qname “USER – LOGIN” --qdescription “A user as logged in.” --severity 1 --lowlevelcategoryid 19001`
 
    ![tag](images/config5.png)
 1. Alternatively you could use a csv list as demonstrated in the in the __Import List__ section and use it with the following command to import several QIDs at once:
