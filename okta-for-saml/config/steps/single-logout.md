@@ -20,7 +20,7 @@
    1. Single Logout (SLO) Settings:
 
       *  __Single Logout URL__: your [SecretServerInstanceName] followed by the URL string: `/saml/sloservice.aspx` (e.g. `https://[YourSecretServerInstance.com]/saml/sloservice.aspx`)
-      * __SP Issuer__: link to your Secret Server's SAML Metadata, `[InstanceName]/samlemetadata` (e.g. `https://[YourSecretServerInstance.com]/samlmetadata)`
+      * __SP Issuer__: link to your Secret Server's SAML Metadata, `[InstanceName]/samlmetadata` (e.g. `https://[YourSecretServerInstance.com]/samlmetadata)`
       * __Signature Certificate__: the public key (.cer) file that corresponds to the .pfx uploaded into your Secret Server Service Provider 
         * Click __Browse__ and select your certificate's .cer file
         * Click __Upload Certificate__
